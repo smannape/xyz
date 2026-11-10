@@ -1,0 +1,2776 @@
+[
+ {
+  "id": "GAP-1041",
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "stream": "Liquid",
+  "unit": "MBFPD",
+  "bindingComponentId": "GC-24/HP-SEP",
+  "bindingComponentName": "HP Separator Train",
+  "firstBreach": "2027-Q2",
+  "lastBreach": "2028-Q4",
+  "openEnded": false,
+  "durationQuarters": 7,
+  "peakPeriod": "2027-Q2",
+  "peakGap": 24.8,
+  "peakForecast": 210.8,
+  "capacityAtPeak": 186,
+  "capacityAtFirstBreach": 186,
+  "utilisationPct": 113.3,
+  "parOil": 17.5,
+  "severity": {
+   "score": 82,
+   "band": "Critical",
+   "segments": 4,
+   "magnitude": 0.67,
+   "duration": 0.88,
+   "proximity": 0.94
+  },
+  "profile": [
+   {
+    "period": "2027-Q2",
+    "gap": 24.8,
+    "parOil": 17.5
+   },
+   {
+    "period": "2027-Q3",
+    "gap": 24.5,
+    "parOil": 17.3
+   },
+   {
+    "period": "2027-Q4",
+    "gap": 16.7,
+    "parOil": 11.8
+   },
+   {
+    "period": "2028-Q1",
+    "gap": 16.8,
+    "parOil": 11.8
+   },
+   {
+    "period": "2028-Q2",
+    "gap": 16.6,
+    "parOil": 11.7
+   },
+   {
+    "period": "2028-Q3",
+    "gap": 16.4,
+    "parOil": 11.5
+   },
+   {
+    "period": "2028-Q4",
+    "gap": 16.1,
+    "parOil": 11.3
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "applied",
+    "delta": 8,
+    "residualBefore": 24.8,
+    "residualAfter": 16.8,
+    "headline": "PRJ-118 GC-24 separator upgrade, on stream Q4 2027",
+    "lines": [
+     "relieves 8.0 from Q4 2027; breach persists Q2–Q3 2027"
+    ],
+    "ruleId": "RULE-R04",
+    "registerRefs": [
+     "PRJ-118",
+     "PRJ-124"
+    ],
+    "checks": [
+     {
+      "label": "Project is committed and funded",
+      "result": "pass",
+      "detail": "PRJ-118 status Approved in PROJECT REGISTER, capacity v2.8"
+     },
+     {
+      "label": "Adds capacity at the binding component",
+      "result": "pass",
+      "detail": "+8.0 MBFPD at HP Separator Train: 186.0 → 194.0 from Q4 2027"
+     },
+     {
+      "label": "Breach persists before on-stream date",
+      "result": "flag",
+      "detail": "Q2–Q3 2027 carry the full 24.8 MBFPD gap; no committed relief"
+     },
+     {
+      "label": "Other committed projects",
+      "result": "info",
+      "detail": "PRJ-124 re-homes MF-262 from Q1 2029; already in forecast v4.2 and ends the breach"
+     }
+    ],
+    "optionId": "OPT-1041-T1"
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "applied",
+    "delta": 9.5,
+    "residualBefore": 16.8,
+    "residualAfter": 7.3,
+    "headline": "Divert MF-241 → GC-21 (ROUTE-0031)",
+    "lines": [
+     "gas headroom at GC-21 governs: 4.0 MMSCFD ÷ 0.48 = 8.3 MBOPD",
+     "GC-21 re-evaluated: liquid 79.7% · gas 98.5% · water 64.7% — accepted",
+     "no shared-capacity double count (checked against ROUTE-0028)"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [
+     "ROUTE-0031",
+     "ROUTE-0028",
+     "COST-0003"
+    ],
+    "checks": [
+     {
+      "label": "Liquid headroom at GC-21",
+      "result": "pass",
+      "detail": "43.0 MBFPD ÷ 1.42 → 30.3 MBOPD"
+     },
+     {
+      "label": "Gas headroom at GC-21",
+      "result": "governs",
+      "detail": "4.0 MMSCFD ÷ 0.48 → 8.3 MBOPD — governs the stream check (RULE-R05)"
+     },
+     {
+      "label": "Water headroom at GC-21",
+      "result": "pass",
+      "detail": "24.0 MBWPD ÷ 0.42 → 57.1 MBOPD"
+     },
+     {
+      "label": "Route limit",
+      "result": "governs",
+      "detail": "ROUTE-0031 MaxDivert 9.5 MBFPD — governs the final transfer"
+     },
+     {
+      "label": "GC-21 after transfer",
+      "result": "pass",
+      "detail": "liquid 79.7% · gas 98.5% · water 64.7% of effective capacity — accepted"
+     },
+     {
+      "label": "Shared-capacity double count",
+      "result": "pass",
+      "detail": "ROUTE-0028 also lands at GC-21 but is first drawn in Q1 2030, after this transfer ends in Q4 2028; no period counts the headroom twice (RULE-R06)"
+     }
+    ],
+    "optionId": "OPT-1041-T2"
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "partial",
+    "delta": 3,
+    "residualBefore": 7.3,
+    "residualAfter": 4.3,
+    "headline": "Released design margin on HP separator (ENV-0014, approved 03 Mar 2026)",
+    "lines": [
+     "3.0 of 5.0 available; remainder reserved for GC-24 gas service"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0014",
+     "ENV-0017",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0014 approved 03 Mar 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Unreserved margin",
+      "result": "flag",
+      "detail": "5.0 MBFPD releasable, 2.0 reserved for GC-24 gas service (ENV-0017) → 3.0 available"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "186.0 + 8.0 + 3.0 = 197.0 MBFPD, below export pumps at 230.0"
+     }
+    ],
+    "optionId": "OPT-1041-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 6,
+    "residualBefore": 4.3,
+    "residualAfter": 0,
+    "headline": "1 × 6.0 MBFPD separator skid, sized to live residual of 4.3",
+    "lines": [
+     "Class 5 cost KD 1.85M · 14 months · long-lead: vessel 9 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0007"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 4.3 MBFPD → 6.0 MBFPD skid (COST-0007); next size is 12.0"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "186.0 + 8.0 + 3.0 + 6.0 = 203.0 MBFPD, below export pumps at 230.0 (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1041-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0 after Tier 4; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [
+     "COST-0018"
+    ],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBFPD"
+     },
+     {
+      "label": "Avoided scope",
+      "result": "info",
+      "detail": "New train, order of magnitude KD 12.00M (COST-0018), not triggered"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1041-T1",
+   "OPT-1041-T2",
+   "OPT-1041-T3",
+   "OPT-1041-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "HP Separator Train at GC-24 is forecast to exceed effective capacity of 186.0 MBFPD from Q2 2027, peaking at 24.8 MBFPD over, for 7 consecutive quarters, placing 17.5 MBOPD at risk.",
+  "status": "Mitigation proposed",
+  "planIds": [
+   "PLN-0014",
+   "PLN-0015",
+   "PLN-0019"
+  ]
+ },
+ {
+  "id": "GAP-1042",
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "stream": "Gas",
+  "unit": "MMSCFD",
+  "bindingComponentId": "GBS-02/COMP",
+  "bindingComponentName": "Booster Compressor",
+  "firstBreach": "2027-Q4",
+  "lastBreach": "2028-Q4",
+  "openEnded": false,
+  "durationQuarters": 5,
+  "peakPeriod": "2028-Q4",
+  "peakGap": 6.6,
+  "peakForecast": 236.6,
+  "capacityAtPeak": 230,
+  "capacityAtFirstBreach": 230,
+  "utilisationPct": 102.9,
+  "parOil": 12.4,
+  "severity": {
+   "score": 52,
+   "band": "High",
+   "segments": 3,
+   "magnitude": 0.14,
+   "duration": 0.63,
+   "proximity": 0.81
+  },
+  "profile": [
+   {
+    "period": "2027-Q4",
+    "gap": 0.6,
+    "parOil": 1.2
+   },
+   {
+    "period": "2028-Q1",
+    "gap": 2.3,
+    "parOil": 4.4
+   },
+   {
+    "period": "2028-Q2",
+    "gap": 3.9,
+    "parOil": 7.4
+   },
+   {
+    "period": "2028-Q3",
+    "gap": 5.3,
+    "parOil": 10
+   },
+   {
+    "period": "2028-Q4",
+    "gap": 6.6,
+    "parOil": 12.4
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 6.6,
+    "residualAfter": 6.6,
+    "headline": "No committed project adds capacity at Booster Compressor during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at GBS-02 Booster Compressor between Q4 2027 and Q4 2028"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 6.6,
+    "residualAfter": 6.6,
+    "headline": "No feasible route with transferable capacity",
+    "lines": [
+     "GBS-02 is the terminal gas station; ROUTING REGISTER holds no alternate export route"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ROUTING REGISTER searched",
+      "result": "info",
+      "detail": "GBS-02 is the terminal gas station; ROUTING REGISTER holds no alternate export route"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 2.5,
+    "residualBefore": 6.6,
+    "residualAfter": 4.1,
+    "headline": "Released margin on GBS-02 Booster Compressor (ENV-0021, approved 21 Apr 2026)",
+    "lines": [
+     "2.5 MMSCFD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0021",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0021 approved 21 Apr 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Recycle valve margin reduced with anti-surge retune"
+     }
+    ],
+    "optionId": "OPT-1042-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 5,
+    "residualBefore": 4.1,
+    "residualAfter": 0,
+    "headline": "1 × 5.0 MMSCFD compressor module, sized to live residual of 4.1",
+    "lines": [
+     "Class 5 cost KD 2.60M · 16 months · long-lead: compressor package 11 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0013"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 4.1 MMSCFD → 1 × 5.0 (COST-0013)"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "Next-binding component at 255.0 MMSCFD; ceiling 25.0 on any mitigation here (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1042-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MMSCFD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1042-T3",
+   "OPT-1042-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Booster Compressor at GBS-02 is forecast to exceed effective capacity of 230.0 MMSCFD from Q4 2027, peaking at 6.6 MMSCFD over, for 5 consecutive quarters, placing 12.4 MBOPD at risk.",
+  "status": "Mitigation proposed",
+  "planIds": [
+   "PLN-0016"
+  ]
+ },
+ {
+  "id": "GAP-1043",
+  "facilityId": "WTP-03",
+  "service": "water",
+  "stream": "Water",
+  "unit": "MBWPD",
+  "bindingComponentId": "WTP-03/WKO",
+  "bindingComponentName": "Water KO Drum",
+  "firstBreach": "2028-Q1",
+  "lastBreach": "2028-Q2",
+  "openEnded": false,
+  "durationQuarters": 2,
+  "peakPeriod": "2028-Q2",
+  "peakGap": 9.3,
+  "peakForecast": 279.3,
+  "capacityAtPeak": 270,
+  "capacityAtFirstBreach": 270,
+  "utilisationPct": 103.4,
+  "parOil": 14.8,
+  "severity": {
+   "score": 40,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.17,
+   "duration": 0.25,
+   "proximity": 0.75
+  },
+  "profile": [
+   {
+    "period": "2028-Q1",
+    "gap": 4.2,
+    "parOil": 6.8
+   },
+   {
+    "period": "2028-Q2",
+    "gap": 9.3,
+    "parOil": 14.8
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "applied",
+    "delta": 36,
+    "residualBefore": 9.3,
+    "residualAfter": 0,
+    "headline": "PRJ-113 WTP-03 treatment train 4, on stream Q3 2028",
+    "lines": [
+     "adds 36.0 from Q3 2028, ending the breach; Q1 2028–Q2 2028 exposed until then"
+    ],
+    "ruleId": "RULE-R04",
+    "registerRefs": [
+     "PRJ-113"
+    ],
+    "checks": [
+     {
+      "label": "Project is committed and funded",
+      "result": "pass",
+      "detail": "PRJ-113 status Approved in PROJECT REGISTER, capacity v2.8"
+     },
+     {
+      "label": "Breach persists before on-stream date",
+      "result": "flag",
+      "detail": "Q1 2028–Q2 2028 carry the gap until Q3 2028"
+     }
+    ],
+    "optionId": "OPT-1043-T1"
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "No feasible route with transferable capacity",
+    "lines": [
+     "ROUTING REGISTER holds no approved route from this facility with MaxDivert > 0"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ROUTING REGISTER searched",
+      "result": "info",
+      "detail": "No approved route with transferable capacity > 0"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "No approved envelope release available",
+    "lines": [
+     "ENVELOPE REGISTER holds no unreserved margin at Water KO Drum"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ENVELOPE REGISTER searched",
+      "result": "info",
+      "detail": "No approved, unreserved margin at the binding component"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0 after non-capital tiers; no capital option is proposed"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after operating envelope",
+      "result": "pass",
+      "detail": "0.0 MBWPD"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBWPD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1043-T1"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Water KO Drum at WTP-03 is forecast to exceed effective capacity of 270.0 MBWPD from Q1 2028, peaking at 9.3 MBWPD over, for 2 consecutive quarters, placing 14.8 MBOPD at risk.",
+  "status": "Relieved by committed project",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1044",
+  "facilityId": "BS-171",
+  "service": "gas",
+  "stream": "Gas",
+  "unit": "MMSCFD",
+  "bindingComponentId": "BS-171/COMP",
+  "bindingComponentName": "Booster Compressor",
+  "firstBreach": "2028-Q2",
+  "lastBreach": "2028-Q4",
+  "openEnded": false,
+  "durationQuarters": 3,
+  "peakPeriod": "2028-Q4",
+  "peakGap": 3.7,
+  "peakForecast": 147.7,
+  "capacityAtPeak": 144,
+  "capacityAtFirstBreach": 144,
+  "utilisationPct": 102.6,
+  "parOil": 6.7,
+  "severity": {
+   "score": 40,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.13,
+   "duration": 0.38,
+   "proximity": 0.69
+  },
+  "profile": [
+   {
+    "period": "2028-Q2",
+    "gap": 1.1,
+    "parOil": 2
+   },
+   {
+    "period": "2028-Q3",
+    "gap": 2.4,
+    "parOil": 4.4
+   },
+   {
+    "period": "2028-Q4",
+    "gap": 3.7,
+    "parOil": 6.7
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 3.7,
+    "residualAfter": 3.7,
+    "headline": "No committed project adds capacity at Booster Compressor during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at BS-171 Booster Compressor between Q2 2028 and Q4 2028"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "applied",
+    "delta": 2.5,
+    "residualBefore": 3.7,
+    "residualAfter": 1.2,
+    "headline": "Divert BS-171 discharge → BS-141 suction (ROUTE-0033)",
+    "lines": [
+     "MaxDivert 2.5 MMSCFD governs; BS-141 compressor stays within effective capacity after transfer, including the 3.2 MMSCFD arriving with ROUTE-0031"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [
+     "ROUTE-0033",
+     "COST-0005"
+    ],
+    "checks": [
+     {
+      "label": "Feasible route in ROUTING REGISTER",
+      "result": "pass",
+      "detail": "ROUTE-0033 BS-171 discharge → BS-141 suction, MaxDivert 2.5 MMSCFD"
+     },
+     {
+      "label": "Receiving end after transfer",
+      "result": "pass",
+      "detail": "BS-141 compressor stays within effective capacity after transfer, including the 3.2 MMSCFD arriving with ROUTE-0031"
+     }
+    ],
+    "optionId": "OPT-1044-T2"
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 2,
+    "residualBefore": 1.2,
+    "residualAfter": 0,
+    "headline": "Released margin on BS-171 Booster Compressor (ENV-0020, approved 07 Apr 2026)",
+    "lines": [
+     "2.0 MMSCFD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0020",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0020 approved 07 Apr 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Recycle valve margin reduced from 10% to 7% with anti-surge retune"
+     }
+    ],
+    "optionId": "OPT-1044-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0 after non-capital tiers; no capital option is proposed"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after operating envelope",
+      "result": "pass",
+      "detail": "0.0 MMSCFD"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MMSCFD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1044-T2",
+   "OPT-1044-T3"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Booster Compressor at BS-171 is forecast to exceed effective capacity of 144.0 MMSCFD from Q2 2028, peaking at 3.7 MMSCFD over, for 3 consecutive quarters, placing 6.7 MBOPD at risk.",
+  "status": "Mitigation proposed",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1045",
+  "facilityId": "GC-18",
+  "service": "water",
+  "stream": "Water",
+  "unit": "MBWPD",
+  "bindingComponentId": "GC-18/WKO",
+  "bindingComponentName": "Water KO Drum",
+  "firstBreach": "2028-Q2",
+  "lastBreach": "2029-Q1",
+  "openEnded": false,
+  "durationQuarters": 4,
+  "peakPeriod": "2029-Q1",
+  "peakGap": 6,
+  "peakForecast": 109,
+  "capacityAtPeak": 103,
+  "capacityAtFirstBreach": 103,
+  "utilisationPct": 105.8,
+  "parOil": 5,
+  "severity": {
+   "score": 49,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.29,
+   "duration": 0.5,
+   "proximity": 0.69
+  },
+  "profile": [
+   {
+    "period": "2028-Q2",
+    "gap": 0.4,
+    "parOil": 0.4
+   },
+   {
+    "period": "2028-Q3",
+    "gap": 2.3,
+    "parOil": 2
+   },
+   {
+    "period": "2028-Q4",
+    "gap": 4.2,
+    "parOil": 3.6
+   },
+   {
+    "period": "2029-Q1",
+    "gap": 6,
+    "parOil": 5
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "applied",
+    "delta": 12,
+    "residualBefore": 6,
+    "residualAfter": 0,
+    "headline": "PRJ-109 GC-18 produced water handling upgrade, on stream Q2 2029",
+    "lines": [
+     "adds 12.0 from Q2 2029, ending the breach; Q2 2028–Q1 2029 exposed until then"
+    ],
+    "ruleId": "RULE-R04",
+    "registerRefs": [
+     "PRJ-109"
+    ],
+    "checks": [
+     {
+      "label": "Project is committed and funded",
+      "result": "pass",
+      "detail": "PRJ-109 status Approved in PROJECT REGISTER, capacity v2.8"
+     },
+     {
+      "label": "Breach persists before on-stream date",
+      "result": "flag",
+      "detail": "Q2 2028–Q1 2029 carry the gap until Q2 2029"
+     }
+    ],
+    "optionId": "OPT-1045-T1"
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "No feasible route with transferable capacity",
+    "lines": [
+     "ROUTING REGISTER holds no approved route from this facility with MaxDivert > 0"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ROUTING REGISTER searched",
+      "result": "info",
+      "detail": "No approved route with transferable capacity > 0"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "No approved envelope release available",
+    "lines": [
+     "ENVELOPE REGISTER holds no unreserved margin at Water KO Drum"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ENVELOPE REGISTER searched",
+      "result": "info",
+      "detail": "No approved, unreserved margin at the binding component"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0 after non-capital tiers; no capital option is proposed"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after operating envelope",
+      "result": "pass",
+      "detail": "0.0 MBWPD"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBWPD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1045-T1"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Water KO Drum at GC-18 is forecast to exceed effective capacity of 103.0 MBWPD from Q2 2028, peaking at 6.0 MBWPD over, for 4 consecutive quarters, placing 5.0 MBOPD at risk.",
+  "status": "Relieved by committed project",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1046",
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "stream": "Liquid",
+  "unit": "MBFPD",
+  "bindingComponentId": "GC-27/DESALT",
+  "bindingComponentName": "Desalter",
+  "firstBreach": "2028-Q2",
+  "lastBreach": "2029-Q2",
+  "openEnded": false,
+  "durationQuarters": 5,
+  "peakPeriod": "2029-Q2",
+  "peakGap": 13.6,
+  "peakForecast": 208.6,
+  "capacityAtPeak": 195,
+  "capacityAtFirstBreach": 195,
+  "utilisationPct": 107,
+  "parOil": 7.9,
+  "severity": {
+   "score": 55,
+   "band": "High",
+   "segments": 3,
+   "magnitude": 0.35,
+   "duration": 0.63,
+   "proximity": 0.69
+  },
+  "profile": [
+   {
+    "period": "2028-Q2",
+    "gap": 0.7,
+    "parOil": 0.4
+   },
+   {
+    "period": "2028-Q3",
+    "gap": 4.4,
+    "parOil": 2.6
+   },
+   {
+    "period": "2028-Q4",
+    "gap": 7.8,
+    "parOil": 4.6
+   },
+   {
+    "period": "2029-Q1",
+    "gap": 10.9,
+    "parOil": 6.4
+   },
+   {
+    "period": "2029-Q2",
+    "gap": 13.6,
+    "parOil": 7.9
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "applied",
+    "delta": 18,
+    "residualBefore": 13.6,
+    "residualAfter": 0,
+    "headline": "PRJ-121 GC-27 desalter revamp, on stream Q3 2029",
+    "lines": [
+     "adds 18.0 from Q3 2029, ending the breach; Q2 2028–Q2 2029 exposed until then"
+    ],
+    "ruleId": "RULE-R04",
+    "registerRefs": [
+     "PRJ-121"
+    ],
+    "checks": [
+     {
+      "label": "Project is committed and funded",
+      "result": "pass",
+      "detail": "PRJ-121 status Approved in PROJECT REGISTER, capacity v2.8"
+     },
+     {
+      "label": "Breach persists before on-stream date",
+      "result": "flag",
+      "detail": "Q2 2028–Q2 2029 carry the gap until Q3 2029"
+     }
+    ],
+    "optionId": "OPT-1046-T1"
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "No feasible route with transferable capacity",
+    "lines": [
+     "ROUTING REGISTER holds no approved route from this facility with MaxDivert > 0"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ROUTING REGISTER searched",
+      "result": "info",
+      "detail": "No approved route with transferable capacity > 0"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "No approved envelope release available",
+    "lines": [
+     "ENVELOPE REGISTER holds no unreserved margin at Desalter"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ENVELOPE REGISTER searched",
+      "result": "info",
+      "detail": "No approved, unreserved margin at the binding component"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0 after non-capital tiers; no capital option is proposed"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after operating envelope",
+      "result": "pass",
+      "detail": "0.0 MBFPD"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBFPD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1046-T1"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Desalter at GC-27 is forecast to exceed effective capacity of 195.0 MBFPD from Q2 2028, peaking at 13.6 MBFPD over, for 5 consecutive quarters, placing 7.9 MBOPD at risk.",
+  "status": "Relieved by committed project",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1047",
+  "facilityId": "GC-24",
+  "service": "gas",
+  "stream": "Gas",
+  "unit": "MMSCFD",
+  "bindingComponentId": "GC-24/COMP",
+  "bindingComponentName": "Booster Compressor",
+  "firstBreach": "2028-Q3",
+  "lastBreach": "2028-Q4",
+  "openEnded": false,
+  "durationQuarters": 2,
+  "peakPeriod": "2028-Q4",
+  "peakGap": 1.2,
+  "peakForecast": 75.2,
+  "capacityAtPeak": 74,
+  "capacityAtFirstBreach": 74,
+  "utilisationPct": 101.6,
+  "parOil": 2.4,
+  "severity": {
+   "score": 32,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.08,
+   "duration": 0.25,
+   "proximity": 0.63
+  },
+  "profile": [
+   {
+    "period": "2028-Q3",
+    "gap": 0.5,
+    "parOil": 1
+   },
+   {
+    "period": "2028-Q4",
+    "gap": 1.2,
+    "parOil": 2.4
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 1.2,
+    "residualAfter": 1.2,
+    "headline": "No committed project adds capacity at Booster Compressor during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at GC-24 Booster Compressor between Q3 2028 and Q4 2028"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 1.2,
+    "residualAfter": 1.2,
+    "headline": "No feasible route with transferable capacity",
+    "lines": [
+     "ROUTE-0031 is already drawn in full by the liquid gap at this facility; no further transferable capacity"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [
+     "ROUTE-0031"
+    ],
+    "checks": [
+     {
+      "label": "ROUTING REGISTER searched",
+      "result": "info",
+      "detail": "ROUTE-0031 is already drawn in full by the liquid gap at this facility; no further transferable capacity"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 1,
+    "residualBefore": 1.2,
+    "residualAfter": 0.2,
+    "headline": "Released margin on GC-24 Booster Compressor (ENV-0017, approved 24 Mar 2026)",
+    "lines": [
+     "1.0 MMSCFD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0017",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0017 approved 24 Mar 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Suction pressure raised 0.3 bar using separator margin reserved under ENV-0014"
+     }
+    ],
+    "optionId": "OPT-1047-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 1.5,
+    "residualBefore": 0.2,
+    "residualAfter": 0,
+    "headline": "1 × 1.5 MMSCFD compressor re-wheel, sized to live residual of 0.2",
+    "lines": [
+     "Class 5 cost KD 0.80M · 9 months · long-lead: impeller bundle 6 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0012"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 0.2 MMSCFD → 1 × 1.5 (COST-0012)"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "Next-binding component at 85.0 MMSCFD; ceiling 11.0 on any mitigation here (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1047-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MMSCFD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1047-T3",
+   "OPT-1047-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Booster Compressor at GC-24 is forecast to exceed effective capacity of 74.0 MMSCFD from Q3 2028, peaking at 1.2 MMSCFD over, for 2 consecutive quarters, placing 2.4 MBOPD at risk.",
+  "status": "Plan approved",
+  "planIds": [
+   "PLN-0012"
+  ]
+ },
+ {
+  "id": "GAP-1048",
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "stream": "Liquid",
+  "unit": "MBFPD",
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "bindingComponentName": "Export Pumps",
+  "firstBreach": "2028-Q3",
+  "lastBreach": "2030-Q4",
+  "openEnded": true,
+  "durationQuarters": 10,
+  "peakPeriod": "2030-Q4",
+  "peakGap": 8.4,
+  "peakForecast": 206.4,
+  "capacityAtPeak": 198,
+  "capacityAtFirstBreach": 198,
+  "utilisationPct": 104.2,
+  "parOil": 3.5,
+  "severity": {
+   "score": 59,
+   "band": "High",
+   "segments": 3,
+   "magnitude": 0.21,
+   "duration": 1,
+   "proximity": 0.63
+  },
+  "profile": [
+   {
+    "period": "2028-Q3",
+    "gap": 0.5,
+    "parOil": 0.2
+   },
+   {
+    "period": "2028-Q4",
+    "gap": 1.6,
+    "parOil": 0.7
+   },
+   {
+    "period": "2029-Q1",
+    "gap": 2.6,
+    "parOil": 1.2
+   },
+   {
+    "period": "2029-Q2",
+    "gap": 3.6,
+    "parOil": 1.6
+   },
+   {
+    "period": "2029-Q3",
+    "gap": 4.5,
+    "parOil": 2
+   },
+   {
+    "period": "2029-Q4",
+    "gap": 5.4,
+    "parOil": 2.4
+   },
+   {
+    "period": "2030-Q1",
+    "gap": 6.2,
+    "parOil": 2.7
+   },
+   {
+    "period": "2030-Q2",
+    "gap": 7,
+    "parOil": 3
+   },
+   {
+    "period": "2030-Q3",
+    "gap": 7.7,
+    "parOil": 3.2
+   },
+   {
+    "period": "2030-Q4",
+    "gap": 8.4,
+    "parOil": 3.5
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 8.4,
+    "residualAfter": 8.4,
+    "headline": "No committed project adds capacity at Export Pumps during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at GC-18 Export Pumps between Q3 2028 and Q4 2030"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "applied",
+    "delta": 5,
+    "residualBefore": 8.4,
+    "residualAfter": 3.4,
+    "headline": "Divert MF-204 → GC-21 (ROUTE-0017)",
+    "lines": [
+     "MaxDivert 5.0 MBFPD governs; GC-21 re-evaluated after the ROUTE-0031 allocation and stays within effective capacity on all three streams"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [
+     "ROUTE-0017",
+     "ROUTE-0031",
+     "COST-0003"
+    ],
+    "checks": [
+     {
+      "label": "Feasible route in ROUTING REGISTER",
+      "result": "pass",
+      "detail": "ROUTE-0017 MF-204 → GC-21, MaxDivert 5.0 MBFPD"
+     },
+     {
+      "label": "Receiving end after transfer",
+      "result": "pass",
+      "detail": "GC-21 re-evaluated after the ROUTE-0031 allocation and stays within effective capacity on all three streams"
+     }
+    ],
+    "optionId": "OPT-1048-T2"
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 3,
+    "residualBefore": 3.4,
+    "residualAfter": 0.4,
+    "headline": "Released margin on GC-18 Export Pumps (ENV-0006, approved 14 Jan 2026)",
+    "lines": [
+     "3.0 MBFPD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0006",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0006 approved 14 Jan 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Run spare pump in parallel at reduced NPSH margin, summer excluded"
+     }
+    ],
+    "optionId": "OPT-1048-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 5,
+    "residualBefore": 0.4,
+    "residualAfter": 0,
+    "headline": "1 × 5.0 MBFPD export pump unit, sized to live residual of 0.4",
+    "lines": [
+     "Class 5 cost KD 0.95M · 10 months · long-lead: pump and motor set 7 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0010"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 0.4 MBFPD → 1 × 5.0 (COST-0010)"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "flag",
+      "detail": "Next-binding component at 206.0 MBFPD; ceiling 8.0 on any mitigation here (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1048-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBFPD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1048-T2",
+   "OPT-1048-T3",
+   "OPT-1048-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Export Pumps at GC-18 is forecast to exceed effective capacity of 198.0 MBFPD from Q3 2028, peaking at 8.4 MBFPD over, for 10 consecutive quarters to the end of the horizon, placing 3.5 MBOPD at risk.",
+  "status": "Mitigation proposed",
+  "planIds": [
+   "PLN-0017"
+  ]
+ },
+ {
+  "id": "GAP-1049",
+  "facilityId": "GC-27",
+  "service": "gas",
+  "stream": "Gas",
+  "unit": "MMSCFD",
+  "bindingComponentId": "GC-27/COMP",
+  "bindingComponentName": "Booster Compressor",
+  "firstBreach": "2028-Q4",
+  "lastBreach": "2030-Q4",
+  "openEnded": true,
+  "durationQuarters": 9,
+  "peakPeriod": "2029-Q4",
+  "peakGap": 1.7,
+  "peakForecast": 73.7,
+  "capacityAtPeak": 72,
+  "capacityAtFirstBreach": 72,
+  "utilisationPct": 102.4,
+  "parOil": 2.8,
+  "severity": {
+   "score": 54,
+   "band": "High",
+   "segments": 3,
+   "magnitude": 0.12,
+   "duration": 1,
+   "proximity": 0.56
+  },
+  "profile": [
+   {
+    "period": "2028-Q4",
+    "gap": 0.5,
+    "parOil": 0.8
+   },
+   {
+    "period": "2029-Q1",
+    "gap": 1,
+    "parOil": 1.7
+   },
+   {
+    "period": "2029-Q2",
+    "gap": 1.3,
+    "parOil": 2.1
+   },
+   {
+    "period": "2029-Q3",
+    "gap": 1.6,
+    "parOil": 2.6
+   },
+   {
+    "period": "2029-Q4",
+    "gap": 1.7,
+    "parOil": 2.8
+   },
+   {
+    "period": "2030-Q1",
+    "gap": 1.7,
+    "parOil": 2.8
+   },
+   {
+    "period": "2030-Q2",
+    "gap": 1.6,
+    "parOil": 2.6
+   },
+   {
+    "period": "2030-Q3",
+    "gap": 1.3,
+    "parOil": 2.1
+   },
+   {
+    "period": "2030-Q4",
+    "gap": 0.9,
+    "parOil": 1.5
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 1.7,
+    "residualAfter": 1.7,
+    "headline": "No committed project adds capacity at Booster Compressor during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at GC-27 Booster Compressor between Q4 2028 and Q4 2030"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "applied",
+    "delta": 0.5,
+    "residualBefore": 1.7,
+    "residualAfter": 1.2,
+    "headline": "Divert GC-27 LP gas → BS-171 LP suction (ROUTE-0037)",
+    "lines": [
+     "MaxDivert 0.5 MMSCFD governs; BS-171 LP suction has headroom from Q1 2029, once its own breach has cleared"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [
+     "ROUTE-0037",
+     "COST-0005"
+    ],
+    "checks": [
+     {
+      "label": "Feasible route in ROUTING REGISTER",
+      "result": "pass",
+      "detail": "ROUTE-0037 GC-27 LP gas → BS-171 LP suction, MaxDivert 0.5 MMSCFD"
+     },
+     {
+      "label": "Receiving end after transfer",
+      "result": "pass",
+      "detail": "BS-171 LP suction has headroom from Q1 2029, once its own breach has cleared"
+     }
+    ],
+    "optionId": "OPT-1049-T2"
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 1,
+    "residualBefore": 1.2,
+    "residualAfter": 0.2,
+    "headline": "Released margin on GC-27 Booster Compressor (ENV-0018, approved 24 Mar 2026)",
+    "lines": [
+     "1.0 MMSCFD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0018",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0018 approved 24 Mar 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Suction pressure raised 0.3 bar within driver power limit"
+     }
+    ],
+    "optionId": "OPT-1049-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 1.5,
+    "residualBefore": 0.2,
+    "residualAfter": 0,
+    "headline": "1 × 1.5 MMSCFD compressor re-wheel, sized to live residual of 0.2",
+    "lines": [
+     "Class 5 cost KD 0.80M · 9 months · long-lead: impeller bundle 6 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0012"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 0.2 MMSCFD → 1 × 1.5 (COST-0012)"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "Next-binding component at 80.0 MMSCFD; ceiling 8.0 on any mitigation here (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1049-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MMSCFD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1049-T2",
+   "OPT-1049-T3",
+   "OPT-1049-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Booster Compressor at GC-27 is forecast to exceed effective capacity of 72.0 MMSCFD from Q4 2028, peaking at 1.7 MMSCFD over, for 9 consecutive quarters to the end of the horizon, placing 2.8 MBOPD at risk.",
+  "status": "Open",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1050",
+  "facilityId": "GC-18",
+  "service": "gas",
+  "stream": "Gas",
+  "unit": "MMSCFD",
+  "bindingComponentId": "GC-18/COMP",
+  "bindingComponentName": "Booster Compressor",
+  "firstBreach": "2029-Q4",
+  "lastBreach": "2030-Q4",
+  "openEnded": true,
+  "durationQuarters": 5,
+  "peakPeriod": "2030-Q4",
+  "peakGap": 0.6,
+  "peakForecast": 42.1,
+  "capacityAtPeak": 41.5,
+  "capacityAtFirstBreach": 41.5,
+  "utilisationPct": 101.4,
+  "parOil": 1.2,
+  "severity": {
+   "score": 32,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.07,
+   "duration": 0.63,
+   "proximity": 0.31
+  },
+  "profile": [
+   {
+    "period": "2029-Q4",
+    "gap": 0.1,
+    "parOil": 0.2
+   },
+   {
+    "period": "2030-Q1",
+    "gap": 0.2,
+    "parOil": 0.4
+   },
+   {
+    "period": "2030-Q2",
+    "gap": 0.4,
+    "parOil": 0.8
+   },
+   {
+    "period": "2030-Q3",
+    "gap": 0.5,
+    "parOil": 1
+   },
+   {
+    "period": "2030-Q4",
+    "gap": 0.6,
+    "parOil": 1.2
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 0.6,
+    "residualAfter": 0.6,
+    "headline": "No committed project adds capacity at Booster Compressor during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at GC-18 Booster Compressor between Q4 2029 and Q4 2030"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 0.6,
+    "residualAfter": 0.6,
+    "headline": "No feasible route with transferable capacity",
+    "lines": [
+     "ROUTING REGISTER holds no approved route from this facility with MaxDivert > 0"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ROUTING REGISTER searched",
+      "result": "info",
+      "detail": "No approved route with transferable capacity > 0"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 1,
+    "residualBefore": 0.6,
+    "residualAfter": 0,
+    "headline": "Released margin on GC-18 Booster Compressor (ENV-0008, approved 02 Feb 2026)",
+    "lines": [
+     "1.0 MMSCFD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0008",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0008 approved 02 Feb 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Suction pressure raised 0.3 bar within driver power limit"
+     }
+    ],
+    "optionId": "OPT-1050-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0 after non-capital tiers; no capital option is proposed"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after operating envelope",
+      "result": "pass",
+      "detail": "0.0 MMSCFD"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MMSCFD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1050-T3"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Booster Compressor at GC-18 is forecast to exceed effective capacity of 41.5 MMSCFD from Q4 2029, peaking at 0.6 MMSCFD over, for 5 consecutive quarters to the end of the horizon, placing 1.2 MBOPD at risk.",
+  "status": "Open",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1051",
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "stream": "Liquid",
+  "unit": "MBFPD",
+  "bindingComponentId": "GC-27/DESALT",
+  "bindingComponentName": "Desalter",
+  "firstBreach": "2029-Q4",
+  "lastBreach": "2030-Q4",
+  "openEnded": true,
+  "durationQuarters": 5,
+  "peakPeriod": "2030-Q4",
+  "peakGap": 4.6,
+  "peakForecast": 217.6,
+  "capacityAtPeak": 213,
+  "capacityAtFirstBreach": 213,
+  "utilisationPct": 102.2,
+  "parOil": 2.5,
+  "severity": {
+   "score": 33,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.11,
+   "duration": 0.63,
+   "proximity": 0.31
+  },
+  "profile": [
+   {
+    "period": "2029-Q4",
+    "gap": 0.1,
+    "parOil": 0.1
+   },
+   {
+    "period": "2030-Q1",
+    "gap": 1.8,
+    "parOil": 1
+   },
+   {
+    "period": "2030-Q2",
+    "gap": 3.1,
+    "parOil": 1.7
+   },
+   {
+    "period": "2030-Q3",
+    "gap": 4,
+    "parOil": 2.2
+   },
+   {
+    "period": "2030-Q4",
+    "gap": 4.6,
+    "parOil": 2.5
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 4.6,
+    "residualAfter": 4.6,
+    "headline": "No committed project adds capacity at Desalter during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at GC-27 Desalter between Q4 2029 and Q4 2030"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "applied",
+    "delta": 2,
+    "residualBefore": 4.6,
+    "residualAfter": 2.6,
+    "headline": "Divert MF-268 → GC-21 (ROUTE-0028)",
+    "lines": [
+     "MaxDivert 2.0 MBFPD governs; GC-21 has headroom on all three streams once the ROUTE-0031 transfer ends in Q4 2028"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [
+     "ROUTE-0028",
+     "ROUTE-0031",
+     "COST-0003"
+    ],
+    "checks": [
+     {
+      "label": "Feasible route in ROUTING REGISTER",
+      "result": "pass",
+      "detail": "ROUTE-0028 MF-268 → GC-21, MaxDivert 2.0 MBFPD"
+     },
+     {
+      "label": "Receiving end after transfer",
+      "result": "pass",
+      "detail": "GC-21 has headroom on all three streams once the ROUTE-0031 transfer ends in Q4 2028"
+     }
+    ],
+    "optionId": "OPT-1051-T2"
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 1,
+    "residualBefore": 2.6,
+    "residualAfter": 1.6,
+    "headline": "Released margin on GC-27 Desalter (ENV-0016, approved 24 Mar 2026)",
+    "lines": [
+     "1.0 MBFPD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0016",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0016 approved 24 Mar 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Wash water ratio reduced within salt spec margin"
+     }
+    ],
+    "optionId": "OPT-1051-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 6,
+    "residualBefore": 1.6,
+    "residualAfter": 0,
+    "headline": "1 × 6.0 MBFPD desalter module, sized to live residual of 1.6",
+    "lines": [
+     "Class 5 cost KD 2.10M · 15 months · long-lead: desalter vessel and transformer 10 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0009"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 1.6 MBFPD → 1 × 6.0 (COST-0009)"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "Next-binding component at 218.5 MBFPD; ceiling 5.5 on any mitigation here (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1051-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBFPD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1051-T2",
+   "OPT-1051-T3",
+   "OPT-1051-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Desalter at GC-27 is forecast to exceed effective capacity of 213.0 MBFPD from Q4 2029, peaking at 4.6 MBFPD over, for 5 consecutive quarters to the end of the horizon, placing 2.5 MBOPD at risk.",
+  "status": "Open",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1052",
+  "facilityId": "GC-27",
+  "service": "water",
+  "stream": "Water",
+  "unit": "MBWPD",
+  "bindingComponentId": "GC-27/WKO",
+  "bindingComponentName": "Water KO Drum",
+  "firstBreach": "2029-Q4",
+  "lastBreach": "2030-Q4",
+  "openEnded": true,
+  "durationQuarters": 5,
+  "peakPeriod": "2030-Q4",
+  "peakGap": 8,
+  "peakForecast": 100,
+  "capacityAtPeak": 92,
+  "capacityAtFirstBreach": 92,
+  "utilisationPct": 108.7,
+  "parOil": 9.4,
+  "severity": {
+   "score": 45,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.43,
+   "duration": 0.63,
+   "proximity": 0.31
+  },
+  "profile": [
+   {
+    "period": "2029-Q4",
+    "gap": 0.7,
+    "parOil": 0.9
+   },
+   {
+    "period": "2030-Q1",
+    "gap": 2.8,
+    "parOil": 3.5
+   },
+   {
+    "period": "2030-Q2",
+    "gap": 4.7,
+    "parOil": 5.8
+   },
+   {
+    "period": "2030-Q3",
+    "gap": 6.4,
+    "parOil": 7.7
+   },
+   {
+    "period": "2030-Q4",
+    "gap": 8,
+    "parOil": 9.4
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 8,
+    "residualAfter": 8,
+    "headline": "No committed project adds capacity at Water KO Drum during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at GC-27 Water KO Drum between Q4 2029 and Q4 2030"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "applied",
+    "delta": 5,
+    "residualBefore": 8,
+    "residualAfter": 3,
+    "headline": "Divert GC-27 effluent water → Disposal wells DW-11/12 (ROUTE-0035)",
+    "lines": [
+     "MaxDivert 5.0 MBWPD governs; disposal wells DW-11/12 within tested injectivity"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [
+     "ROUTE-0035",
+     "COST-0006"
+    ],
+    "checks": [
+     {
+      "label": "Feasible route in ROUTING REGISTER",
+      "result": "pass",
+      "detail": "ROUTE-0035 GC-27 effluent water → Disposal wells DW-11/12, MaxDivert 5.0 MBWPD"
+     },
+     {
+      "label": "Receiving end after transfer",
+      "result": "pass",
+      "detail": "disposal wells DW-11/12 within tested injectivity"
+     }
+    ],
+    "optionId": "OPT-1052-T2"
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 2,
+    "residualBefore": 3,
+    "residualAfter": 1,
+    "headline": "Released margin on GC-27 Water KO Drum (ENV-0019, approved 07 Apr 2026)",
+    "lines": [
+     "2.0 MBWPD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0019",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0019 approved 07 Apr 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Operate at 85% of design residence time; oil-in-water limit confirmed"
+     }
+    ],
+    "optionId": "OPT-1052-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 5,
+    "residualBefore": 1,
+    "residualAfter": 0,
+    "headline": "1 × 5.0 MBWPD hydrocyclone skid, sized to live residual of 1.0",
+    "lines": [
+     "Class 5 cost KD 0.70M · 8 months · long-lead: hydrocyclone liners 5 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0015"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 1.0 MBWPD → 1 × 5.0 (COST-0015)"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "Next-binding component at 105.0 MBWPD; ceiling 13.0 on any mitigation here (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1052-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBWPD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1052-T2",
+   "OPT-1052-T3",
+   "OPT-1052-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Water KO Drum at GC-27 is forecast to exceed effective capacity of 92.0 MBWPD from Q4 2029, peaking at 8.0 MBWPD over, for 5 consecutive quarters to the end of the horizon, placing 9.4 MBOPD at risk.",
+  "status": "Open",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1053",
+  "facilityId": "GC-18",
+  "service": "water",
+  "stream": "Water",
+  "unit": "MBWPD",
+  "bindingComponentId": "GC-18/WKO",
+  "bindingComponentName": "Water KO Drum",
+  "firstBreach": "2030-Q1",
+  "lastBreach": "2030-Q4",
+  "openEnded": true,
+  "durationQuarters": 4,
+  "peakPeriod": "2030-Q4",
+  "peakGap": 5.4,
+  "peakForecast": 120.4,
+  "capacityAtPeak": 115,
+  "capacityAtFirstBreach": 115,
+  "utilisationPct": 104.7,
+  "parOil": 3.9,
+  "severity": {
+   "score": 32,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.23,
+   "duration": 0.5,
+   "proximity": 0.25
+  },
+  "profile": [
+   {
+    "period": "2030-Q1",
+    "gap": 0.8,
+    "parOil": 0.6
+   },
+   {
+    "period": "2030-Q2",
+    "gap": 2.4,
+    "parOil": 1.8
+   },
+   {
+    "period": "2030-Q3",
+    "gap": 3.9,
+    "parOil": 2.8
+   },
+   {
+    "period": "2030-Q4",
+    "gap": 5.4,
+    "parOil": 3.9
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 5.4,
+    "residualAfter": 5.4,
+    "headline": "No committed project adds capacity at Water KO Drum during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at GC-18 Water KO Drum between Q1 2030 and Q4 2030"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "applied",
+    "delta": 2,
+    "residualBefore": 5.4,
+    "residualAfter": 3.4,
+    "headline": "Divert GC-18 effluent water → Disposal wells DW-07/08 (ROUTE-0034)",
+    "lines": [
+     "MaxDivert 2.0 MBWPD governs; disposal wells DW-07/08 within tested injectivity"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [
+     "ROUTE-0034",
+     "COST-0006"
+    ],
+    "checks": [
+     {
+      "label": "Feasible route in ROUTING REGISTER",
+      "result": "pass",
+      "detail": "ROUTE-0034 GC-18 effluent water → Disposal wells DW-07/08, MaxDivert 2.0 MBWPD"
+     },
+     {
+      "label": "Receiving end after transfer",
+      "result": "pass",
+      "detail": "disposal wells DW-07/08 within tested injectivity"
+     }
+    ],
+    "optionId": "OPT-1053-T2"
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 2,
+    "residualBefore": 3.4,
+    "residualAfter": 1.4,
+    "headline": "Released margin on GC-18 Water KO Drum (ENV-0007, approved 14 Jan 2026)",
+    "lines": [
+     "2.0 MBWPD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0007",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0007 approved 14 Jan 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Operate at 85% of design residence time; oil-in-water limit confirmed"
+     }
+    ],
+    "optionId": "OPT-1053-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 5,
+    "residualBefore": 1.4,
+    "residualAfter": 0,
+    "headline": "1 × 5.0 MBWPD hydrocyclone skid, sized to live residual of 1.4",
+    "lines": [
+     "Class 5 cost KD 0.70M · 8 months · long-lead: hydrocyclone liners 5 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0015"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 1.4 MBWPD → 1 × 5.0 (COST-0015)"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "Next-binding component at 125.0 MBWPD; ceiling 10.0 on any mitigation here (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1053-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBWPD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1053-T2",
+   "OPT-1053-T3",
+   "OPT-1053-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Water KO Drum at GC-18 is forecast to exceed effective capacity of 115.0 MBWPD from Q1 2030, peaking at 5.4 MBWPD over, for 4 consecutive quarters to the end of the horizon, placing 3.9 MBOPD at risk.",
+  "status": "Open",
+  "planIds": []
+ },
+ {
+  "id": "GAP-1054",
+  "facilityId": "WTP-03",
+  "service": "water",
+  "stream": "Water",
+  "unit": "MBWPD",
+  "bindingComponentId": "WTP-03/WKO",
+  "bindingComponentName": "Water KO Drum",
+  "firstBreach": "2030-Q1",
+  "lastBreach": "2030-Q4",
+  "openEnded": true,
+  "durationQuarters": 4,
+  "peakPeriod": "2030-Q4",
+  "peakGap": 11.5,
+  "peakForecast": 317.5,
+  "capacityAtPeak": 306,
+  "capacityAtFirstBreach": 306,
+  "utilisationPct": 103.8,
+  "parOil": 14.6,
+  "severity": {
+   "score": 30,
+   "band": "Medium",
+   "segments": 2,
+   "magnitude": 0.19,
+   "duration": 0.5,
+   "proximity": 0.25
+  },
+  "profile": [
+   {
+    "period": "2030-Q1",
+    "gap": 0.4,
+    "parOil": 0.5
+   },
+   {
+    "period": "2030-Q2",
+    "gap": 4.4,
+    "parOil": 5.8
+   },
+   {
+    "period": "2030-Q3",
+    "gap": 8,
+    "parOil": 10.3
+   },
+   {
+    "period": "2030-Q4",
+    "gap": 11.5,
+    "parOil": 14.6
+   }
+  ],
+  "cascade": [
+   {
+    "tier": 1,
+    "name": "Committed projects",
+    "status": "not_available",
+    "delta": 0,
+    "residualBefore": 11.5,
+    "residualAfter": 11.5,
+    "headline": "No committed project adds capacity at Water KO Drum during the breach",
+    "lines": [],
+    "ruleId": "RULE-R04",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "PROJECT REGISTER searched",
+      "result": "info",
+      "detail": "No Approved entry adds capacity at WTP-03 Water KO Drum between Q1 2030 and Q4 2030"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 2,
+    "name": "Re-routing",
+    "status": "exhausted",
+    "delta": 0,
+    "residualBefore": 11.5,
+    "residualAfter": 11.5,
+    "headline": "No feasible route with transferable capacity",
+    "lines": [
+     "WTP-03 is the terminal water facility; upstream diversions are credited at the gathering centres"
+    ],
+    "ruleId": "RULE-R12",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "ROUTING REGISTER searched",
+      "result": "info",
+      "detail": "WTP-03 is the terminal water facility; upstream diversions are credited at the gathering centres"
+     }
+    ],
+    "optionId": null
+   },
+   {
+    "tier": 3,
+    "name": "Operating envelope",
+    "status": "applied",
+    "delta": 8,
+    "residualBefore": 11.5,
+    "residualAfter": 3.5,
+    "headline": "Released margin on WTP-03 Water KO Drum (ENV-0022, approved 21 Apr 2026)",
+    "lines": [
+     "8.0 MBWPD released in full"
+    ],
+    "ruleId": "RULE-R07",
+    "registerRefs": [
+     "ENV-0022",
+     "COST-0004"
+    ],
+    "checks": [
+     {
+      "label": "Envelope entry approved",
+      "result": "pass",
+      "detail": "ENV-0022 approved 21 Apr 2026 by J. Fernandes, Operations Technical Services"
+     },
+     {
+      "label": "Basis",
+      "result": "info",
+      "detail": "Operate at 90% of design residence time; injection water quality limit confirmed"
+     }
+    ],
+    "optionId": "OPT-1054-T3"
+   },
+   {
+    "tier": 4,
+    "name": "Debottleneck",
+    "status": "sized",
+    "delta": 5,
+    "residualBefore": 3.5,
+    "residualAfter": 0,
+    "headline": "1 × 5.0 MBWPD hydrocyclone skid, sized to live residual of 3.5",
+    "lines": [
+     "Class 5 cost KD 0.70M · 8 months · long-lead: hydrocyclone liners 5 months"
+    ],
+    "ruleId": "RULE-R08",
+    "registerRefs": [
+     "COST-0015"
+    ],
+    "checks": [
+     {
+      "label": "Smallest standard module covering residual",
+      "result": "pass",
+      "detail": "Residual 3.5 MBWPD → 1 × 5.0 (COST-0015)"
+     },
+     {
+      "label": "Next-binding ceiling",
+      "result": "pass",
+      "detail": "Next-binding component at 335.0 MBWPD; ceiling 29.0 on any mitigation here (RULE-R09)"
+     },
+     {
+      "label": "Cost class",
+      "result": "flag",
+      "detail": "Class 5 indicative, −30% / +50% (RULE-R10)"
+     }
+    ],
+    "optionId": "OPT-1054-T4"
+   },
+   {
+    "tier": 5,
+    "name": "New facility",
+    "status": "not_required",
+    "delta": 0,
+    "residualBefore": 0,
+    "residualAfter": 0,
+    "headline": "Not required",
+    "lines": [
+     "Residual is 0.0; no new facility or train is proposed"
+    ],
+    "ruleId": "RULE-R11",
+    "registerRefs": [],
+    "checks": [
+     {
+      "label": "Residual after debottleneck",
+      "result": "pass",
+      "detail": "0.0 MBWPD"
+     }
+    ],
+    "optionId": null
+   }
+  ],
+  "optionIds": [
+   "OPT-1054-T3",
+   "OPT-1054-T4"
+  ],
+  "residualAfterCascade": 0,
+  "sentence": "Water KO Drum at WTP-03 is forecast to exceed effective capacity of 306.0 MBWPD from Q1 2030, peaking at 11.5 MBWPD over, for 4 consecutive quarters to the end of the horizon, placing 14.6 MBOPD at risk.",
+  "status": "Open",
+  "planIds": []
+ }
+]

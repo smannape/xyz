@@ -1,0 +1,486 @@
+[
+ {
+  "id": "PLN-0012",
+  "gapId": "GAP-1047",
+  "optionId": "OPT-1047-T3",
+  "title": "GC-24 — Release Booster Compressor margin",
+  "status": "Approved",
+  "createdDate": "17 Oct 2026",
+  "createdBy": "S. Rahman",
+  "targetApprovalDate": "24 Oct 2026",
+  "pastTarget": false,
+  "scope": "Release Booster Compressor margin at GC-24 Booster Compressor to relieve GAP-1047 (gas gap, peak 1.2 MMSCFD).",
+  "capacityGain": 1,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "capexKDm": 0.04,
+  "scheduleMonths": 2,
+  "longLead": [],
+  "decisionBasis": {
+   "analysisId": "ISSPS-2026-0147",
+   "vintages": {
+    "forecast": "v4.2",
+    "capacity": "v2.8",
+    "rules": "v1.14",
+    "economics": "v1.3"
+   },
+   "scenario": "AAP-2027 Baseline",
+   "gapId": "GAP-1047",
+   "optionId": "OPT-1047-T3"
+  },
+  "checklist": [
+   {
+    "label": "Gap validated by Facilities Engineering",
+    "done": true,
+    "by": "A. Al-Mutairi",
+    "date": "19 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "Envelope entry approved and unreserved",
+    "done": true,
+    "by": "Operations Technical Services",
+    "date": "20 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "Operating procedure revision issued",
+    "done": true,
+    "by": "Operations Technical Services",
+    "date": "22 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "MOC raised",
+    "done": true,
+    "by": "J. Fernandes",
+    "date": "22 Oct 2026",
+    "note": null
+   }
+  ],
+  "approvals": [
+   {
+    "name": "A. Al-Mutairi",
+    "role": "Facilities Engineering",
+    "status": "Approved",
+    "date": "20 Oct 2026"
+   },
+   {
+    "name": "J. Fernandes",
+    "role": "Operations Technical Services",
+    "status": "Approved",
+    "date": "21 Oct 2026"
+   },
+   {
+    "name": "M. Khalil",
+    "role": "Economics",
+    "status": "Approved",
+    "date": "23 Oct 2026"
+   }
+  ]
+ },
+ {
+  "id": "PLN-0014",
+  "gapId": "GAP-1041",
+  "optionId": "OPT-1041-T2",
+  "title": "GC-24 — Divert MF-241 → GC-21",
+  "status": "Awaiting approval",
+  "createdDate": "18 Oct 2026",
+  "createdBy": "S. Rahman",
+  "targetApprovalDate": "30 Oct 2026",
+  "pastTarget": true,
+  "scope": "Divert MF-241 → GC-21 at GC-24 HP Separator Train to relieve GAP-1041 (liquid gap, peak 24.8 MBFPD).",
+  "capacityGain": 9.5,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "capexKDm": 0.12,
+  "scheduleMonths": 3,
+  "longLead": [],
+  "decisionBasis": {
+   "analysisId": "ISSPS-2026-0147",
+   "vintages": {
+    "forecast": "v4.2",
+    "capacity": "v2.8",
+    "rules": "v1.14",
+    "economics": "v1.3"
+   },
+   "scenario": "AAP-2027 Baseline",
+   "gapId": "GAP-1041",
+   "optionId": "OPT-1041-T2"
+  },
+  "checklist": [
+   {
+    "label": "Gap validated by Facilities Engineering",
+    "done": true,
+    "by": "A. Al-Mutairi",
+    "date": "18 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "Routing feasibility confirmed",
+    "done": true,
+    "by": "Operations Technical Services",
+    "date": "20 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "GC-21 receiving check accepted",
+    "done": true,
+    "by": "A. Al-Mutairi",
+    "date": "21 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "MOC raised",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "pending"
+   }
+  ],
+  "approvals": [
+   {
+    "name": "A. Al-Mutairi",
+    "role": "Facilities Engineering",
+    "status": "Approved",
+    "date": "21 Oct 2026"
+   },
+   {
+    "name": "J. Fernandes",
+    "role": "Operations Technical Services",
+    "status": "Pending",
+    "date": null
+   },
+   {
+    "name": "M. Khalil",
+    "role": "Economics",
+    "status": "Pending",
+    "date": null
+   }
+  ]
+ },
+ {
+  "id": "PLN-0015",
+  "gapId": "GAP-1041",
+  "optionId": "OPT-1041-T3",
+  "title": "GC-24 — Release HP separator design margin",
+  "status": "Awaiting approval",
+  "createdDate": "18 Oct 2026",
+  "createdBy": "S. Rahman",
+  "targetApprovalDate": "30 Oct 2026",
+  "pastTarget": true,
+  "scope": "Release HP separator design margin at GC-24 HP Separator Train to relieve GAP-1041 (liquid gap, peak 24.8 MBFPD).",
+  "capacityGain": 3,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "capexKDm": 0.04,
+  "scheduleMonths": 2,
+  "longLead": [],
+  "decisionBasis": {
+   "analysisId": "ISSPS-2026-0147",
+   "vintages": {
+    "forecast": "v4.2",
+    "capacity": "v2.8",
+    "rules": "v1.14",
+    "economics": "v1.3"
+   },
+   "scenario": "AAP-2027 Baseline",
+   "gapId": "GAP-1041",
+   "optionId": "OPT-1041-T3"
+  },
+  "checklist": [
+   {
+    "label": "Gap validated by Facilities Engineering",
+    "done": true,
+    "by": "A. Al-Mutairi",
+    "date": "18 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "Envelope entry approved and unreserved",
+    "done": true,
+    "by": "Operations Technical Services",
+    "date": "20 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "Operating procedure revision issued",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "pending"
+   }
+  ],
+  "approvals": [
+   {
+    "name": "A. Al-Mutairi",
+    "role": "Facilities Engineering",
+    "status": "Approved",
+    "date": "22 Oct 2026"
+   },
+   {
+    "name": "J. Fernandes",
+    "role": "Operations Technical Services",
+    "status": "Pending",
+    "date": null
+   }
+  ]
+ },
+ {
+  "id": "PLN-0016",
+  "gapId": "GAP-1042",
+  "optionId": "OPT-1042-T4",
+  "title": "GBS-02 — 1 × 5.0 MMSCFD compressor module",
+  "status": "Awaiting approval",
+  "createdDate": "22 Oct 2026",
+  "createdBy": "S. Rahman",
+  "targetApprovalDate": "20 Nov 2026",
+  "pastTarget": false,
+  "scope": "1 × 5.0 MMSCFD compressor module at GBS-02 Booster Compressor to relieve GAP-1042 (gas gap, peak 6.6 MMSCFD).",
+  "capacityGain": 5,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "capexKDm": 2.6,
+  "scheduleMonths": 16,
+  "longLead": [
+   {
+    "item": "Compressor package",
+    "months": 11
+   }
+  ],
+  "decisionBasis": {
+   "analysisId": "ISSPS-2026-0147",
+   "vintages": {
+    "forecast": "v4.2",
+    "capacity": "v2.8",
+    "rules": "v1.14",
+    "economics": "v1.3"
+   },
+   "scenario": "AAP-2027 Baseline",
+   "gapId": "GAP-1042",
+   "optionId": "OPT-1042-T4"
+  },
+  "checklist": [
+   {
+    "label": "Gap validated by Facilities Engineering",
+    "done": true,
+    "by": "A. Al-Mutairi",
+    "date": "24 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "Class 5 estimate within screening tolerance",
+    "done": true,
+    "by": "Economics",
+    "date": "27 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "MOC raised",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "pending"
+   },
+   {
+    "label": "Long-lead reservation (compressor package)",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "11 month lead"
+   }
+  ],
+  "approvals": [
+   {
+    "name": "A. Al-Mutairi",
+    "role": "Facilities Engineering",
+    "status": "Approved",
+    "date": "28 Oct 2026"
+   },
+   {
+    "name": "M. Khalil",
+    "role": "Economics",
+    "status": "Pending",
+    "date": null
+   },
+   {
+    "name": "S. Rahman",
+    "role": "Reservoir Management",
+    "status": "Pending",
+    "date": null
+   }
+  ]
+ },
+ {
+  "id": "PLN-0017",
+  "gapId": "GAP-1048",
+  "optionId": "OPT-1048-T2",
+  "title": "GC-18 — Divert MF-204 → GC-21",
+  "status": "Awaiting approval",
+  "createdDate": "26 Oct 2026",
+  "createdBy": "S. Rahman",
+  "targetApprovalDate": "27 Nov 2026",
+  "pastTarget": false,
+  "scope": "Divert MF-204 → GC-21 at GC-18 Export Pumps to relieve GAP-1048 (liquid gap, peak 8.4 MBFPD).",
+  "capacityGain": 5,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "capexKDm": 0.12,
+  "scheduleMonths": 3,
+  "longLead": [],
+  "decisionBasis": {
+   "analysisId": "ISSPS-2026-0147",
+   "vintages": {
+    "forecast": "v4.2",
+    "capacity": "v2.8",
+    "rules": "v1.14",
+    "economics": "v1.3"
+   },
+   "scenario": "AAP-2027 Baseline",
+   "gapId": "GAP-1048",
+   "optionId": "OPT-1048-T2"
+  },
+  "checklist": [
+   {
+    "label": "Gap validated by Facilities Engineering",
+    "done": true,
+    "by": "A. Al-Mutairi",
+    "date": "27 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "Routing feasibility confirmed",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "pending"
+   }
+  ],
+  "approvals": [
+   {
+    "name": "A. Al-Mutairi",
+    "role": "Facilities Engineering",
+    "status": "Pending",
+    "date": null
+   },
+   {
+    "name": "J. Fernandes",
+    "role": "Operations Technical Services",
+    "status": "Pending",
+    "date": null
+   }
+  ]
+ },
+ {
+  "id": "PLN-0019",
+  "gapId": "GAP-1041",
+  "optionId": "OPT-1041-T4",
+  "title": "GC-24 — 1 × 6.0 MBFPD separator skid",
+  "status": "Draft",
+  "createdDate": "05 Nov 2026",
+  "createdBy": "S. Rahman",
+  "targetApprovalDate": "27 Nov 2026",
+  "pastTarget": false,
+  "scope": "1 × 6.0 MBFPD separator skid at GC-24 HP Separator Train to relieve GAP-1041 (liquid gap, peak 24.8 MBFPD).",
+  "capacityGain": 6,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "capexKDm": 1.85,
+  "scheduleMonths": 14,
+  "longLead": [
+   {
+    "item": "Separator vessel",
+    "months": 9
+   }
+  ],
+  "decisionBasis": {
+   "analysisId": "ISSPS-2026-0147",
+   "vintages": {
+    "forecast": "v4.2",
+    "capacity": "v2.8",
+    "rules": "v1.14",
+    "economics": "v1.3"
+   },
+   "scenario": "AAP-2027 Baseline",
+   "gapId": "GAP-1041",
+   "optionId": "OPT-1041-T4"
+  },
+  "checklist": [
+   {
+    "label": "Gap validated by Facilities Engineering",
+    "done": true,
+    "by": "A. Al-Mutairi",
+    "date": "18 Oct 2026",
+    "note": null
+   },
+   {
+    "label": "Routing feasibility confirmed",
+    "done": true,
+    "by": "Operations Technical Services",
+    "date": null,
+    "note": null
+   },
+   {
+    "label": "Class 5 estimate within screening tolerance",
+    "done": true,
+    "by": "Economics",
+    "date": null,
+    "note": null
+   },
+   {
+    "label": "MOC raised",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "pending"
+   },
+   {
+    "label": "HAZOP scheduled",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "pending"
+   },
+   {
+    "label": "FEED readiness confirmed",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "blocked by MOC"
+   },
+   {
+    "label": "Long-lead reservation (separator vessel)",
+    "done": false,
+    "by": null,
+    "date": null,
+    "note": "9 month lead, order by Q1 2027"
+   }
+  ],
+  "approvals": [
+   {
+    "name": "A. Al-Mutairi",
+    "role": "Facilities Engineering",
+    "status": "Pending",
+    "date": null
+   },
+   {
+    "name": "J. Fernandes",
+    "role": "Operations Technical Services",
+    "status": "Pending",
+    "date": null
+   },
+   {
+    "name": "M. Khalil",
+    "role": "Economics",
+    "status": "Pending",
+    "date": null
+   },
+   {
+    "name": "S. Rahman",
+    "role": "Reservoir Management",
+    "status": "Pending",
+    "date": null
+   }
+  ]
+ }
+]

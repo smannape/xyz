@@ -1,0 +1,2680 @@
+[
+ {
+  "id": "OPT-1041-T1",
+  "gapId": "GAP-1041",
+  "tier": 1,
+  "tierName": "Committed projects",
+  "kind": "non-capital",
+  "title": "PRJ-118 GC-24 separator upgrade",
+  "capacityGain": 8,
+  "relievedAtPeak": 8,
+  "unit": "MBFPD",
+  "costClass": null,
+  "costRef": null,
+  "costNote": "Committed — no incremental cost",
+  "scheduleMonths": 0,
+  "onStream": "2027-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": null,
+  "economicsNote": "Committed project: cost is sunk and outside this screening comparison",
+  "ruleId": "RULE-R04",
+  "registerRefs": [
+   "PRJ-118",
+   "PRJ-124"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1041-T2",
+  "gapId": "GAP-1041",
+  "tier": 2,
+  "tierName": "Re-routing",
+  "kind": "non-capital",
+  "title": "Divert MF-241 → GC-21",
+  "capacityGain": 9.5,
+  "relievedAtPeak": 9.5,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0003",
+  "costNote": null,
+  "scheduleMonths": 3,
+  "onStream": "2027-Q2",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.12,
+   "capexPhases": [
+    0.12
+   ],
+   "onStreamT": 2,
+   "protectedOil": 6.69,
+   "protectedQuarters": 7,
+   "revenuePerQuarterKDm": 9.13,
+   "pvProtectedKDm": 56.8,
+   "pvCapexKDm": 0.12,
+   "npvKDm": 56.68,
+   "paybackQuarters": 2,
+   "costPerBblKD": 0.03,
+   "doNothingKDm": -56.8,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.12,
+     "discountFactor": 1,
+     "pv": -0.12
+    },
+    {
+     "t": 2,
+     "kind": "protected production",
+     "amount": 9.13,
+     "discountFactor": 0.9535,
+     "pv": 8.71
+    },
+    {
+     "t": 3,
+     "kind": "protected production",
+     "amount": 9.13,
+     "discountFactor": 0.931,
+     "pv": 8.5
+    },
+    {
+     "t": 4,
+     "kind": "protected production",
+     "amount": 9.13,
+     "discountFactor": 0.9091,
+     "pv": 8.3
+    },
+    {
+     "t": 5,
+     "kind": "protected production",
+     "amount": 9.13,
+     "discountFactor": 0.8877,
+     "pv": 8.1
+    },
+    {
+     "t": 6,
+     "kind": "protected production",
+     "amount": 9.13,
+     "discountFactor": 0.8668,
+     "pv": 7.91
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 9.13,
+     "discountFactor": 0.8464,
+     "pv": 7.73
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 9.13,
+     "discountFactor": 0.8264,
+     "pv": 7.55
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R12",
+  "registerRefs": [
+   "ROUTE-0031",
+   "ROUTE-0028",
+   "COST-0003"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1041-T3",
+  "gapId": "GAP-1041",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release HP separator design margin",
+  "capacityGain": 3,
+  "relievedAtPeak": 3,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2027-Q2",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 2,
+   "protectedOil": 2.11,
+   "protectedQuarters": 7,
+   "revenuePerQuarterKDm": 2.88,
+   "pvProtectedKDm": 17.93,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 17.89,
+   "paybackQuarters": 2,
+   "costPerBblKD": 0.03,
+   "doNothingKDm": -17.93,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 2,
+     "kind": "protected production",
+     "amount": 2.88,
+     "discountFactor": 0.9535,
+     "pv": 2.75
+    },
+    {
+     "t": 3,
+     "kind": "protected production",
+     "amount": 2.88,
+     "discountFactor": 0.931,
+     "pv": 2.68
+    },
+    {
+     "t": 4,
+     "kind": "protected production",
+     "amount": 2.88,
+     "discountFactor": 0.9091,
+     "pv": 2.62
+    },
+    {
+     "t": 5,
+     "kind": "protected production",
+     "amount": 2.88,
+     "discountFactor": 0.8877,
+     "pv": 2.56
+    },
+    {
+     "t": 6,
+     "kind": "protected production",
+     "amount": 2.88,
+     "discountFactor": 0.8668,
+     "pv": 2.5
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 2.88,
+     "discountFactor": 0.8464,
+     "pv": 2.44
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 2.88,
+     "discountFactor": 0.8264,
+     "pv": 2.38
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0014",
+   "ENV-0017",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1041-T4",
+  "gapId": "GAP-1041",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 6.0 MBFPD separator skid",
+  "capacityGain": 6,
+  "relievedAtPeak": 4.3,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0007",
+  "costNote": null,
+  "scheduleMonths": 14,
+  "onStream": "2028-Q1",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Separator vessel",
+    "months": 9
+   }
+  ],
+  "economics": {
+   "capexKDm": 1.85,
+   "capexPhases": [
+    0.74,
+    1.11
+   ],
+   "onStreamT": 5,
+   "protectedOil": 3.03,
+   "protectedQuarters": 4,
+   "revenuePerQuarterKDm": 4.14,
+   "pvProtectedKDm": 14.19,
+   "pvCapexKDm": 1.82,
+   "npvKDm": 12.37,
+   "paybackQuarters": 5.4,
+   "costPerBblKD": 1.68,
+   "doNothingKDm": -14.19,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.74,
+     "discountFactor": 1,
+     "pv": -0.74
+    },
+    {
+     "t": 1,
+     "kind": "capex",
+     "amount": -1.11,
+     "discountFactor": 0.9765,
+     "pv": -1.08
+    },
+    {
+     "t": 5,
+     "kind": "protected production",
+     "amount": 4.14,
+     "discountFactor": 0.8877,
+     "pv": 3.68
+    },
+    {
+     "t": 6,
+     "kind": "protected production",
+     "amount": 4.14,
+     "discountFactor": 0.8668,
+     "pv": 3.59
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 4.14,
+     "discountFactor": 0.8464,
+     "pv": 3.5
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 4.14,
+     "discountFactor": 0.8264,
+     "pv": 3.42
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0007"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1042-T3",
+  "gapId": "GAP-1042",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Booster Compressor margin",
+  "capacityGain": 2.5,
+  "relievedAtPeak": 2.5,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2027-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 4,
+   "protectedOil": 4.69,
+   "protectedQuarters": 5,
+   "revenuePerQuarterKDm": 6.4,
+   "pvProtectedKDm": 27.76,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 27.72,
+   "paybackQuarters": 4,
+   "costPerBblKD": 0.02,
+   "doNothingKDm": -27.76,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 4,
+     "kind": "protected production",
+     "amount": 6.4,
+     "discountFactor": 0.9091,
+     "pv": 5.82
+    },
+    {
+     "t": 5,
+     "kind": "protected production",
+     "amount": 6.4,
+     "discountFactor": 0.8877,
+     "pv": 5.68
+    },
+    {
+     "t": 6,
+     "kind": "protected production",
+     "amount": 6.4,
+     "discountFactor": 0.8668,
+     "pv": 5.55
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 6.4,
+     "discountFactor": 0.8464,
+     "pv": 5.42
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 6.4,
+     "discountFactor": 0.8264,
+     "pv": 5.29
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0021",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1042-T4",
+  "gapId": "GAP-1042",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 5.0 MMSCFD compressor module",
+  "capacityGain": 5,
+  "relievedAtPeak": 4.1,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0013",
+  "costNote": null,
+  "scheduleMonths": 16,
+  "onStream": "2028-Q2",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Compressor package",
+    "months": 11
+   }
+  ],
+  "economics": {
+   "capexKDm": 2.6,
+   "capexPhases": [
+    1.04,
+    1.56
+   ],
+   "onStreamT": 6,
+   "protectedOil": 7.69,
+   "protectedQuarters": 3,
+   "revenuePerQuarterKDm": 10.5,
+   "pvProtectedKDm": 26.67,
+   "pvCapexKDm": 2.56,
+   "npvKDm": 24.11,
+   "paybackQuarters": 6.2,
+   "costPerBblKD": 1.24,
+   "doNothingKDm": -26.67,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -1.04,
+     "discountFactor": 1,
+     "pv": -1.04
+    },
+    {
+     "t": 1,
+     "kind": "capex",
+     "amount": -1.56,
+     "discountFactor": 0.9765,
+     "pv": -1.52
+    },
+    {
+     "t": 6,
+     "kind": "protected production",
+     "amount": 10.5,
+     "discountFactor": 0.8668,
+     "pv": 9.1
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 10.5,
+     "discountFactor": 0.8464,
+     "pv": 8.89
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 10.5,
+     "discountFactor": 0.8264,
+     "pv": 8.68
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0013"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1043-T1",
+  "gapId": "GAP-1043",
+  "tier": 1,
+  "tierName": "Committed projects",
+  "kind": "non-capital",
+  "title": "PRJ-113 WTP-03 treatment train 4",
+  "capacityGain": 36,
+  "relievedAtPeak": 9.3,
+  "unit": "MBWPD",
+  "costClass": null,
+  "costRef": null,
+  "costNote": "Committed — no incremental cost",
+  "scheduleMonths": 0,
+  "onStream": "2028-Q3",
+  "onStreamAfterBreach": true,
+  "longLead": [],
+  "economics": null,
+  "economicsNote": "Committed project: cost is sunk and outside this screening comparison",
+  "ruleId": "RULE-R04",
+  "registerRefs": [
+   "PRJ-113"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1044-T2",
+  "gapId": "GAP-1044",
+  "tier": 2,
+  "tierName": "Re-routing",
+  "kind": "non-capital",
+  "title": "Divert BS-171 discharge → BS-141 suction",
+  "capacityGain": 2.5,
+  "relievedAtPeak": 2.5,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0005",
+  "costNote": null,
+  "scheduleMonths": 4,
+  "onStream": "2028-Q2",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.18,
+   "capexPhases": [
+    0.18
+   ],
+   "onStreamT": 6,
+   "protectedOil": 4.54,
+   "protectedQuarters": 3,
+   "revenuePerQuarterKDm": 6.2,
+   "pvProtectedKDm": 15.74,
+   "pvCapexKDm": 0.18,
+   "npvKDm": 15.56,
+   "paybackQuarters": 6,
+   "costPerBblKD": 0.15,
+   "doNothingKDm": -15.74,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.18,
+     "discountFactor": 1,
+     "pv": -0.18
+    },
+    {
+     "t": 6,
+     "kind": "protected production",
+     "amount": 6.2,
+     "discountFactor": 0.8668,
+     "pv": 5.37
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 6.2,
+     "discountFactor": 0.8464,
+     "pv": 5.25
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 6.2,
+     "discountFactor": 0.8264,
+     "pv": 5.12
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R12",
+  "registerRefs": [
+   "ROUTE-0033",
+   "COST-0005"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1044-T3",
+  "gapId": "GAP-1044",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Booster Compressor margin",
+  "capacityGain": 2,
+  "relievedAtPeak": 1.2,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2028-Q2",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 6,
+   "protectedOil": 2.18,
+   "protectedQuarters": 3,
+   "revenuePerQuarterKDm": 2.98,
+   "pvProtectedKDm": 7.56,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 7.52,
+   "paybackQuarters": 6,
+   "costPerBblKD": 0.07,
+   "doNothingKDm": -7.56,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 6,
+     "kind": "protected production",
+     "amount": 2.98,
+     "discountFactor": 0.8668,
+     "pv": 2.58
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 2.98,
+     "discountFactor": 0.8464,
+     "pv": 2.52
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 2.98,
+     "discountFactor": 0.8264,
+     "pv": 2.46
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0020",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1045-T1",
+  "gapId": "GAP-1045",
+  "tier": 1,
+  "tierName": "Committed projects",
+  "kind": "non-capital",
+  "title": "PRJ-109 GC-18 produced water handling upgrade",
+  "capacityGain": 12,
+  "relievedAtPeak": 6,
+  "unit": "MBWPD",
+  "costClass": null,
+  "costRef": null,
+  "costNote": "Committed — no incremental cost",
+  "scheduleMonths": 0,
+  "onStream": "2029-Q2",
+  "onStreamAfterBreach": true,
+  "longLead": [],
+  "economics": null,
+  "economicsNote": "Committed project: cost is sunk and outside this screening comparison",
+  "ruleId": "RULE-R04",
+  "registerRefs": [
+   "PRJ-109"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1046-T1",
+  "gapId": "GAP-1046",
+  "tier": 1,
+  "tierName": "Committed projects",
+  "kind": "non-capital",
+  "title": "PRJ-121 GC-27 desalter revamp",
+  "capacityGain": 18,
+  "relievedAtPeak": 13.6,
+  "unit": "MBFPD",
+  "costClass": null,
+  "costRef": null,
+  "costNote": "Committed — no incremental cost",
+  "scheduleMonths": 0,
+  "onStream": "2029-Q3",
+  "onStreamAfterBreach": true,
+  "longLead": [],
+  "economics": null,
+  "economicsNote": "Committed project: cost is sunk and outside this screening comparison",
+  "ruleId": "RULE-R04",
+  "registerRefs": [
+   "PRJ-121"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1047-T3",
+  "gapId": "GAP-1047",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Booster Compressor margin",
+  "capacityGain": 1,
+  "relievedAtPeak": 1,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2028-Q3",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 7,
+   "protectedOil": 1.97,
+   "protectedQuarters": 2,
+   "revenuePerQuarterKDm": 2.69,
+   "pvProtectedKDm": 4.5,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 4.46,
+   "paybackQuarters": 7,
+   "costPerBblKD": 0.11,
+   "doNothingKDm": -4.5,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 2.69,
+     "discountFactor": 0.8464,
+     "pv": 2.28
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 2.69,
+     "discountFactor": 0.8264,
+     "pv": 2.22
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0017",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1047-T4",
+  "gapId": "GAP-1047",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 1.5 MMSCFD compressor re-wheel",
+  "capacityGain": 1.5,
+  "relievedAtPeak": 0.2,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0012",
+  "costNote": null,
+  "scheduleMonths": 9,
+  "onStream": "2028-Q3",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Impeller bundle",
+    "months": 6
+   }
+  ],
+  "economics": {
+   "capexKDm": 0.8,
+   "capexPhases": [
+    0,
+    0,
+    0,
+    0,
+    0.32,
+    0.48
+   ],
+   "onStreamT": 7,
+   "protectedOil": 0.39,
+   "protectedQuarters": 2,
+   "revenuePerQuarterKDm": 0.53,
+   "pvProtectedKDm": 0.89,
+   "pvCapexKDm": 0.72,
+   "npvKDm": 0.17,
+   "paybackQuarters": 8.5,
+   "costPerBblKD": 11.27,
+   "doNothingKDm": -0.89,
+   "cashflow": [
+    {
+     "t": 4,
+     "kind": "capex",
+     "amount": -0.32,
+     "discountFactor": 0.9091,
+     "pv": -0.29
+    },
+    {
+     "t": 5,
+     "kind": "capex",
+     "amount": -0.48,
+     "discountFactor": 0.8877,
+     "pv": -0.43
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 0.53,
+     "discountFactor": 0.8464,
+     "pv": 0.45
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 0.53,
+     "discountFactor": 0.8264,
+     "pv": 0.44
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0012"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1048-T2",
+  "gapId": "GAP-1048",
+  "tier": 2,
+  "tierName": "Re-routing",
+  "kind": "non-capital",
+  "title": "Divert MF-204 → GC-21",
+  "capacityGain": 5,
+  "relievedAtPeak": 5,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0003",
+  "costNote": null,
+  "scheduleMonths": 3,
+  "onStream": "2028-Q3",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.12,
+   "capexPhases": [
+    0.12
+   ],
+   "onStreamT": 7,
+   "protectedOil": 2.08,
+   "protectedQuarters": 10,
+   "revenuePerQuarterKDm": 2.84,
+   "pvProtectedKDm": 21.64,
+   "pvCapexKDm": 0.12,
+   "npvKDm": 21.52,
+   "paybackQuarters": 7,
+   "costPerBblKD": 0.06,
+   "doNothingKDm": -21.64,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.12,
+     "discountFactor": 1,
+     "pv": -0.12
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.8464,
+     "pv": 2.4
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.8264,
+     "pv": 2.35
+    },
+    {
+     "t": 9,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.807,
+     "pv": 2.29
+    },
+    {
+     "t": 10,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.788,
+     "pv": 2.24
+    },
+    {
+     "t": 11,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.7694,
+     "pv": 2.19
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.7513,
+     "pv": 2.13
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.7336,
+     "pv": 2.08
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.7164,
+     "pv": 2.03
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.6995,
+     "pv": 1.99
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 2.84,
+     "discountFactor": 0.683,
+     "pv": 1.94
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R12",
+  "registerRefs": [
+   "ROUTE-0017",
+   "ROUTE-0031",
+   "COST-0003"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1048-T3",
+  "gapId": "GAP-1048",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Export Pumps margin",
+  "capacityGain": 3,
+  "relievedAtPeak": 3,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2028-Q3",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 7,
+   "protectedOil": 1.25,
+   "protectedQuarters": 10,
+   "revenuePerQuarterKDm": 1.71,
+   "pvProtectedKDm": 13.03,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 12.99,
+   "paybackQuarters": 7,
+   "costPerBblKD": 0.04,
+   "doNothingKDm": -13.03,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.8464,
+     "pv": 1.45
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.8264,
+     "pv": 1.41
+    },
+    {
+     "t": 9,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.807,
+     "pv": 1.38
+    },
+    {
+     "t": 10,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.788,
+     "pv": 1.35
+    },
+    {
+     "t": 11,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.7694,
+     "pv": 1.32
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.7513,
+     "pv": 1.28
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.7336,
+     "pv": 1.25
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.7164,
+     "pv": 1.22
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.6995,
+     "pv": 1.2
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.71,
+     "discountFactor": 0.683,
+     "pv": 1.17
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0006",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1048-T4",
+  "gapId": "GAP-1048",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 5.0 MBFPD export pump unit",
+  "capacityGain": 5,
+  "relievedAtPeak": 0.4,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0010",
+  "costNote": null,
+  "scheduleMonths": 10,
+  "onStream": "2028-Q3",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Pump and motor set",
+    "months": 7
+   }
+  ],
+  "economics": {
+   "capexKDm": 0.95,
+   "capexPhases": [
+    0,
+    0,
+    0,
+    0.38,
+    0.57
+   ],
+   "onStreamT": 7,
+   "protectedOil": 0.17,
+   "protectedQuarters": 10,
+   "revenuePerQuarterKDm": 0.23,
+   "pvProtectedKDm": 1.75,
+   "pvCapexKDm": 0.87,
+   "npvKDm": 0.88,
+   "paybackQuarters": 11.1,
+   "costPerBblKD": 6.14,
+   "doNothingKDm": -1.75,
+   "cashflow": [
+    {
+     "t": 3,
+     "kind": "capex",
+     "amount": -0.38,
+     "discountFactor": 0.931,
+     "pv": -0.35
+    },
+    {
+     "t": 4,
+     "kind": "capex",
+     "amount": -0.57,
+     "discountFactor": 0.9091,
+     "pv": -0.52
+    },
+    {
+     "t": 7,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.8464,
+     "pv": 0.19
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.8264,
+     "pv": 0.19
+    },
+    {
+     "t": 9,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.807,
+     "pv": 0.19
+    },
+    {
+     "t": 10,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.788,
+     "pv": 0.18
+    },
+    {
+     "t": 11,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.7694,
+     "pv": 0.18
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.7513,
+     "pv": 0.17
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.7336,
+     "pv": 0.17
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.7164,
+     "pv": 0.16
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.6995,
+     "pv": 0.16
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 0.23,
+     "discountFactor": 0.683,
+     "pv": 0.16
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0010"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1049-T2",
+  "gapId": "GAP-1049",
+  "tier": 2,
+  "tierName": "Re-routing",
+  "kind": "non-capital",
+  "title": "Divert GC-27 LP gas → BS-171 LP suction",
+  "capacityGain": 0.5,
+  "relievedAtPeak": 0.5,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0005",
+  "costNote": null,
+  "scheduleMonths": 4,
+  "onStream": "2028-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.18,
+   "capexPhases": [
+    0.18
+   ],
+   "onStreamT": 8,
+   "protectedOil": 0.82,
+   "protectedQuarters": 9,
+   "revenuePerQuarterKDm": 1.12,
+   "pvProtectedKDm": 7.57,
+   "pvCapexKDm": 0.18,
+   "npvKDm": 7.39,
+   "paybackQuarters": 8.2,
+   "costPerBblKD": 0.27,
+   "doNothingKDm": -7.57,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.18,
+     "discountFactor": 1,
+     "pv": -0.18
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.8264,
+     "pv": 0.93
+    },
+    {
+     "t": 9,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.807,
+     "pv": 0.9
+    },
+    {
+     "t": 10,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.788,
+     "pv": 0.88
+    },
+    {
+     "t": 11,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.7694,
+     "pv": 0.86
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.7513,
+     "pv": 0.84
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.7336,
+     "pv": 0.82
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.7164,
+     "pv": 0.8
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.6995,
+     "pv": 0.78
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.12,
+     "discountFactor": 0.683,
+     "pv": 0.76
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R12",
+  "registerRefs": [
+   "ROUTE-0037",
+   "COST-0005"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1049-T3",
+  "gapId": "GAP-1049",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Booster Compressor margin",
+  "capacityGain": 1,
+  "relievedAtPeak": 1,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2028-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 8,
+   "protectedOil": 1.63,
+   "protectedQuarters": 9,
+   "revenuePerQuarterKDm": 2.22,
+   "pvProtectedKDm": 15.04,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 15,
+   "paybackQuarters": 8,
+   "costPerBblKD": 0.03,
+   "doNothingKDm": -15.04,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.8264,
+     "pv": 1.83
+    },
+    {
+     "t": 9,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.807,
+     "pv": 1.79
+    },
+    {
+     "t": 10,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.788,
+     "pv": 1.75
+    },
+    {
+     "t": 11,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.7694,
+     "pv": 1.71
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.7513,
+     "pv": 1.67
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.7336,
+     "pv": 1.63
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.7164,
+     "pv": 1.59
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.6995,
+     "pv": 1.55
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 2.22,
+     "discountFactor": 0.683,
+     "pv": 1.52
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0018",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1049-T4",
+  "gapId": "GAP-1049",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 1.5 MMSCFD compressor re-wheel",
+  "capacityGain": 1.5,
+  "relievedAtPeak": 0.2,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0012",
+  "costNote": null,
+  "scheduleMonths": 9,
+  "onStream": "2028-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Impeller bundle",
+    "months": 6
+   }
+  ],
+  "economics": {
+   "capexKDm": 0.8,
+   "capexPhases": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.32,
+    0.48
+   ],
+   "onStreamT": 8,
+   "protectedOil": 0.33,
+   "protectedQuarters": 9,
+   "revenuePerQuarterKDm": 0.45,
+   "pvProtectedKDm": 3.04,
+   "pvCapexKDm": 0.7,
+   "npvKDm": 2.34,
+   "paybackQuarters": 9.8,
+   "costPerBblKD": 2.96,
+   "doNothingKDm": -3.04,
+   "cashflow": [
+    {
+     "t": 5,
+     "kind": "capex",
+     "amount": -0.32,
+     "discountFactor": 0.8877,
+     "pv": -0.28
+    },
+    {
+     "t": 6,
+     "kind": "capex",
+     "amount": -0.48,
+     "discountFactor": 0.8668,
+     "pv": -0.42
+    },
+    {
+     "t": 8,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.8264,
+     "pv": 0.37
+    },
+    {
+     "t": 9,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.807,
+     "pv": 0.36
+    },
+    {
+     "t": 10,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.788,
+     "pv": 0.35
+    },
+    {
+     "t": 11,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.7694,
+     "pv": 0.35
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.7513,
+     "pv": 0.34
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.7336,
+     "pv": 0.33
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.7164,
+     "pv": 0.32
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.6995,
+     "pv": 0.31
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 0.45,
+     "discountFactor": 0.683,
+     "pv": 0.31
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0012"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1050-T3",
+  "gapId": "GAP-1050",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Booster Compressor margin",
+  "capacityGain": 1,
+  "relievedAtPeak": 0.6,
+  "unit": "MMSCFD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2029-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 12,
+   "protectedOil": 1.22,
+   "protectedQuarters": 5,
+   "revenuePerQuarterKDm": 1.67,
+   "pvProtectedKDm": 5.99,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 5.95,
+   "paybackQuarters": 12,
+   "costPerBblKD": 0.07,
+   "doNothingKDm": -5.99,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 1.67,
+     "discountFactor": 0.7513,
+     "pv": 1.25
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.67,
+     "discountFactor": 0.7336,
+     "pv": 1.23
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.67,
+     "discountFactor": 0.7164,
+     "pv": 1.2
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.67,
+     "discountFactor": 0.6995,
+     "pv": 1.17
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.67,
+     "discountFactor": 0.683,
+     "pv": 1.14
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0008",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1051-T2",
+  "gapId": "GAP-1051",
+  "tier": 2,
+  "tierName": "Re-routing",
+  "kind": "non-capital",
+  "title": "Divert MF-268 → GC-21",
+  "capacityGain": 2,
+  "relievedAtPeak": 2,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0003",
+  "costNote": null,
+  "scheduleMonths": 3,
+  "onStream": "2029-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.12,
+   "capexPhases": [
+    0.12
+   ],
+   "onStreamT": 12,
+   "protectedOil": 1.08,
+   "protectedQuarters": 5,
+   "revenuePerQuarterKDm": 1.47,
+   "pvProtectedKDm": 5.26,
+   "pvCapexKDm": 0.12,
+   "npvKDm": 5.14,
+   "paybackQuarters": 12.1,
+   "costPerBblKD": 0.24,
+   "doNothingKDm": -5.26,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.12,
+     "discountFactor": 1,
+     "pv": -0.12
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 1.47,
+     "discountFactor": 0.7513,
+     "pv": 1.1
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.47,
+     "discountFactor": 0.7336,
+     "pv": 1.08
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.47,
+     "discountFactor": 0.7164,
+     "pv": 1.05
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.47,
+     "discountFactor": 0.6995,
+     "pv": 1.03
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.47,
+     "discountFactor": 0.683,
+     "pv": 1
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R12",
+  "registerRefs": [
+   "ROUTE-0028",
+   "ROUTE-0031",
+   "COST-0003"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1051-T3",
+  "gapId": "GAP-1051",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Desalter margin",
+  "capacityGain": 1,
+  "relievedAtPeak": 1,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2029-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 12,
+   "protectedOil": 0.54,
+   "protectedQuarters": 5,
+   "revenuePerQuarterKDm": 0.74,
+   "pvProtectedKDm": 2.66,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 2.62,
+   "paybackQuarters": 12.1,
+   "costPerBblKD": 0.16,
+   "doNothingKDm": -2.66,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 0.74,
+     "discountFactor": 0.7513,
+     "pv": 0.56
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 0.74,
+     "discountFactor": 0.7336,
+     "pv": 0.54
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 0.74,
+     "discountFactor": 0.7164,
+     "pv": 0.53
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 0.74,
+     "discountFactor": 0.6995,
+     "pv": 0.52
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 0.74,
+     "discountFactor": 0.683,
+     "pv": 0.51
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0016",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1051-T4",
+  "gapId": "GAP-1051",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 6.0 MBFPD desalter module",
+  "capacityGain": 6,
+  "relievedAtPeak": 1.6,
+  "unit": "MBFPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0009",
+  "costNote": null,
+  "scheduleMonths": 15,
+  "onStream": "2029-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Desalter vessel and transformer",
+    "months": 10
+   }
+  ],
+  "economics": {
+   "capexKDm": 2.1,
+   "capexPhases": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.84,
+    1.26
+   ],
+   "onStreamT": 12,
+   "protectedOil": 0.86,
+   "protectedQuarters": 5,
+   "revenuePerQuarterKDm": 1.17,
+   "pvProtectedKDm": 4.2,
+   "pvCapexKDm": 1.75,
+   "npvKDm": 2.45,
+   "paybackQuarters": 13.8,
+   "costPerBblKD": 5.37,
+   "doNothingKDm": -4.2,
+   "cashflow": [
+    {
+     "t": 7,
+     "kind": "capex",
+     "amount": -0.84,
+     "discountFactor": 0.8464,
+     "pv": -0.71
+    },
+    {
+     "t": 8,
+     "kind": "capex",
+     "amount": -1.26,
+     "discountFactor": 0.8264,
+     "pv": -1.04
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 1.17,
+     "discountFactor": 0.7513,
+     "pv": 0.88
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.17,
+     "discountFactor": 0.7336,
+     "pv": 0.86
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.17,
+     "discountFactor": 0.7164,
+     "pv": 0.84
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.17,
+     "discountFactor": 0.6995,
+     "pv": 0.82
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.17,
+     "discountFactor": 0.683,
+     "pv": 0.8
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0009"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1052-T2",
+  "gapId": "GAP-1052",
+  "tier": 2,
+  "tierName": "Re-routing",
+  "kind": "non-capital",
+  "title": "Divert GC-27 effluent water → Disposal wells DW-11/12",
+  "capacityGain": 5,
+  "relievedAtPeak": 5,
+  "unit": "MBWPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0006",
+  "costNote": null,
+  "scheduleMonths": 3,
+  "onStream": "2029-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.15,
+   "capexPhases": [
+    0.15
+   ],
+   "onStreamT": 12,
+   "protectedOil": 5.88,
+   "protectedQuarters": 5,
+   "revenuePerQuarterKDm": 8.03,
+   "pvProtectedKDm": 28.77,
+   "pvCapexKDm": 0.15,
+   "npvKDm": 28.62,
+   "paybackQuarters": 12,
+   "costPerBblKD": 0.06,
+   "doNothingKDm": -28.77,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.15,
+     "discountFactor": 1,
+     "pv": -0.15
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 8.03,
+     "discountFactor": 0.7513,
+     "pv": 6.03
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 8.03,
+     "discountFactor": 0.7336,
+     "pv": 5.89
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 8.03,
+     "discountFactor": 0.7164,
+     "pv": 5.75
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 8.03,
+     "discountFactor": 0.6995,
+     "pv": 5.62
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 8.03,
+     "discountFactor": 0.683,
+     "pv": 5.48
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R12",
+  "registerRefs": [
+   "ROUTE-0035",
+   "COST-0006"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1052-T3",
+  "gapId": "GAP-1052",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Water KO Drum margin",
+  "capacityGain": 2,
+  "relievedAtPeak": 2,
+  "unit": "MBWPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2029-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 12,
+   "protectedOil": 2.35,
+   "protectedQuarters": 5,
+   "revenuePerQuarterKDm": 3.21,
+   "pvProtectedKDm": 11.5,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 11.46,
+   "paybackQuarters": 12,
+   "costPerBblKD": 0.04,
+   "doNothingKDm": -11.5,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 3.21,
+     "discountFactor": 0.7513,
+     "pv": 2.41
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 3.21,
+     "discountFactor": 0.7336,
+     "pv": 2.35
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 3.21,
+     "discountFactor": 0.7164,
+     "pv": 2.3
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 3.21,
+     "discountFactor": 0.6995,
+     "pv": 2.25
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 3.21,
+     "discountFactor": 0.683,
+     "pv": 2.19
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0019",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1052-T4",
+  "gapId": "GAP-1052",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 5.0 MBWPD hydrocyclone skid",
+  "capacityGain": 5,
+  "relievedAtPeak": 1,
+  "unit": "MBWPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0015",
+  "costNote": null,
+  "scheduleMonths": 8,
+  "onStream": "2029-Q4",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Hydrocyclone liners",
+    "months": 5
+   }
+  ],
+  "economics": {
+   "capexKDm": 0.7,
+   "capexPhases": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.28,
+    0.42
+   ],
+   "onStreamT": 12,
+   "protectedOil": 1.18,
+   "protectedQuarters": 5,
+   "revenuePerQuarterKDm": 1.61,
+   "pvProtectedKDm": 5.77,
+   "pvCapexKDm": 0.56,
+   "npvKDm": 5.21,
+   "paybackQuarters": 12.4,
+   "costPerBblKD": 1.3,
+   "doNothingKDm": -5.77,
+   "cashflow": [
+    {
+     "t": 9,
+     "kind": "capex",
+     "amount": -0.28,
+     "discountFactor": 0.807,
+     "pv": -0.23
+    },
+    {
+     "t": 10,
+     "kind": "capex",
+     "amount": -0.42,
+     "discountFactor": 0.788,
+     "pv": -0.33
+    },
+    {
+     "t": 12,
+     "kind": "protected production",
+     "amount": 1.61,
+     "discountFactor": 0.7513,
+     "pv": 1.21
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.61,
+     "discountFactor": 0.7336,
+     "pv": 1.18
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.61,
+     "discountFactor": 0.7164,
+     "pv": 1.15
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.61,
+     "discountFactor": 0.6995,
+     "pv": 1.13
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.61,
+     "discountFactor": 0.683,
+     "pv": 1.1
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0015"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1053-T2",
+  "gapId": "GAP-1053",
+  "tier": 2,
+  "tierName": "Re-routing",
+  "kind": "non-capital",
+  "title": "Divert GC-18 effluent water → Disposal wells DW-07/08",
+  "capacityGain": 2,
+  "relievedAtPeak": 2,
+  "unit": "MBWPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0006",
+  "costNote": null,
+  "scheduleMonths": 3,
+  "onStream": "2030-Q1",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.15,
+   "capexPhases": [
+    0.15
+   ],
+   "onStreamT": 13,
+   "protectedOil": 1.43,
+   "protectedQuarters": 4,
+   "revenuePerQuarterKDm": 1.95,
+   "pvProtectedKDm": 5.52,
+   "pvCapexKDm": 0.15,
+   "npvKDm": 5.37,
+   "paybackQuarters": 13.1,
+   "costPerBblKD": 0.29,
+   "doNothingKDm": -5.52,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.15,
+     "discountFactor": 1,
+     "pv": -0.15
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.95,
+     "discountFactor": 0.7336,
+     "pv": 1.43
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.95,
+     "discountFactor": 0.7164,
+     "pv": 1.4
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.95,
+     "discountFactor": 0.6995,
+     "pv": 1.36
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.95,
+     "discountFactor": 0.683,
+     "pv": 1.33
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R12",
+  "registerRefs": [
+   "ROUTE-0034",
+   "COST-0006"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1053-T3",
+  "gapId": "GAP-1053",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Water KO Drum margin",
+  "capacityGain": 2,
+  "relievedAtPeak": 2,
+  "unit": "MBWPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2030-Q1",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 13,
+   "protectedOil": 1.43,
+   "protectedQuarters": 4,
+   "revenuePerQuarterKDm": 1.95,
+   "pvProtectedKDm": 5.52,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 5.48,
+   "paybackQuarters": 13,
+   "costPerBblKD": 0.08,
+   "doNothingKDm": -5.52,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.95,
+     "discountFactor": 0.7336,
+     "pv": 1.43
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.95,
+     "discountFactor": 0.7164,
+     "pv": 1.4
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.95,
+     "discountFactor": 0.6995,
+     "pv": 1.36
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.95,
+     "discountFactor": 0.683,
+     "pv": 1.33
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0007",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1053-T4",
+  "gapId": "GAP-1053",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 5.0 MBWPD hydrocyclone skid",
+  "capacityGain": 5,
+  "relievedAtPeak": 1.4,
+  "unit": "MBWPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0015",
+  "costNote": null,
+  "scheduleMonths": 8,
+  "onStream": "2030-Q1",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Hydrocyclone liners",
+    "months": 5
+   }
+  ],
+  "economics": {
+   "capexKDm": 0.7,
+   "capexPhases": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.28,
+    0.42
+   ],
+   "onStreamT": 13,
+   "protectedOil": 1,
+   "protectedQuarters": 4,
+   "revenuePerQuarterKDm": 1.37,
+   "pvProtectedKDm": 3.89,
+   "pvCapexKDm": 0.54,
+   "npvKDm": 3.35,
+   "paybackQuarters": 13.5,
+   "costPerBblKD": 1.92,
+   "doNothingKDm": -3.89,
+   "cashflow": [
+    {
+     "t": 10,
+     "kind": "capex",
+     "amount": -0.28,
+     "discountFactor": 0.788,
+     "pv": -0.22
+    },
+    {
+     "t": 11,
+     "kind": "capex",
+     "amount": -0.42,
+     "discountFactor": 0.7694,
+     "pv": -0.32
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 1.37,
+     "discountFactor": 0.7336,
+     "pv": 1.01
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 1.37,
+     "discountFactor": 0.7164,
+     "pv": 0.98
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 1.37,
+     "discountFactor": 0.6995,
+     "pv": 0.96
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 1.37,
+     "discountFactor": 0.683,
+     "pv": 0.94
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0015"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1054-T3",
+  "gapId": "GAP-1054",
+  "tier": 3,
+  "tierName": "Operating envelope",
+  "kind": "non-capital",
+  "title": "Release Water KO Drum margin",
+  "capacityGain": 8,
+  "relievedAtPeak": 8,
+  "unit": "MBWPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0004",
+  "costNote": null,
+  "scheduleMonths": 2,
+  "onStream": "2030-Q1",
+  "onStreamAfterBreach": false,
+  "longLead": [],
+  "economics": {
+   "capexKDm": 0.04,
+   "capexPhases": [
+    0.04
+   ],
+   "onStreamT": 13,
+   "protectedOil": 10.13,
+   "protectedQuarters": 4,
+   "revenuePerQuarterKDm": 13.83,
+   "pvProtectedKDm": 39.18,
+   "pvCapexKDm": 0.04,
+   "npvKDm": 39.14,
+   "paybackQuarters": 13,
+   "costPerBblKD": 0.01,
+   "doNothingKDm": -39.18,
+   "cashflow": [
+    {
+     "t": 0,
+     "kind": "capex",
+     "amount": -0.04,
+     "discountFactor": 1,
+     "pv": -0.04
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 13.83,
+     "discountFactor": 0.7336,
+     "pv": 10.15
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 13.83,
+     "discountFactor": 0.7164,
+     "pv": 9.91
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 13.83,
+     "discountFactor": 0.6995,
+     "pv": 9.67
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 13.83,
+     "discountFactor": 0.683,
+     "pv": 9.45
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R07",
+  "registerRefs": [
+   "ENV-0022",
+   "COST-0004"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ },
+ {
+  "id": "OPT-1054-T4",
+  "gapId": "GAP-1054",
+  "tier": 4,
+  "tierName": "Debottleneck",
+  "kind": "capital",
+  "title": "1 × 5.0 MBWPD hydrocyclone skid",
+  "capacityGain": 5,
+  "relievedAtPeak": 3.5,
+  "unit": "MBWPD",
+  "costClass": "Class 5",
+  "costRef": "COST-0015",
+  "costNote": null,
+  "scheduleMonths": 8,
+  "onStream": "2030-Q1",
+  "onStreamAfterBreach": false,
+  "longLead": [
+   {
+    "item": "Hydrocyclone liners",
+    "months": 5
+   }
+  ],
+  "economics": {
+   "capexKDm": 0.7,
+   "capexPhases": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.28,
+    0.42
+   ],
+   "onStreamT": 13,
+   "protectedOil": 4.43,
+   "protectedQuarters": 4,
+   "revenuePerQuarterKDm": 6.05,
+   "pvProtectedKDm": 17.13,
+   "pvCapexKDm": 0.54,
+   "npvKDm": 16.59,
+   "paybackQuarters": 13.1,
+   "costPerBblKD": 0.43,
+   "doNothingKDm": -17.13,
+   "cashflow": [
+    {
+     "t": 10,
+     "kind": "capex",
+     "amount": -0.28,
+     "discountFactor": 0.788,
+     "pv": -0.22
+    },
+    {
+     "t": 11,
+     "kind": "capex",
+     "amount": -0.42,
+     "discountFactor": 0.7694,
+     "pv": -0.32
+    },
+    {
+     "t": 13,
+     "kind": "protected production",
+     "amount": 6.05,
+     "discountFactor": 0.7336,
+     "pv": 4.44
+    },
+    {
+     "t": 14,
+     "kind": "protected production",
+     "amount": 6.05,
+     "discountFactor": 0.7164,
+     "pv": 4.33
+    },
+    {
+     "t": 15,
+     "kind": "protected production",
+     "amount": 6.05,
+     "discountFactor": 0.6995,
+     "pv": 4.23
+    },
+    {
+     "t": 16,
+     "kind": "protected production",
+     "amount": 6.05,
+     "discountFactor": 0.683,
+     "pv": 4.13
+    }
+   ]
+  },
+  "economicsNote": "Screening basis: peak residual held flat across the protected quarters",
+  "ruleId": "RULE-R08",
+  "registerRefs": [
+   "COST-0015"
+  ],
+  "origin": "rule",
+  "retainedByDefault": true
+ }
+]

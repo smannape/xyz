@@ -1,0 +1,272 @@
+[
+ {
+  "when": "05 Nov 2026 10:12",
+  "actor": "S. Rahman",
+  "dept": "Reservoir Management",
+  "verb": "drafted",
+  "object": "PLN-0019 — GC-24 separator skid",
+  "kind": "plan",
+  "ref": "PLN-0019"
+ },
+ {
+  "when": "04 Nov 2026 15:40",
+  "actor": "J. Fernandes",
+  "dept": "Operations Technical Services",
+  "verb": "commented on",
+  "object": "PLN-0014 — MOC reference still outstanding",
+  "kind": "plan",
+  "ref": "PLN-0014"
+ },
+ {
+  "when": "02 Nov 2026 09:05",
+  "actor": "ISSPS",
+  "dept": "System",
+  "verb": "flagged",
+  "object": "PLN-0014 and PLN-0015 past target approval date",
+  "kind": "system",
+  "ref": null
+ },
+ {
+  "when": "28 Oct 2026 14:22",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "approved",
+  "object": "PLN-0016 — Facilities Engineering review",
+  "kind": "plan",
+  "ref": "PLN-0016"
+ },
+ {
+  "when": "27 Oct 2026 11:31",
+  "actor": "M. Khalil",
+  "dept": "Economics",
+  "verb": "confirmed",
+  "object": "Class 5 estimate for OPT-1042-T4 within screening tolerance",
+  "kind": "plan",
+  "ref": "PLN-0016"
+ },
+ {
+  "when": "27 Oct 2026 08:50",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "validated",
+  "object": "GAP-1048 — GC-18 export pumps",
+  "kind": "gap",
+  "ref": "GAP-1048"
+ },
+ {
+  "when": "26 Oct 2026 16:04",
+  "actor": "S. Rahman",
+  "dept": "Reservoir Management",
+  "verb": "submitted",
+  "object": "PLN-0017 — GC-18 re-routing",
+  "kind": "plan",
+  "ref": "PLN-0017"
+ },
+ {
+  "when": "23 Oct 2026 13:18",
+  "actor": "M. Khalil",
+  "dept": "Economics",
+  "verb": "approved",
+  "object": "PLN-0012 — final approval",
+  "kind": "plan",
+  "ref": "PLN-0012"
+ },
+ {
+  "when": "22 Oct 2026 10:47",
+  "actor": "S. Rahman",
+  "dept": "Reservoir Management",
+  "verb": "submitted",
+  "object": "PLN-0016 — GBS-02 compressor module",
+  "kind": "plan",
+  "ref": "PLN-0016"
+ },
+ {
+  "when": "22 Oct 2026 09:30",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "approved",
+  "object": "PLN-0015 — Facilities Engineering review",
+  "kind": "plan",
+  "ref": "PLN-0015"
+ },
+ {
+  "when": "21 Oct 2026 15:12",
+  "actor": "J. Fernandes",
+  "dept": "Operations Technical Services",
+  "verb": "approved",
+  "object": "PLN-0012 — Operations review",
+  "kind": "plan",
+  "ref": "PLN-0012"
+ },
+ {
+  "when": "21 Oct 2026 11:02",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "accepted",
+  "object": "GC-21 receiving check for ROUTE-0031 transfer",
+  "kind": "register",
+  "ref": "ROUTE-0031"
+ },
+ {
+  "when": "20 Oct 2026 14:36",
+  "actor": "J. Fernandes",
+  "dept": "Operations Technical Services",
+  "verb": "confirmed",
+  "object": "Routing feasibility, ROUTE-0031",
+  "kind": "register",
+  "ref": "ROUTE-0031"
+ },
+ {
+  "when": "18 Oct 2026 16:20",
+  "actor": "S. Rahman",
+  "dept": "Reservoir Management",
+  "verb": "submitted",
+  "object": "PLN-0014 and PLN-0015 — GC-24 non-capital mitigations",
+  "kind": "plan",
+  "ref": "PLN-0014"
+ },
+ {
+  "when": "18 Oct 2026 10:15",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "validated",
+  "object": "GAP-1041 — GC-24 HP separator train",
+  "kind": "gap",
+  "ref": "GAP-1041"
+ },
+ {
+  "when": "17 Oct 2026 09:48",
+  "actor": "S. Rahman",
+  "dept": "Reservoir Management",
+  "verb": "submitted",
+  "object": "PLN-0012 — GC-24 compressor envelope release",
+  "kind": "plan",
+  "ref": "PLN-0012"
+ },
+ {
+  "when": "16 Oct 2026 09:42",
+  "actor": "S. Rahman",
+  "dept": "Reservoir Management",
+  "verb": "ran",
+  "object": "Analysis ISSPS-2026-0147 — 14 gaps, 31 mitigations",
+  "kind": "analysis",
+  "ref": "ISSPS-2026-0147"
+ },
+ {
+  "when": "16 Oct 2026 09:40",
+  "actor": "ISSPS",
+  "dept": "System",
+  "verb": "locked",
+  "object": "Forecast v4.2 · Capacity v2.8 · Rules v1.14 · Economics v1.3 to ISSPS-2026-0147",
+  "kind": "system",
+  "ref": null
+ },
+ {
+  "when": "12 Oct 2026 13:25",
+  "actor": "J. Fernandes",
+  "dept": "Operations Technical Services",
+  "verb": "proposed",
+  "object": "ENV-0023 — GC-18 desalter margin",
+  "kind": "register",
+  "ref": "ENV-0023"
+ },
+ {
+  "when": "09 Oct 2026 15:54",
+  "actor": "J. Fernandes",
+  "dept": "Operations Technical Services",
+  "verb": "proposed",
+  "object": "DR-0049 — GC-27 export pumps",
+  "kind": "register",
+  "ref": "DR-0049"
+ },
+ {
+  "when": "02 Oct 2026 12:00",
+  "actor": "S. Rahman",
+  "dept": "Reservoir Management",
+  "verb": "published",
+  "object": "Forecast v4.2 — AAP-2027 Baseline",
+  "kind": "vintage",
+  "ref": null
+ },
+ {
+  "when": "21 Sep 2026 10:30",
+  "actor": "J. Fernandes",
+  "dept": "Operations Technical Services",
+  "verb": "versioned",
+  "object": "Rule library v1.14 — RULE-R12 wording clarified",
+  "kind": "rules",
+  "ref": "RULE-R12"
+ },
+ {
+  "when": "09 Sep 2026 14:10",
+  "actor": "M. Khalil",
+  "dept": "Economics",
+  "verb": "approved",
+  "object": "COST-0007 — separator skid 6.0 MBFPD, Class 5",
+  "kind": "register",
+  "ref": "COST-0007"
+ },
+ {
+  "when": "09 Sep 2026 14:02",
+  "actor": "M. Khalil",
+  "dept": "Economics",
+  "verb": "published",
+  "object": "Economics v1.3 — netback and discount rate, KOC-supplied",
+  "kind": "vintage",
+  "ref": null
+ },
+ {
+  "when": "14 Aug 2026 16:45",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "published",
+  "object": "Capacity v2.8",
+  "kind": "vintage",
+  "ref": null
+ },
+ {
+  "when": "14 Aug 2026 11:20",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "approved",
+  "object": "DR-0042 — GC-24 HP separator train, δ 0.845",
+  "kind": "register",
+  "ref": "DR-0042"
+ },
+ {
+  "when": "14 Aug 2026 11:20",
+  "actor": "ISSPS",
+  "dept": "System",
+  "verb": "superseded",
+  "object": "DR-0029 by DR-0042",
+  "kind": "register",
+  "ref": "DR-0029"
+ },
+ {
+  "when": "08 Jul 2026 09:15",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "approved",
+  "object": "DR-0034 and four other de-rating entries",
+  "kind": "register",
+  "ref": "DR-0034"
+ },
+ {
+  "when": "18 Jun 2026 13:40",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "approved",
+  "object": "PRJ-121 — GC-27 desalter revamp",
+  "kind": "register",
+  "ref": "PRJ-121"
+ },
+ {
+  "when": "12 May 2026 10:05",
+  "actor": "A. Al-Mutairi",
+  "dept": "Facilities Engineering",
+  "verb": "approved",
+  "object": "PRJ-118 — GC-24 separator upgrade",
+  "kind": "register",
+  "ref": "PRJ-118"
+ }
+]

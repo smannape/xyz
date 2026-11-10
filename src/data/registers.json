@@ -1,0 +1,4037 @@
+{
+ "derating": [
+  {
+   "id": "DR-0029",
+   "register": "derating",
+   "title": "GC-24 HP Separator Train",
+   "status": "Superseded",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "03 Feb 2025",
+   "submittedDate": null,
+   "vintage": "capacity v2.5",
+   "valueText": "nameplate 220.0 → de-rated 198.0 (× 0.9)",
+   "basis": "Pre-turnaround fouling estimate, 2023 performance test",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "HP Separator Train"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "220.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.9"
+    ],
+    [
+     "De-rated",
+     "198.0 MBFPD"
+    ],
+    [
+     "Superseded by",
+     "DR-0042"
+    ],
+    [
+     "Reason",
+     "Factor revised after 2024 turnaround inspection"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/HP-SEP",
+   "supersededBy": "DR-0042"
+  },
+  {
+   "id": "DR-0030",
+   "register": "derating",
+   "title": "GC-18 HP Separator Train",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "11 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 225.0 → de-rated 216.0 (× 0.96)",
+   "basis": "Fouling allowance, 2024 turnaround inspection",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "HP Separator Train"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "225.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.96"
+    ],
+    [
+     "De-rated",
+     "216.0 MBFPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "216.0 MBFPD"
+    ],
+    [
+     "Configuration",
+     "3 × 112.5 MBFPD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/HP-SEP"
+  },
+  {
+   "id": "DR-0031",
+   "register": "derating",
+   "title": "GC-18 Desalter",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "22 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 210.0 → de-rated 205.8 (× 0.98)",
+   "basis": "Electrostatic grid degradation, 2025 performance test",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Desalter"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "210.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.98"
+    ],
+    [
+     "De-rated",
+     "205.8 MBFPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "206.0 MBFPD"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/DESALT"
+  },
+  {
+   "id": "DR-0032",
+   "register": "derating",
+   "title": "GC-18 Export Pumps",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "06 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 220.0 → de-rated 198.0 (× 0.9)",
+   "basis": "Impeller wear, 2025 pump performance curve re-test",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Export Pumps"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "220.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.9"
+    ],
+    [
+     "De-rated",
+     "198.0 MBFPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "198.0 MBFPD"
+    ],
+    [
+     "Configuration",
+     "5 × 55.0 MBFPD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/EXP-PMP"
+  },
+  {
+   "id": "DR-0033",
+   "register": "derating",
+   "title": "GC-18 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "19 Jun 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 45.0 → de-rated 41.4 (× 0.92)",
+   "basis": "Recycle margin and summer ambient de-rate, 2025 performance run",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Service",
+     "Gas"
+    ],
+    [
+     "Nameplate",
+     "45.0 MMSCFD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.92"
+    ],
+    [
+     "De-rated",
+     "41.4 MMSCFD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "41.5 MMSCFD"
+    ],
+    [
+     "Configuration",
+     "3 × 22.5 MMSCFD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/COMP"
+  },
+  {
+   "id": "DR-0034",
+   "register": "derating",
+   "title": "GC-18 Water KO Drum",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "08 Jul 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 110.0 → de-rated 103.0 (× 0.936)",
+   "basis": "Internals fouling and reduced residence time, 2025 inspection",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Service",
+     "Water"
+    ],
+    [
+     "Nameplate",
+     "110.0 MBWPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.936"
+    ],
+    [
+     "De-rated",
+     "103.0 MBWPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "103.0 MBWPD"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/WKO"
+  },
+  {
+   "id": "DR-0035",
+   "register": "derating",
+   "title": "GC-21 HP Separator Train",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "11 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 190.0 → de-rated 180.5 (× 0.95)",
+   "basis": "Fouling allowance, 2024 turnaround inspection",
+   "fields": [
+    [
+     "Facility",
+     "GC-21"
+    ],
+    [
+     "Component",
+     "HP Separator Train"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "190.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.95"
+    ],
+    [
+     "De-rated",
+     "180.5 MBFPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "180.5 MBFPD"
+    ],
+    [
+     "Configuration",
+     "3 × 95.0 MBFPD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-21",
+   "componentId": "GC-21/HP-SEP"
+  },
+  {
+   "id": "DR-0036",
+   "register": "derating",
+   "title": "GC-21 Desalter",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "22 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 172.0 → de-rated 165.1 (× 0.96)",
+   "basis": "Electrostatic grid degradation, 2025 performance test",
+   "fields": [
+    [
+     "Facility",
+     "GC-21"
+    ],
+    [
+     "Component",
+     "Desalter"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "172.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.96"
+    ],
+    [
+     "De-rated",
+     "165.1 MBFPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "165.0 MBFPD"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-21",
+   "componentId": "GC-21/DESALT"
+  },
+  {
+   "id": "DR-0037",
+   "register": "derating",
+   "title": "GC-21 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "06 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 56.0 → de-rated 53.0 (× 0.946)",
+   "basis": "Recycle margin and summer ambient de-rate, 2025 performance run",
+   "fields": [
+    [
+     "Facility",
+     "GC-21"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Service",
+     "Gas"
+    ],
+    [
+     "Nameplate",
+     "56.0 MMSCFD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.946"
+    ],
+    [
+     "De-rated",
+     "53.0 MMSCFD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "53.0 MMSCFD"
+    ],
+    [
+     "Configuration",
+     "3 × 28.0 MMSCFD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-21",
+   "componentId": "GC-21/COMP"
+  },
+  {
+   "id": "DR-0038",
+   "register": "derating",
+   "title": "GC-24 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "08 Jul 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 80.0 → de-rated 74.0 (× 0.925)",
+   "basis": "Recycle margin and summer ambient de-rate, 2025 performance run",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Service",
+     "Gas"
+    ],
+    [
+     "Nameplate",
+     "80.0 MMSCFD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.925"
+    ],
+    [
+     "De-rated",
+     "74.0 MMSCFD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "74.0 MMSCFD"
+    ],
+    [
+     "Configuration",
+     "3 × 40.0 MMSCFD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/COMP"
+  },
+  {
+   "id": "DR-0039",
+   "register": "derating",
+   "title": "GC-27 HP Separator Train",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "11 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 230.0 → de-rated 218.5 (× 0.95)",
+   "basis": "Fouling allowance, 2024 turnaround inspection",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "HP Separator Train"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "230.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.95"
+    ],
+    [
+     "De-rated",
+     "218.5 MBFPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "218.5 MBFPD"
+    ],
+    [
+     "Configuration",
+     "3 × 115.0 MBFPD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/HP-SEP"
+  },
+  {
+   "id": "DR-0040",
+   "register": "derating",
+   "title": "GC-27 Desalter",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "22 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 200.0 → de-rated 195.0 (× 0.975)",
+   "basis": "Electrostatic grid degradation, 2025 performance test",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Desalter"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "200.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.975"
+    ],
+    [
+     "De-rated",
+     "195.0 MBFPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "195.0 MBFPD"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/DESALT"
+  },
+  {
+   "id": "DR-0041",
+   "register": "derating",
+   "title": "GC-27 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "06 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 78.0 → de-rated 72.0 (× 0.923)",
+   "basis": "Recycle margin and summer ambient de-rate, 2025 performance run",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Service",
+     "Gas"
+    ],
+    [
+     "Nameplate",
+     "78.0 MMSCFD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.923"
+    ],
+    [
+     "De-rated",
+     "72.0 MMSCFD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "72.0 MMSCFD"
+    ],
+    [
+     "Configuration",
+     "3 × 39.0 MMSCFD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/COMP"
+  },
+  {
+   "id": "DR-0042",
+   "register": "derating",
+   "title": "GC-24 HP Separator Train",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "14 Aug 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 220.0 → de-rated 185.9 (× 0.845)",
+   "basis": "Fouling allowance, 2024 turnaround inspection",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "HP Separator Train"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "220.0 MBFPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.845"
+    ],
+    [
+     "De-rated",
+     "185.9 MBFPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "186.0 MBFPD"
+    ],
+    [
+     "Configuration",
+     "3 × 110 MBFPD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "Aug 2027"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/HP-SEP",
+   "supersedes": "DR-0029"
+  },
+  {
+   "id": "DR-0043",
+   "register": "derating",
+   "title": "GC-27 Water KO Drum",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "19 Jun 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 96.0 → de-rated 92.0 (× 0.958)",
+   "basis": "Internals fouling and reduced residence time, 2025 inspection",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Service",
+     "Water"
+    ],
+    [
+     "Nameplate",
+     "96.0 MBWPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.958"
+    ],
+    [
+     "De-rated",
+     "92.0 MBWPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "92.0 MBWPD"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/WKO"
+  },
+  {
+   "id": "DR-0044",
+   "register": "derating",
+   "title": "BS-141 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "08 Jul 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 110.0 → de-rated 104.5 (× 0.95)",
+   "basis": "Recycle margin and summer ambient de-rate, 2025 performance run",
+   "fields": [
+    [
+     "Facility",
+     "BS-141"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Service",
+     "Gas"
+    ],
+    [
+     "Nameplate",
+     "110.0 MMSCFD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.95"
+    ],
+    [
+     "De-rated",
+     "104.5 MMSCFD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "104.5 MMSCFD"
+    ],
+    [
+     "Configuration",
+     "3 × 55.0 MMSCFD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "BS-141",
+   "componentId": "BS-141/COMP"
+  },
+  {
+   "id": "DR-0045",
+   "register": "derating",
+   "title": "BS-171 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "11 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 160.0 → de-rated 144.0 (× 0.9)",
+   "basis": "Recycle margin and summer ambient de-rate, 2025 performance run",
+   "fields": [
+    [
+     "Facility",
+     "BS-171"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Service",
+     "Gas"
+    ],
+    [
+     "Nameplate",
+     "160.0 MMSCFD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.9"
+    ],
+    [
+     "De-rated",
+     "144.0 MMSCFD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "144.0 MMSCFD"
+    ],
+    [
+     "Configuration",
+     "3 × 80.0 MMSCFD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "BS-171",
+   "componentId": "BS-171/COMP"
+  },
+  {
+   "id": "DR-0046",
+   "register": "derating",
+   "title": "WTP-03 Water KO Drum",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "22 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 300.0 → de-rated 270.0 (× 0.9)",
+   "basis": "Internals fouling and reduced residence time, 2025 inspection",
+   "fields": [
+    [
+     "Facility",
+     "WTP-03"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Service",
+     "Water"
+    ],
+    [
+     "Nameplate",
+     "300.0 MBWPD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.9"
+    ],
+    [
+     "De-rated",
+     "270.0 MBWPD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "270.0 MBWPD"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "WTP-03",
+   "componentId": "WTP-03/WKO"
+  },
+  {
+   "id": "DR-0047",
+   "register": "derating",
+   "title": "GBS-02 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "06 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "nameplate 250.0 → de-rated 230.0 (× 0.92)",
+   "basis": "Recycle margin and summer ambient de-rate, 2025 performance run",
+   "fields": [
+    [
+     "Facility",
+     "GBS-02"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Service",
+     "Gas"
+    ],
+    [
+     "Nameplate",
+     "250.0 MMSCFD"
+    ],
+    [
+     "De-rating factor δ",
+     "0.92"
+    ],
+    [
+     "De-rated",
+     "230.0 MMSCFD"
+    ],
+    [
+     "Effective (0.5 resolution)",
+     "230.0 MMSCFD"
+    ],
+    [
+     "Configuration",
+     "4 × 83.5 MMSCFD installed, 1 spare"
+    ],
+    [
+     "Review due",
+     "2027 capacity baseline"
+    ]
+   ],
+   "facilityId": "GBS-02",
+   "componentId": "GBS-02/COMP"
+  },
+  {
+   "id": "DR-0049",
+   "register": "derating",
+   "title": "GC-27 Export Pumps",
+   "status": "Proposed",
+   "approvedBy": null,
+   "dept": "Operations Technical Services",
+   "proposedBy": "J. Fernandes",
+   "approvedDate": null,
+   "submittedDate": "09 Oct 2026",
+   "vintage": "not in capacity v2.8",
+   "valueText": "nameplate 226.0 → de-rated 219.2 (× 0.97)",
+   "basis": "Seal degradation observed on P-2703B, awaiting vibration survey",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Export Pumps"
+    ],
+    [
+     "Service",
+     "Liquid"
+    ],
+    [
+     "Nameplate",
+     "226.0 MBFPD"
+    ],
+    [
+     "Proposed factor δ",
+     "0.97"
+    ],
+    [
+     "Effect if approved",
+     "Not binding; no change to effective capacity"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/EXP-PMP"
+  }
+ ],
+ "routing": [
+  {
+   "id": "ROUTE-0017",
+   "register": "routing",
+   "title": "MF-204 → GC-21",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "18 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-204 → GC-21, MaxDivert 5.0 MBFPD",
+   "basis": "12\" crossover, hydraulic limit at current wellhead pressure",
+   "fields": [
+    [
+     "Source",
+     "MF-204"
+    ],
+    [
+     "Normal destination",
+     "GC-18"
+    ],
+    [
+     "Alternate destination",
+     "GC-21"
+    ],
+    [
+     "MaxDivert",
+     "5.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "MF-204",
+   "normal": "GC-18",
+   "alternate": "GC-21",
+   "maxDivert": 5,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0018",
+   "register": "routing",
+   "title": "MF-207 → GC-21",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "09 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-207 → GC-21, MaxDivert 0.0 MBFPD",
+   "basis": "No physical tie-in; listed for completeness",
+   "fields": [
+    [
+     "Source",
+     "MF-207"
+    ],
+    [
+     "Normal destination",
+     "GC-18"
+    ],
+    [
+     "Alternate destination",
+     "GC-21"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-207",
+   "normal": "GC-18",
+   "alternate": "GC-21",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0019",
+   "register": "routing",
+   "title": "MF-211 → GC-21",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "21 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-211 → GC-21, MaxDivert 4.0 MBFPD",
+   "basis": "10\" jump-over at MF-211 header",
+   "fields": [
+    [
+     "Source",
+     "MF-211"
+    ],
+    [
+     "Normal destination",
+     "GC-18"
+    ],
+    [
+     "Alternate destination",
+     "GC-21"
+    ],
+    [
+     "MaxDivert",
+     "4.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "MF-211",
+   "normal": "GC-18",
+   "alternate": "GC-21",
+   "maxDivert": 4,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0020",
+   "register": "routing",
+   "title": "MF-215 → GC-24",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "02 Jul 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-215 → GC-24, MaxDivert 0.0 MBFPD",
+   "basis": "Tie-in isolated; spool removed 2023",
+   "fields": [
+    [
+     "Source",
+     "MF-215"
+    ],
+    [
+     "Normal destination",
+     "GC-18"
+    ],
+    [
+     "Alternate destination",
+     "GC-24"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-215",
+   "normal": "GC-18",
+   "alternate": "GC-24",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0021",
+   "register": "routing",
+   "title": "MF-221 → GC-18",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "18 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-221 → GC-18, MaxDivert 6.0 MBFPD",
+   "basis": "12\" crossover, reverse flow permitted",
+   "fields": [
+    [
+     "Source",
+     "MF-221"
+    ],
+    [
+     "Normal destination",
+     "GC-21"
+    ],
+    [
+     "Alternate destination",
+     "GC-18"
+    ],
+    [
+     "MaxDivert",
+     "6.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "MF-221",
+   "normal": "GC-21",
+   "alternate": "GC-18",
+   "maxDivert": 6,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0022",
+   "register": "routing",
+   "title": "MF-226 → GC-24",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "09 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-226 → GC-24, MaxDivert 7.5 MBFPD",
+   "basis": "16\" trunkline tie-in at KP 4.2",
+   "fields": [
+    [
+     "Source",
+     "MF-226"
+    ],
+    [
+     "Normal destination",
+     "GC-21"
+    ],
+    [
+     "Alternate destination",
+     "GC-24"
+    ],
+    [
+     "MaxDivert",
+     "7.5 MBFPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "MF-226",
+   "normal": "GC-21",
+   "alternate": "GC-24",
+   "maxDivert": 7.5,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0023",
+   "register": "routing",
+   "title": "MF-229 → GC-24",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "21 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-229 → GC-24, MaxDivert 0.0 MBFPD",
+   "basis": "No physical tie-in",
+   "fields": [
+    [
+     "Source",
+     "MF-229"
+    ],
+    [
+     "Normal destination",
+     "GC-21"
+    ],
+    [
+     "Alternate destination",
+     "GC-24"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-229",
+   "normal": "GC-21",
+   "alternate": "GC-24",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0024",
+   "register": "routing",
+   "title": "MF-233 → GC-27",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "02 Jul 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-233 → GC-27, MaxDivert 3.0 MBFPD",
+   "basis": "8\" test line, limited by erosional velocity",
+   "fields": [
+    [
+     "Source",
+     "MF-233"
+    ],
+    [
+     "Normal destination",
+     "GC-21"
+    ],
+    [
+     "Alternate destination",
+     "GC-27"
+    ],
+    [
+     "MaxDivert",
+     "3.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "MF-233",
+   "normal": "GC-21",
+   "alternate": "GC-27",
+   "maxDivert": 3,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0025",
+   "register": "routing",
+   "title": "MF-244 → GC-27",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "18 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-244 → GC-27, MaxDivert 0.0 MBFPD",
+   "basis": "Tie-in not available until PRJ-111 header extension",
+   "fields": [
+    [
+     "Source",
+     "MF-244"
+    ],
+    [
+     "Normal destination",
+     "GC-24"
+    ],
+    [
+     "Alternate destination",
+     "GC-27"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-244",
+   "normal": "GC-24",
+   "alternate": "GC-27",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0026",
+   "register": "routing",
+   "title": "MF-248 → GC-27",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "09 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-248 → GC-27, MaxDivert 0.0 MBFPD",
+   "basis": "No physical tie-in",
+   "fields": [
+    [
+     "Source",
+     "MF-248"
+    ],
+    [
+     "Normal destination",
+     "GC-24"
+    ],
+    [
+     "Alternate destination",
+     "GC-27"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-248",
+   "normal": "GC-24",
+   "alternate": "GC-27",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0027",
+   "register": "routing",
+   "title": "MF-253 → GC-27",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "21 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-253 → GC-27, MaxDivert 0.0 MBFPD",
+   "basis": "Sour service mismatch with GC-27 inlet metallurgy",
+   "fields": [
+    [
+     "Source",
+     "MF-253"
+    ],
+    [
+     "Normal destination",
+     "GC-24"
+    ],
+    [
+     "Alternate destination",
+     "GC-27"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-253",
+   "normal": "GC-24",
+   "alternate": "GC-27",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0028",
+   "register": "routing",
+   "title": "MF-268 → GC-21",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "02 Jul 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-268 → GC-21, MaxDivert 2.0 MBFPD",
+   "basis": "8\" crossover via MF-233 corridor; shares GC-21 receiving capacity with ROUTE-0031",
+   "fields": [
+    [
+     "Source",
+     "MF-268"
+    ],
+    [
+     "Normal destination",
+     "GC-27"
+    ],
+    [
+     "Alternate destination",
+     "GC-21"
+    ],
+    [
+     "MaxDivert",
+     "2.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "MF-268",
+   "normal": "GC-27",
+   "alternate": "GC-21",
+   "maxDivert": 2,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0029",
+   "register": "routing",
+   "title": "MF-256 → GC-24",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "18 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-256 → GC-24, MaxDivert 0.0 MBFPD",
+   "basis": "GC-24 has no receiving headroom within horizon",
+   "fields": [
+    [
+     "Source",
+     "MF-256"
+    ],
+    [
+     "Normal destination",
+     "GC-27"
+    ],
+    [
+     "Alternate destination",
+     "GC-24"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-256",
+   "normal": "GC-27",
+   "alternate": "GC-24",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0030",
+   "register": "routing",
+   "title": "MF-259 → GC-24",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "09 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-259 → GC-24, MaxDivert 0.0 MBFPD",
+   "basis": "No physical tie-in",
+   "fields": [
+    [
+     "Source",
+     "MF-259"
+    ],
+    [
+     "Normal destination",
+     "GC-27"
+    ],
+    [
+     "Alternate destination",
+     "GC-24"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-259",
+   "normal": "GC-27",
+   "alternate": "GC-24",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0031",
+   "register": "routing",
+   "title": "MF-241 → GC-21",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "21 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-241 → GC-21, MaxDivert 9.5 MBFPD",
+   "basis": "16\" crossover at MF-241 header; limit set by line hydraulics at GC-21 inlet pressure",
+   "fields": [
+    [
+     "Source",
+     "MF-241"
+    ],
+    [
+     "Normal destination",
+     "GC-24"
+    ],
+    [
+     "Alternate destination",
+     "GC-21"
+    ],
+    [
+     "MaxDivert",
+     "9.5 MBFPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "MF-241",
+   "normal": "GC-24",
+   "alternate": "GC-21",
+   "maxDivert": 9.5,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0032",
+   "register": "routing",
+   "title": "MF-265 → GC-21",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "02 Jul 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-265 → GC-21, MaxDivert 0.0 MBFPD",
+   "basis": "No physical tie-in",
+   "fields": [
+    [
+     "Source",
+     "MF-265"
+    ],
+    [
+     "Normal destination",
+     "GC-27"
+    ],
+    [
+     "Alternate destination",
+     "GC-21"
+    ],
+    [
+     "MaxDivert",
+     "0.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-265",
+   "normal": "GC-27",
+   "alternate": "GC-21",
+   "maxDivert": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ROUTE-0033",
+   "register": "routing",
+   "title": "BS-171 discharge → BS-141 suction",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "18 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "BS-171 discharge → BS-141 suction, MaxDivert 2.5 MMSCFD",
+   "basis": "10\" gas crossover, BS-171 → BS-141 suction header",
+   "fields": [
+    [
+     "Source",
+     "BS-171 discharge"
+    ],
+    [
+     "Normal destination",
+     "GBS-02"
+    ],
+    [
+     "Alternate destination",
+     "BS-141 suction"
+    ],
+    [
+     "MaxDivert",
+     "2.5 MMSCFD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "BS-171 discharge",
+   "normal": "GBS-02",
+   "alternate": "BS-141 suction",
+   "maxDivert": 2.5,
+   "unit": "MMSCFD"
+  },
+  {
+   "id": "ROUTE-0034",
+   "register": "routing",
+   "title": "GC-18 effluent water → Disposal wells DW-07/08",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "09 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "GC-18 effluent water → Disposal wells DW-07/08, MaxDivert 2.0 MBWPD",
+   "basis": "Injectivity limit of disposal wells, 2025 step-rate test",
+   "fields": [
+    [
+     "Source",
+     "GC-18 effluent water"
+    ],
+    [
+     "Normal destination",
+     "WTP-03"
+    ],
+    [
+     "Alternate destination",
+     "Disposal wells DW-07/08"
+    ],
+    [
+     "MaxDivert",
+     "2.0 MBWPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "GC-18 effluent water",
+   "normal": "WTP-03",
+   "alternate": "Disposal wells DW-07/08",
+   "maxDivert": 2,
+   "unit": "MBWPD"
+  },
+  {
+   "id": "ROUTE-0035",
+   "register": "routing",
+   "title": "GC-27 effluent water → Disposal wells DW-11/12",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "21 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "GC-27 effluent water → Disposal wells DW-11/12, MaxDivert 5.0 MBWPD",
+   "basis": "Injectivity limit of disposal wells, 2025 step-rate test",
+   "fields": [
+    [
+     "Source",
+     "GC-27 effluent water"
+    ],
+    [
+     "Normal destination",
+     "WTP-03"
+    ],
+    [
+     "Alternate destination",
+     "Disposal wells DW-11/12"
+    ],
+    [
+     "MaxDivert",
+     "5.0 MBWPD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "GC-27 effluent water",
+   "normal": "WTP-03",
+   "alternate": "Disposal wells DW-11/12",
+   "maxDivert": 5,
+   "unit": "MBWPD"
+  },
+  {
+   "id": "ROUTE-0037",
+   "register": "routing",
+   "title": "GC-27 LP gas → BS-171 LP suction",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "02 Jul 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "GC-27 LP gas → BS-171 LP suction, MaxDivert 0.5 MMSCFD",
+   "basis": "6\" LP gas bypass to BS-171 suction scrubber",
+   "fields": [
+    [
+     "Source",
+     "GC-27 LP gas"
+    ],
+    [
+     "Normal destination",
+     "GC-27 Booster Compressor"
+    ],
+    [
+     "Alternate destination",
+     "BS-171 LP suction"
+    ],
+    [
+     "MaxDivert",
+     "0.5 MMSCFD"
+    ],
+    [
+     "Feasible",
+     "Yes"
+    ]
+   ],
+   "from": "GC-27 LP gas",
+   "normal": "GC-27 Booster Compressor",
+   "alternate": "BS-171 LP suction",
+   "maxDivert": 0.5,
+   "unit": "MMSCFD"
+  },
+  {
+   "id": "ROUTE-0036",
+   "register": "routing",
+   "title": "MF-262 → GC-27",
+   "status": "Proposed",
+   "approvedBy": null,
+   "dept": "Operations Technical Services",
+   "proposedBy": "J. Fernandes",
+   "approvedDate": null,
+   "submittedDate": "18 Feb 2026",
+   "vintage": "not in capacity v2.8",
+   "valueText": "MF-262 → GC-27, MaxDivert 12.0 MBFPD",
+   "basis": "Requires new 2.1 km 12\" line; proposed, not in capacity v2.8",
+   "fields": [
+    [
+     "Source",
+     "MF-262"
+    ],
+    [
+     "Normal destination",
+     "GC-24"
+    ],
+    [
+     "Alternate destination",
+     "GC-27"
+    ],
+    [
+     "MaxDivert",
+     "12.0 MBFPD"
+    ],
+    [
+     "Feasible",
+     "No"
+    ]
+   ],
+   "from": "MF-262",
+   "normal": "GC-24",
+   "alternate": "GC-27",
+   "maxDivert": 12,
+   "unit": "MBFPD"
+  }
+ ],
+ "envelope": [
+  {
+   "id": "ENV-0006",
+   "register": "envelope",
+   "title": "GC-18 Export Pumps",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "14 Jan 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "3.0 MBFPD releasable at Export Pumps",
+   "basis": "Run spare pump in parallel at reduced NPSH margin, summer excluded",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Export Pumps"
+    ],
+    [
+     "Releasable margin",
+     "3.0 MBFPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/EXP-PMP",
+   "releasable": 3,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ENV-0007",
+   "register": "envelope",
+   "title": "GC-18 Water KO Drum",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "14 Jan 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "2.0 MBWPD releasable at Water KO Drum",
+   "basis": "Operate at 85% of design residence time; oil-in-water limit confirmed",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Releasable margin",
+     "2.0 MBWPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/WKO",
+   "releasable": 2,
+   "unit": "MBWPD"
+  },
+  {
+   "id": "ENV-0008",
+   "register": "envelope",
+   "title": "GC-18 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "02 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "1.0 MMSCFD releasable at Booster Compressor",
+   "basis": "Suction pressure raised 0.3 bar within driver power limit",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Releasable margin",
+     "1.0 MMSCFD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/COMP",
+   "releasable": 1,
+   "unit": "MMSCFD"
+  },
+  {
+   "id": "ENV-0009",
+   "register": "envelope",
+   "title": "GC-21 Desalter",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "02 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "4.0 MBFPD releasable at Desalter",
+   "basis": "Wash water ratio reduced within salt spec margin",
+   "fields": [
+    [
+     "Facility",
+     "GC-21"
+    ],
+    [
+     "Component",
+     "Desalter"
+    ],
+    [
+     "Releasable margin",
+     "4.0 MBFPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-21",
+   "componentId": "GC-21/DESALT",
+   "releasable": 4,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ENV-0010",
+   "register": "envelope",
+   "title": "GC-21 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "02 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "0.0 MMSCFD releasable at Booster Compressor",
+   "basis": "No margin available; machine at driver limit",
+   "fields": [
+    [
+     "Facility",
+     "GC-21"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Releasable margin",
+     "0.0 MMSCFD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-21",
+   "componentId": "GC-21/COMP",
+   "releasable": 0,
+   "unit": "MMSCFD"
+  },
+  {
+   "id": "ENV-0011",
+   "register": "envelope",
+   "title": "GC-21 Water KO Drum",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "17 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "3.0 MBWPD releasable at Water KO Drum",
+   "basis": "Operate at 85% of design residence time",
+   "fields": [
+    [
+     "Facility",
+     "GC-21"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Releasable margin",
+     "3.0 MBWPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-21",
+   "componentId": "GC-21/WKO",
+   "releasable": 3,
+   "unit": "MBWPD"
+  },
+  {
+   "id": "ENV-0012",
+   "register": "envelope",
+   "title": "GC-24 Export Pumps",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "17 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "0.0 MBFPD releasable at Export Pumps",
+   "basis": "No margin; pumps at motor rated current",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "Export Pumps"
+    ],
+    [
+     "Releasable margin",
+     "0.0 MBFPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/EXP-PMP",
+   "releasable": 0,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ENV-0013",
+   "register": "envelope",
+   "title": "GC-24 Degasser",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "03 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "6.0 MBFPD releasable at Degasser",
+   "basis": "Released design margin on liquid residence time",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "Degasser"
+    ],
+    [
+     "Releasable margin",
+     "6.0 MBFPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/DEGAS",
+   "releasable": 6,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ENV-0014",
+   "register": "envelope",
+   "title": "GC-24 HP Separator Train",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "03 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "5.0 MBFPD releasable at HP Separator Train",
+   "basis": "Released design margin on HP separator liquid residence time; carry-over limit verified against 2024 inspection",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "HP Separator Train"
+    ],
+    [
+     "Releasable margin",
+     "5.0 MBFPD"
+    ],
+    [
+     "Reservation",
+     "2.0 MBFPD reserved for GC-24 gas service"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/HP-SEP",
+   "releasable": 5,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ENV-0015",
+   "register": "envelope",
+   "title": "GC-24 Water KO Drum",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "03 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "4.0 MBWPD releasable at Water KO Drum",
+   "basis": "Operate at 85% of design residence time",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Releasable margin",
+     "4.0 MBWPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/WKO",
+   "releasable": 4,
+   "unit": "MBWPD"
+  },
+  {
+   "id": "ENV-0016",
+   "register": "envelope",
+   "title": "GC-27 Desalter",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "24 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "1.0 MBFPD releasable at Desalter",
+   "basis": "Wash water ratio reduced within salt spec margin",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Desalter"
+    ],
+    [
+     "Releasable margin",
+     "1.0 MBFPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/DESALT",
+   "releasable": 1,
+   "unit": "MBFPD"
+  },
+  {
+   "id": "ENV-0017",
+   "register": "envelope",
+   "title": "GC-24 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "24 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "1.0 MMSCFD releasable at Booster Compressor",
+   "basis": "Suction pressure raised 0.3 bar using separator margin reserved under ENV-0014",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Releasable margin",
+     "1.0 MMSCFD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/COMP",
+   "releasable": 1,
+   "unit": "MMSCFD"
+  },
+  {
+   "id": "ENV-0018",
+   "register": "envelope",
+   "title": "GC-27 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "24 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "1.0 MMSCFD releasable at Booster Compressor",
+   "basis": "Suction pressure raised 0.3 bar within driver power limit",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Releasable margin",
+     "1.0 MMSCFD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/COMP",
+   "releasable": 1,
+   "unit": "MMSCFD"
+  },
+  {
+   "id": "ENV-0019",
+   "register": "envelope",
+   "title": "GC-27 Water KO Drum",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "07 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "2.0 MBWPD releasable at Water KO Drum",
+   "basis": "Operate at 85% of design residence time; oil-in-water limit confirmed",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Releasable margin",
+     "2.0 MBWPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/WKO",
+   "releasable": 2,
+   "unit": "MBWPD"
+  },
+  {
+   "id": "ENV-0020",
+   "register": "envelope",
+   "title": "BS-171 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "07 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "2.0 MMSCFD releasable at Booster Compressor",
+   "basis": "Recycle valve margin reduced from 10% to 7% with anti-surge retune",
+   "fields": [
+    [
+     "Facility",
+     "BS-171"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Releasable margin",
+     "2.0 MMSCFD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "BS-171",
+   "componentId": "BS-171/COMP",
+   "releasable": 2,
+   "unit": "MMSCFD"
+  },
+  {
+   "id": "ENV-0021",
+   "register": "envelope",
+   "title": "GBS-02 Booster Compressor",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "21 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "2.5 MMSCFD releasable at Booster Compressor",
+   "basis": "Recycle valve margin reduced with anti-surge retune",
+   "fields": [
+    [
+     "Facility",
+     "GBS-02"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Releasable margin",
+     "2.5 MMSCFD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GBS-02",
+   "componentId": "GBS-02/COMP",
+   "releasable": 2.5,
+   "unit": "MMSCFD"
+  },
+  {
+   "id": "ENV-0022",
+   "register": "envelope",
+   "title": "WTP-03 Water KO Drum",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "21 Apr 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "8.0 MBWPD releasable at Water KO Drum",
+   "basis": "Operate at 90% of design residence time; injection water quality limit confirmed",
+   "fields": [
+    [
+     "Facility",
+     "WTP-03"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Releasable margin",
+     "8.0 MBWPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "WTP-03",
+   "componentId": "WTP-03/WKO",
+   "releasable": 8,
+   "unit": "MBWPD"
+  },
+  {
+   "id": "ENV-0023",
+   "register": "envelope",
+   "title": "GC-18 Desalter",
+   "status": "Proposed",
+   "approvedBy": null,
+   "dept": "Operations Technical Services",
+   "proposedBy": "J. Fernandes",
+   "approvedDate": null,
+   "submittedDate": "12 Oct 2026",
+   "vintage": "not in capacity v2.8",
+   "valueText": "3.0 MBFPD releasable at Desalter",
+   "basis": "Proposed wash water ratio reduction; lab confirmation outstanding",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Desalter"
+    ],
+    [
+     "Releasable margin",
+     "3.0 MBFPD"
+    ],
+    [
+     "Conditions",
+     "Operating procedure revision and operator briefing before use"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/DESALT",
+   "releasable": 3,
+   "unit": "MBFPD"
+  }
+ ],
+ "cost": [
+  {
+   "id": "COST-0003",
+   "register": "cost",
+   "title": "Re-routing enabling works — valve and spool modifications",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 0.12M · 3 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Re-routing enabling works — valve and spool modifications"
+    ],
+    [
+     "Class 5 cost",
+     "KD 0.12M"
+    ],
+    [
+     "Schedule",
+     "3 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": null,
+   "service": "liquid",
+   "size": null,
+   "capexKDm": 0.12,
+   "months": 3,
+   "longLead": null
+  },
+  {
+   "id": "COST-0004",
+   "register": "cost",
+   "title": "Envelope release — procedure revision and instrument re-ranging",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 0.04M · 2 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Envelope release — procedure revision and instrument re-ranging"
+    ],
+    [
+     "Class 5 cost",
+     "KD 0.04M"
+    ],
+    [
+     "Schedule",
+     "2 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": null,
+   "service": null,
+   "size": null,
+   "capexKDm": 0.04,
+   "months": 2,
+   "longLead": null
+  },
+  {
+   "id": "COST-0005",
+   "register": "cost",
+   "title": "Gas crossover enabling works — valve automation",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 0.18M · 4 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Gas crossover enabling works — valve automation"
+    ],
+    [
+     "Class 5 cost",
+     "KD 0.18M"
+    ],
+    [
+     "Schedule",
+     "4 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": null,
+   "service": "gas",
+   "size": null,
+   "capexKDm": 0.18,
+   "months": 4,
+   "longLead": null
+  },
+  {
+   "id": "COST-0006",
+   "register": "cost",
+   "title": "Water diversion enabling works — disposal well hook-up",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 0.15M · 3 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Water diversion enabling works — disposal well hook-up"
+    ],
+    [
+     "Class 5 cost",
+     "KD 0.15M"
+    ],
+    [
+     "Schedule",
+     "3 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": null,
+   "service": "water",
+   "size": null,
+   "capexKDm": 0.15,
+   "months": 3,
+   "longLead": null
+  },
+  {
+   "id": "COST-0007",
+   "register": "cost",
+   "title": "Separator skid, 6.0 MBFPD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 1.85M · 14 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Separator skid, 6.0 MBFPD"
+    ],
+    [
+     "Module size",
+     "6.0 MBFPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 1.85M"
+    ],
+    [
+     "Schedule",
+     "14 months"
+    ],
+    [
+     "Long-lead item",
+     "Separator vessel, 9 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "HP Separator Train",
+   "service": "liquid",
+   "size": 6,
+   "capexKDm": 1.85,
+   "months": 14,
+   "longLead": {
+    "item": "Separator vessel",
+    "months": 9
+   }
+  },
+  {
+   "id": "COST-0008",
+   "register": "cost",
+   "title": "Separator skid, 12.0 MBFPD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 3.20M · 16 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Separator skid, 12.0 MBFPD"
+    ],
+    [
+     "Module size",
+     "12.0 MBFPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 3.20M"
+    ],
+    [
+     "Schedule",
+     "16 months"
+    ],
+    [
+     "Long-lead item",
+     "Separator vessel, 10 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "HP Separator Train",
+   "service": "liquid",
+   "size": 12,
+   "capexKDm": 3.2,
+   "months": 16,
+   "longLead": {
+    "item": "Separator vessel",
+    "months": 10
+   }
+  },
+  {
+   "id": "COST-0009",
+   "register": "cost",
+   "title": "Desalter module, 6.0 MBFPD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 2.10M · 15 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Desalter module, 6.0 MBFPD"
+    ],
+    [
+     "Module size",
+     "6.0 MBFPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 2.10M"
+    ],
+    [
+     "Schedule",
+     "15 months"
+    ],
+    [
+     "Long-lead item",
+     "Desalter vessel and transformer, 10 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Desalter",
+   "service": "liquid",
+   "size": 6,
+   "capexKDm": 2.1,
+   "months": 15,
+   "longLead": {
+    "item": "Desalter vessel and transformer",
+    "months": 10
+   }
+  },
+  {
+   "id": "COST-0010",
+   "register": "cost",
+   "title": "Export pump unit, 5.0 MBFPD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 0.95M · 10 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Export pump unit, 5.0 MBFPD"
+    ],
+    [
+     "Module size",
+     "5.0 MBFPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 0.95M"
+    ],
+    [
+     "Schedule",
+     "10 months"
+    ],
+    [
+     "Long-lead item",
+     "Pump and motor set, 7 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Export Pumps",
+   "service": "liquid",
+   "size": 5,
+   "capexKDm": 0.95,
+   "months": 10,
+   "longLead": {
+    "item": "Pump and motor set",
+    "months": 7
+   }
+  },
+  {
+   "id": "COST-0011",
+   "register": "cost",
+   "title": "Export pump unit, 10.0 MBFPD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 1.70M · 12 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Export pump unit, 10.0 MBFPD"
+    ],
+    [
+     "Module size",
+     "10.0 MBFPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 1.70M"
+    ],
+    [
+     "Schedule",
+     "12 months"
+    ],
+    [
+     "Long-lead item",
+     "Pump and motor set, 8 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Export Pumps",
+   "service": "liquid",
+   "size": 10,
+   "capexKDm": 1.7,
+   "months": 12,
+   "longLead": {
+    "item": "Pump and motor set",
+    "months": 8
+   }
+  },
+  {
+   "id": "COST-0012",
+   "register": "cost",
+   "title": "Compressor re-wheel, +1.5 MMSCFD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 0.80M · 9 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Compressor re-wheel, +1.5 MMSCFD"
+    ],
+    [
+     "Module size",
+     "1.5 MMSCFD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 0.80M"
+    ],
+    [
+     "Schedule",
+     "9 months"
+    ],
+    [
+     "Long-lead item",
+     "Impeller bundle, 6 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Booster Compressor",
+   "service": "gas",
+   "size": 1.5,
+   "capexKDm": 0.8,
+   "months": 9,
+   "longLead": {
+    "item": "Impeller bundle",
+    "months": 6
+   }
+  },
+  {
+   "id": "COST-0013",
+   "register": "cost",
+   "title": "Compressor module, 5.0 MMSCFD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 2.60M · 16 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Compressor module, 5.0 MMSCFD"
+    ],
+    [
+     "Module size",
+     "5.0 MMSCFD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 2.60M"
+    ],
+    [
+     "Schedule",
+     "16 months"
+    ],
+    [
+     "Long-lead item",
+     "Compressor package, 11 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Booster Compressor",
+   "service": "gas",
+   "size": 5,
+   "capexKDm": 2.6,
+   "months": 16,
+   "longLead": {
+    "item": "Compressor package",
+    "months": 11
+   }
+  },
+  {
+   "id": "COST-0014",
+   "register": "cost",
+   "title": "Compressor module, 10.0 MMSCFD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 4.40M · 18 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Compressor module, 10.0 MMSCFD"
+    ],
+    [
+     "Module size",
+     "10.0 MMSCFD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 4.40M"
+    ],
+    [
+     "Schedule",
+     "18 months"
+    ],
+    [
+     "Long-lead item",
+     "Compressor package, 12 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Booster Compressor",
+   "service": "gas",
+   "size": 10,
+   "capexKDm": 4.4,
+   "months": 18,
+   "longLead": {
+    "item": "Compressor package",
+    "months": 12
+   }
+  },
+  {
+   "id": "COST-0015",
+   "register": "cost",
+   "title": "Hydrocyclone skid, 5.0 MBWPD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 0.70M · 8 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Hydrocyclone skid, 5.0 MBWPD"
+    ],
+    [
+     "Module size",
+     "5.0 MBWPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 0.70M"
+    ],
+    [
+     "Schedule",
+     "8 months"
+    ],
+    [
+     "Long-lead item",
+     "Hydrocyclone liners, 5 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Water KO Drum",
+   "service": "water",
+   "size": 5,
+   "capexKDm": 0.7,
+   "months": 8,
+   "longLead": {
+    "item": "Hydrocyclone liners",
+    "months": 5
+   }
+  },
+  {
+   "id": "COST-0016",
+   "register": "cost",
+   "title": "Hydrocyclone skid, 10.0 MBWPD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 1.25M · 10 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Hydrocyclone skid, 10.0 MBWPD"
+    ],
+    [
+     "Module size",
+     "10.0 MBWPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 1.25M"
+    ],
+    [
+     "Schedule",
+     "10 months"
+    ],
+    [
+     "Long-lead item",
+     "Hydrocyclone vessels, 6 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Water KO Drum",
+   "service": "water",
+   "size": 10,
+   "capexKDm": 1.25,
+   "months": 10,
+   "longLead": {
+    "item": "Hydrocyclone vessels",
+    "months": 6
+   }
+  },
+  {
+   "id": "COST-0017",
+   "register": "cost",
+   "title": "Water treatment module, 20.0 MBWPD",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 2.20M · 12 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "Water treatment module, 20.0 MBWPD"
+    ],
+    [
+     "Module size",
+     "20.0 MBWPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 2.20M"
+    ],
+    [
+     "Schedule",
+     "12 months"
+    ],
+    [
+     "Long-lead item",
+     "Flotation unit, 8 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": "Water KO Drum",
+   "service": "water",
+   "size": 20,
+   "capexKDm": 2.2,
+   "months": 12,
+   "longLead": {
+    "item": "Flotation unit",
+    "months": 8
+   }
+  },
+  {
+   "id": "COST-0018",
+   "register": "cost",
+   "title": "New gathering centre train, 60 MBFPD (order of magnitude)",
+   "status": "Approved",
+   "approvedBy": "M. Khalil",
+   "dept": "Economics",
+   "proposedBy": null,
+   "approvedDate": "09 Sep 2026",
+   "submittedDate": null,
+   "vintage": "economics v1.3",
+   "valueText": "Class 5 · KD 12.00M · 36 months",
+   "basis": "Class 5 screening norm, KOC-supplied; accuracy −30% / +50%",
+   "fields": [
+    [
+     "Scope",
+     "New gathering centre train, 60 MBFPD (order of magnitude)"
+    ],
+    [
+     "Module size",
+     "60.0 MBFPD"
+    ],
+    [
+     "Class 5 cost",
+     "KD 12.00M"
+    ],
+    [
+     "Schedule",
+     "36 months"
+    ],
+    [
+     "Long-lead item",
+     "Major vessels and rotating equipment, 18 months"
+    ],
+    [
+     "Source",
+     "KOC-supplied"
+    ]
+   ],
+   "component": null,
+   "service": "liquid",
+   "size": 60,
+   "capexKDm": 12,
+   "months": 36,
+   "longLead": {
+    "item": "Major vessels and rotating equipment",
+    "months": 18
+   }
+  }
+ ],
+ "project": [
+  {
+   "id": "PRJ-101",
+   "register": "project",
+   "title": "GC-18 flare tip replacement",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "04 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q2 2027",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Flare KO"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q2 2027"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/FLARE-KO",
+   "delta": 0,
+   "unit": "MMSCFD",
+   "onStream": "2027-Q2",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-103",
+   "register": "project",
+   "title": "BS-141 anti-surge controls upgrade",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "27 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q3 2027",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "BS-141"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q3 2027"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "BS-141",
+   "componentId": "BS-141/COMP",
+   "delta": 0,
+   "unit": "MMSCFD",
+   "onStream": "2027-Q3",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-106",
+   "register": "project",
+   "title": "GC-21 desalter transformer replacement",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "15 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q4 2027",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "GC-21"
+    ],
+    [
+     "Component",
+     "Desalter"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q4 2027"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "GC-21",
+   "componentId": "GC-21/DESALT",
+   "delta": 0,
+   "unit": "MBFPD",
+   "onStream": "2027-Q4",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-109",
+   "register": "project",
+   "title": "GC-18 produced water handling upgrade",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "18 Jun 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "+12.0 MBWPD at Water KO Drum, on stream Q2 2029",
+   "basis": "Committed and funded in the approved capital programme",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Capacity added",
+     "+12.0 MBWPD"
+    ],
+    [
+     "On stream",
+     "Q2 2029"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ],
+    [
+     "Stage",
+     "Define"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/WKO",
+   "delta": 12,
+   "unit": "MBWPD",
+   "onStream": "2029-Q2",
+   "affectsCapacity": true
+  },
+  {
+   "id": "PRJ-111",
+   "register": "project",
+   "title": "GC-27 inlet manifold header extension",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "30 Jun 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q1 2028",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Inlet Manifold"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q1 2028"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/INLET",
+   "delta": 0,
+   "unit": "MBFPD",
+   "onStream": "2028-Q1",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-113",
+   "register": "project",
+   "title": "WTP-03 treatment train 4",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "18 Jun 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "+36.0 MBWPD at Water KO Drum, on stream Q3 2028",
+   "basis": "Committed and funded in the approved capital programme",
+   "fields": [
+    [
+     "Facility",
+     "WTP-03"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Capacity added",
+     "+36.0 MBWPD"
+    ],
+    [
+     "On stream",
+     "Q3 2028"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ],
+    [
+     "Stage",
+     "Define"
+    ]
+   ],
+   "facilityId": "WTP-03",
+   "componentId": "WTP-03/WKO",
+   "delta": 36,
+   "unit": "MBWPD",
+   "onStream": "2028-Q3",
+   "affectsCapacity": true
+  },
+  {
+   "id": "PRJ-115",
+   "register": "project",
+   "title": "GBS-02 lube oil system upgrade",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "04 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q2 2028",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "GBS-02"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q2 2028"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "GBS-02",
+   "componentId": "GBS-02/COMP",
+   "delta": 0,
+   "unit": "MMSCFD",
+   "onStream": "2028-Q2",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-116",
+   "register": "project",
+   "title": "GC-24 export pump VFD retrofit",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "27 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q2 2028",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "Export Pumps"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q2 2028"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/EXP-PMP",
+   "delta": 0,
+   "unit": "MBFPD",
+   "onStream": "2028-Q2",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-118",
+   "register": "project",
+   "title": "GC-24 separator upgrade",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "12 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "+8.0 MBFPD at HP Separator Train, on stream Q4 2027",
+   "basis": "Committed and funded in the approved capital programme",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "HP Separator Train"
+    ],
+    [
+     "Capacity added",
+     "+8.0 MBFPD"
+    ],
+    [
+     "On stream",
+     "Q4 2027"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ],
+    [
+     "Stage",
+     "Execute — vessel internals on order"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/HP-SEP",
+   "delta": 8,
+   "unit": "MBFPD",
+   "onStream": "2027-Q4",
+   "affectsCapacity": true
+  },
+  {
+   "id": "PRJ-119",
+   "register": "project",
+   "title": "GC-18 degasser internals replacement",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "15 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q3 2028",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "GC-18"
+    ],
+    [
+     "Component",
+     "Degasser"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q3 2028"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "GC-18",
+   "componentId": "GC-18/DEGAS",
+   "delta": 0,
+   "unit": "MBFPD",
+   "onStream": "2028-Q3",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-121",
+   "register": "project",
+   "title": "GC-27 desalter revamp",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "18 Jun 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "+18.0 MBFPD at Desalter, on stream Q3 2029",
+   "basis": "Committed and funded in the approved capital programme",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Desalter"
+    ],
+    [
+     "Capacity added",
+     "+18.0 MBFPD"
+    ],
+    [
+     "On stream",
+     "Q3 2029"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ],
+    [
+     "Stage",
+     "Define"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/DESALT",
+   "delta": 18,
+   "unit": "MBFPD",
+   "onStream": "2029-Q3",
+   "affectsCapacity": true
+  },
+  {
+   "id": "PRJ-122",
+   "register": "project",
+   "title": "BS-171 suction scrubber replacement",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "30 Jun 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q4 2028",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "BS-171"
+    ],
+    [
+     "Component",
+     "Inlet Manifold"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q4 2028"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "BS-171",
+   "componentId": "BS-171/INLET",
+   "delta": 0,
+   "unit": "MMSCFD",
+   "onStream": "2028-Q4",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-124",
+   "register": "project",
+   "title": "MF-262 trunkline to GC-29 early production facility",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "04 Feb 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "MF-262 re-homed from GC-24 to GC-29, on stream Q1 2029",
+   "basis": "Committed; already reflected in forecast v4.2 as a GC-24 load reduction from Q1 2029",
+   "fields": [
+    [
+     "Facility",
+     "GC-24"
+    ],
+    [
+     "Component",
+     "Inlet Manifold"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q1 2029"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "GC-24",
+   "componentId": "GC-24/INLET",
+   "delta": 0,
+   "unit": "MBFPD",
+   "onStream": "2029-Q1",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-126",
+   "register": "project",
+   "title": "WTP-03 injection pump P-0306 addition",
+   "status": "Approved",
+   "approvedBy": "A. Al-Mutairi",
+   "dept": "Facilities Engineering",
+   "proposedBy": null,
+   "approvedDate": "27 Mar 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q3 2029",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "WTP-03"
+    ],
+    [
+     "Component",
+     "Injection Pumps"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q3 2029"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "WTP-03",
+   "componentId": "WTP-03/INJ-PMP",
+   "delta": 0,
+   "unit": "MBWPD",
+   "onStream": "2029-Q3",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-128",
+   "register": "project",
+   "title": "GC-21 LP separator level control upgrade",
+   "status": "Approved",
+   "approvedBy": "J. Fernandes",
+   "dept": "Operations Technical Services",
+   "proposedBy": null,
+   "approvedDate": "15 May 2026",
+   "submittedDate": null,
+   "vintage": "capacity v2.8",
+   "valueText": "No capacity change, on stream Q4 2029",
+   "basis": "Committed; integrity or reliability scope with no capacity effect",
+   "fields": [
+    [
+     "Facility",
+     "GC-21"
+    ],
+    [
+     "Component",
+     "LP Separator Train"
+    ],
+    [
+     "Capacity added",
+     "None"
+    ],
+    [
+     "On stream",
+     "Q4 2029"
+    ],
+    [
+     "Funding",
+     "Committed"
+    ]
+   ],
+   "facilityId": "GC-21",
+   "componentId": "GC-21/LP-SEP",
+   "delta": 0,
+   "unit": "MBFPD",
+   "onStream": "2029-Q4",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-129",
+   "register": "project",
+   "title": "GC-27 produced water KO drum addition",
+   "status": "Proposed",
+   "approvedBy": null,
+   "dept": "Facilities Engineering",
+   "proposedBy": "A. Al-Mutairi",
+   "approvedDate": null,
+   "submittedDate": "30 Jun 2026",
+   "vintage": "not in capacity v2.8",
+   "valueText": "+10.0 MBWPD at Water KO Drum, on stream Q1 2031",
+   "basis": "Pre-sanction; not counted in the capacity basis",
+   "fields": [
+    [
+     "Facility",
+     "GC-27"
+    ],
+    [
+     "Component",
+     "Water KO Drum"
+    ],
+    [
+     "Capacity added",
+     "+10.0 MBWPD"
+    ],
+    [
+     "On stream",
+     "Q1 2031"
+    ],
+    [
+     "Funding",
+     "Not sanctioned"
+    ]
+   ],
+   "facilityId": "GC-27",
+   "componentId": "GC-27/WKO",
+   "delta": 10,
+   "unit": "MBWPD",
+   "onStream": "2031-Q1",
+   "affectsCapacity": false
+  },
+  {
+   "id": "PRJ-131",
+   "register": "project",
+   "title": "GBS-02 fourth compressor train",
+   "status": "Proposed",
+   "approvedBy": null,
+   "dept": "Operations Technical Services",
+   "proposedBy": "J. Fernandes",
+   "approvedDate": null,
+   "submittedDate": "04 Feb 2026",
+   "vintage": "not in capacity v2.8",
+   "valueText": "+40.0 MMSCFD at Booster Compressor, on stream Q2 2031",
+   "basis": "Pre-sanction; not counted in the capacity basis",
+   "fields": [
+    [
+     "Facility",
+     "GBS-02"
+    ],
+    [
+     "Component",
+     "Booster Compressor"
+    ],
+    [
+     "Capacity added",
+     "+40.0 MMSCFD"
+    ],
+    [
+     "On stream",
+     "Q2 2031"
+    ],
+    [
+     "Funding",
+     "Not sanctioned"
+    ]
+   ],
+   "facilityId": "GBS-02",
+   "componentId": "GBS-02/COMP",
+   "delta": 40,
+   "unit": "MMSCFD",
+   "onStream": "2031-Q2",
+   "affectsCapacity": false
+  }
+ ]
+}

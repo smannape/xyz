@@ -1,0 +1,8506 @@
+[
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q1",
+  "forecast": 191.1,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 96.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q2",
+  "forecast": 192.5,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 97.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q3",
+  "forecast": 193.8,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 97.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q4",
+  "forecast": 195,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 98.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q1",
+  "forecast": 196.2,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 99.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q2",
+  "forecast": 197.4,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 99.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q3",
+  "forecast": 198.5,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 100.3,
+  "gap": 0.5,
+  "parOil": 0.2,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q4",
+  "forecast": 199.6,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 100.8,
+  "gap": 1.6,
+  "parOil": 0.7,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q1",
+  "forecast": 200.6,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 101.3,
+  "gap": 2.6,
+  "parOil": 1.2,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q2",
+  "forecast": 201.6,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 101.8,
+  "gap": 3.6,
+  "parOil": 1.6,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q3",
+  "forecast": 202.5,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 102.3,
+  "gap": 4.5,
+  "parOil": 2,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q4",
+  "forecast": 203.4,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 102.7,
+  "gap": 5.4,
+  "parOil": 2.4,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q1",
+  "forecast": 204.2,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 103.1,
+  "gap": 6.2,
+  "parOil": 2.7,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q2",
+  "forecast": 205,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 103.5,
+  "gap": 7,
+  "parOil": 3,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q3",
+  "forecast": 205.7,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 103.9,
+  "gap": 7.7,
+  "parOil": 3.2,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q4",
+  "forecast": 206.4,
+  "ecMin": 198,
+  "bindingComponentId": "GC-18/EXP-PMP",
+  "nextBindingComponentId": "GC-18/DESALT",
+  "nextBindingCapacity": 206,
+  "mitigationCeiling": 8,
+  "utilisationPct": 104.2,
+  "gap": 8.4,
+  "parOil": 3.5,
+  "chain": [
+   {
+    "componentId": "GC-18/INLET",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/HP-SEP",
+    "effective": 216,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/LP-SEP",
+    "effective": 220,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DEGAS",
+    "effective": 215,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/DESALT",
+    "effective": 206,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EXP-PMP",
+    "effective": 198,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q1",
+  "forecast": 39.2,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 94.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q2",
+  "forecast": 39.5,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 95.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q3",
+  "forecast": 39.7,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 95.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q4",
+  "forecast": 40,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 96.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q1",
+  "forecast": 40.2,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 96.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q2",
+  "forecast": 40.4,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 97.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q3",
+  "forecast": 40.6,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 97.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q4",
+  "forecast": 40.8,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 98.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q1",
+  "forecast": 41,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 98.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q2",
+  "forecast": 41.2,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 99.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q3",
+  "forecast": 41.4,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 99.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q4",
+  "forecast": 41.6,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 100.2,
+  "gap": 0.1,
+  "parOil": 0.2,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q1",
+  "forecast": 41.7,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 100.5,
+  "gap": 0.2,
+  "parOil": 0.4,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q2",
+  "forecast": 41.9,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 101,
+  "gap": 0.4,
+  "parOil": 0.8,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q3",
+  "forecast": 42,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 101.2,
+  "gap": 0.5,
+  "parOil": 1,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q4",
+  "forecast": 42.1,
+  "ecMin": 41.5,
+  "bindingComponentId": "GC-18/COMP",
+  "nextBindingComponentId": "GC-18/FLARE-KO",
+  "nextBindingCapacity": 50,
+  "mitigationCeiling": 8.5,
+  "utilisationPct": 101.4,
+  "gap": 0.6,
+  "parOil": 1.2,
+  "chain": [
+   {
+    "componentId": "GC-18/COMP",
+    "effective": 41.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/FLARE-KO",
+    "effective": 50,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q1",
+  "forecast": 93.1,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 90.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q2",
+  "forecast": 95.3,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 92.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q3",
+  "forecast": 97.4,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 94.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q4",
+  "forecast": 99.4,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 96.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q1",
+  "forecast": 101.4,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 98.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q2",
+  "forecast": 103.4,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 100.4,
+  "gap": 0.4,
+  "parOil": 0.4,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q3",
+  "forecast": 105.3,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 102.2,
+  "gap": 2.3,
+  "parOil": 2,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q4",
+  "forecast": 107.2,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 104.1,
+  "gap": 4.2,
+  "parOil": 3.6,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q1",
+  "forecast": 109,
+  "ecMin": 103,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 22,
+  "utilisationPct": 105.8,
+  "gap": 6,
+  "parOil": 5,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 103,
+    "projects": []
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q2",
+  "forecast": 110.8,
+  "ecMin": 115,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 10,
+  "utilisationPct": 96.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 115,
+    "projects": [
+     "PRJ-109"
+    ]
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q3",
+  "forecast": 112.5,
+  "ecMin": 115,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 10,
+  "utilisationPct": 97.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 115,
+    "projects": [
+     "PRJ-109"
+    ]
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q4",
+  "forecast": 114.2,
+  "ecMin": 115,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 10,
+  "utilisationPct": 99.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 115,
+    "projects": [
+     "PRJ-109"
+    ]
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q1",
+  "forecast": 115.8,
+  "ecMin": 115,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 10,
+  "utilisationPct": 100.7,
+  "gap": 0.8,
+  "parOil": 0.6,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 115,
+    "projects": [
+     "PRJ-109"
+    ]
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q2",
+  "forecast": 117.4,
+  "ecMin": 115,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 10,
+  "utilisationPct": 102.1,
+  "gap": 2.4,
+  "parOil": 1.8,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 115,
+    "projects": [
+     "PRJ-109"
+    ]
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q3",
+  "forecast": 118.9,
+  "ecMin": 115,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 10,
+  "utilisationPct": 103.4,
+  "gap": 3.9,
+  "parOil": 2.8,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 115,
+    "projects": [
+     "PRJ-109"
+    ]
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-18",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q4",
+  "forecast": 120.4,
+  "ecMin": 115,
+  "bindingComponentId": "GC-18/WKO",
+  "nextBindingComponentId": "GC-18/EFF-PMP",
+  "nextBindingCapacity": 125,
+  "mitigationCeiling": 10,
+  "utilisationPct": 104.7,
+  "gap": 5.4,
+  "parOil": 3.9,
+  "chain": [
+   {
+    "componentId": "GC-18/WKO",
+    "effective": 115,
+    "projects": [
+     "PRJ-109"
+    ]
+   },
+   {
+    "componentId": "GC-18/EFF-PMP",
+    "effective": 125,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q1",
+  "forecast": 121.1,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 73.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q2",
+  "forecast": 122,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 73.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q3",
+  "forecast": 121.8,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 73.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q4",
+  "forecast": 121.4,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 73.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q1",
+  "forecast": 121,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 73.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q2",
+  "forecast": 120.6,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 73.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q3",
+  "forecast": 120.3,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 72.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q4",
+  "forecast": 119.9,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 72.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q1",
+  "forecast": 119.5,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 72.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q2",
+  "forecast": 119.1,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 72.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q3",
+  "forecast": 118.7,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 71.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q4",
+  "forecast": 118.3,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 71.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q1",
+  "forecast": 117.9,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 71.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q2",
+  "forecast": 117.5,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 71.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q3",
+  "forecast": 117.1,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 71,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q4",
+  "forecast": 116.6,
+  "ecMin": 165,
+  "bindingComponentId": "GC-21/DESALT",
+  "nextBindingComponentId": "GC-21/EXP-PMP",
+  "nextBindingCapacity": 175,
+  "mitigationCeiling": 10,
+  "utilisationPct": 70.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/INLET",
+    "effective": 200,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/HP-SEP",
+    "effective": 180.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/LP-SEP",
+    "effective": 185,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DEGAS",
+    "effective": 180,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/DESALT",
+    "effective": 165,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EXP-PMP",
+    "effective": 175,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q1",
+  "forecast": 48.7,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 91.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q2",
+  "forecast": 49,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 92.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q3",
+  "forecast": 48.9,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 92.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q4",
+  "forecast": 48.8,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 92.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q1",
+  "forecast": 48.6,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 91.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q2",
+  "forecast": 48.4,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 91.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q3",
+  "forecast": 48.3,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 91.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q4",
+  "forecast": 48.1,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 90.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q1",
+  "forecast": 47.9,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 90.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q2",
+  "forecast": 47.8,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 90.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q3",
+  "forecast": 47.6,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 89.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q4",
+  "forecast": 47.4,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 89.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q1",
+  "forecast": 47.3,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 89.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q2",
+  "forecast": 47.1,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 88.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q3",
+  "forecast": 46.9,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 88.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q4",
+  "forecast": 46.7,
+  "ecMin": 53,
+  "bindingComponentId": "GC-21/COMP",
+  "nextBindingComponentId": "GC-21/FLARE-KO",
+  "nextBindingCapacity": 60,
+  "mitigationCeiling": 7,
+  "utilisationPct": 88.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/COMP",
+    "effective": 53,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/FLARE-KO",
+    "effective": 60,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q1",
+  "forecast": 35.5,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 59.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q2",
+  "forecast": 36,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 60,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q3",
+  "forecast": 36.2,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 60.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q4",
+  "forecast": 36.3,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 60.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q1",
+  "forecast": 36.4,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 60.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q2",
+  "forecast": 36.5,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 60.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q3",
+  "forecast": 36.7,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 61.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q4",
+  "forecast": 36.8,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 61.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q1",
+  "forecast": 36.9,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 61.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q2",
+  "forecast": 37,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 61.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q3",
+  "forecast": 37.1,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 61.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q4",
+  "forecast": 37.2,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 62,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q1",
+  "forecast": 37.3,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 62.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q2",
+  "forecast": 37.4,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 62.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q3",
+  "forecast": 37.5,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 62.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-21",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q4",
+  "forecast": 37.5,
+  "ecMin": 60,
+  "bindingComponentId": "GC-21/WKO",
+  "nextBindingComponentId": "GC-21/EFF-PMP",
+  "nextBindingCapacity": 70,
+  "mitigationCeiling": 10,
+  "utilisationPct": 62.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-21/WKO",
+    "effective": 60,
+    "projects": []
+   },
+   {
+    "componentId": "GC-21/EFF-PMP",
+    "effective": 70,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q1",
+  "forecast": 184.2,
+  "ecMin": 186,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 44,
+  "utilisationPct": 99,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 186,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q2",
+  "forecast": 210.8,
+  "ecMin": 186,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 44,
+  "utilisationPct": 113.3,
+  "gap": 24.8,
+  "parOil": 17.5,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 186,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q3",
+  "forecast": 210.5,
+  "ecMin": 186,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 44,
+  "utilisationPct": 113.2,
+  "gap": 24.5,
+  "parOil": 17.3,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 186,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q4",
+  "forecast": 210.7,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 108.6,
+  "gap": 16.7,
+  "parOil": 11.8,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q1",
+  "forecast": 210.8,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 108.7,
+  "gap": 16.8,
+  "parOil": 11.8,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q2",
+  "forecast": 210.6,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 108.6,
+  "gap": 16.6,
+  "parOil": 11.7,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q3",
+  "forecast": 210.4,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 108.5,
+  "gap": 16.4,
+  "parOil": 11.5,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q4",
+  "forecast": 210.1,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 108.3,
+  "gap": 16.1,
+  "parOil": 11.3,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q1",
+  "forecast": 189,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 97.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q2",
+  "forecast": 187.5,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 96.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q3",
+  "forecast": 186.2,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 96,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q4",
+  "forecast": 184.6,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 95.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q1",
+  "forecast": 183,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 94.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q2",
+  "forecast": 181.5,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 93.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q3",
+  "forecast": 180.1,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 92.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q4",
+  "forecast": 178.8,
+  "ecMin": 194,
+  "bindingComponentId": "GC-24/HP-SEP",
+  "nextBindingComponentId": "GC-24/EXP-PMP",
+  "nextBindingCapacity": 230,
+  "mitigationCeiling": 36,
+  "utilisationPct": 92.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/HP-SEP",
+    "effective": 194,
+    "projects": [
+     "PRJ-118"
+    ]
+   },
+   {
+    "componentId": "GC-24/DEGAS",
+    "effective": 240,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/DESALT",
+    "effective": 265,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EXP-PMP",
+    "effective": 230,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q1",
+  "forecast": 62,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 83.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q2",
+  "forecast": 71.3,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 96.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q3",
+  "forecast": 71.7,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 96.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q4",
+  "forecast": 72.4,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 97.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q1",
+  "forecast": 73.2,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 98.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q2",
+  "forecast": 73.9,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 99.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q3",
+  "forecast": 74.5,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 100.7,
+  "gap": 0.5,
+  "parOil": 1,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q4",
+  "forecast": 75.2,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 101.6,
+  "gap": 1.2,
+  "parOil": 2.4,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q1",
+  "forecast": 67.7,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 91.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q2",
+  "forecast": 67.2,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 90.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q3",
+  "forecast": 66.8,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 90.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q4",
+  "forecast": 66.2,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 89.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q1",
+  "forecast": 65.7,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 88.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q2",
+  "forecast": 65.2,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 88.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q3",
+  "forecast": 64.8,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 87.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q4",
+  "forecast": 64.4,
+  "ecMin": 74,
+  "bindingComponentId": "GC-24/COMP",
+  "nextBindingComponentId": "GC-24/FLARE-KO",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 11,
+  "utilisationPct": 87,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/COMP",
+    "effective": 74,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/FLARE-KO",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q1",
+  "forecast": 54.5,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 68.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q2",
+  "forecast": 62.3,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 77.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q3",
+  "forecast": 62.3,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 77.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q4",
+  "forecast": 62.3,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 77.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q1",
+  "forecast": 62.3,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 77.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q2",
+  "forecast": 62.3,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 77.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q3",
+  "forecast": 62.2,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 77.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q4",
+  "forecast": 62.1,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 77.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q1",
+  "forecast": 56.8,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 71,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q2",
+  "forecast": 57.3,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 71.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q3",
+  "forecast": 57.8,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 72.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q4",
+  "forecast": 58.2,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 72.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q1",
+  "forecast": 58.5,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 73.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q2",
+  "forecast": 58.9,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 73.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q3",
+  "forecast": 59.2,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 74,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-24",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q4",
+  "forecast": 59.6,
+  "ecMin": 80,
+  "bindingComponentId": "GC-24/WKO",
+  "nextBindingComponentId": "GC-24/EFF-PMP",
+  "nextBindingCapacity": 85,
+  "mitigationCeiling": 5,
+  "utilisationPct": 74.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-24/WKO",
+    "effective": 80,
+    "projects": []
+   },
+   {
+    "componentId": "GC-24/EFF-PMP",
+    "effective": 85,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q1",
+  "forecast": 173.6,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 89,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q2",
+  "forecast": 178.2,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 91.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q3",
+  "forecast": 182.9,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 93.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2027-Q4",
+  "forecast": 187.4,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 96.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q1",
+  "forecast": 191.7,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 98.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q2",
+  "forecast": 195.7,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 100.4,
+  "gap": 0.7,
+  "parOil": 0.4,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q3",
+  "forecast": 199.4,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 102.3,
+  "gap": 4.4,
+  "parOil": 2.6,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2028-Q4",
+  "forecast": 202.8,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 104,
+  "gap": 7.8,
+  "parOil": 4.6,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q1",
+  "forecast": 205.9,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 105.6,
+  "gap": 10.9,
+  "parOil": 6.4,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q2",
+  "forecast": 208.6,
+  "ecMin": 195,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 23.5,
+  "utilisationPct": 107,
+  "gap": 13.6,
+  "parOil": 7.9,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 195,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q3",
+  "forecast": 211,
+  "ecMin": 213,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 5.5,
+  "utilisationPct": 99.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 213,
+    "projects": [
+     "PRJ-121"
+    ]
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2029-Q4",
+  "forecast": 213.1,
+  "ecMin": 213,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 5.5,
+  "utilisationPct": 100,
+  "gap": 0.1,
+  "parOil": 0.1,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 213,
+    "projects": [
+     "PRJ-121"
+    ]
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q1",
+  "forecast": 214.8,
+  "ecMin": 213,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 5.5,
+  "utilisationPct": 100.8,
+  "gap": 1.8,
+  "parOil": 1,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 213,
+    "projects": [
+     "PRJ-121"
+    ]
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q2",
+  "forecast": 216.1,
+  "ecMin": 213,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 5.5,
+  "utilisationPct": 101.5,
+  "gap": 3.1,
+  "parOil": 1.7,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 213,
+    "projects": [
+     "PRJ-121"
+    ]
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q3",
+  "forecast": 217,
+  "ecMin": 213,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 5.5,
+  "utilisationPct": 101.9,
+  "gap": 4,
+  "parOil": 2.2,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 213,
+    "projects": [
+     "PRJ-121"
+    ]
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "liquid",
+  "unit": "MBFPD",
+  "period": "2030-Q4",
+  "forecast": 217.6,
+  "ecMin": 213,
+  "bindingComponentId": "GC-27/DESALT",
+  "nextBindingComponentId": "GC-27/HP-SEP",
+  "nextBindingCapacity": 218.5,
+  "mitigationCeiling": 5.5,
+  "utilisationPct": 102.2,
+  "gap": 4.6,
+  "parOil": 2.5,
+  "chain": [
+   {
+    "componentId": "GC-27/INLET",
+    "effective": 250,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/HP-SEP",
+    "effective": 218.5,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/LP-SEP",
+    "effective": 225,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DEGAS",
+    "effective": 222,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/DESALT",
+    "effective": 213,
+    "projects": [
+     "PRJ-121"
+    ]
+   },
+   {
+    "componentId": "GC-27/EXP-PMP",
+    "effective": 226,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q1",
+  "forecast": 66.1,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 91.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q2",
+  "forecast": 67.2,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 93.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q3",
+  "forecast": 68.3,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 94.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q4",
+  "forecast": 69.4,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 96.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q1",
+  "forecast": 70.3,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 97.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q2",
+  "forecast": 71.2,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 98.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q3",
+  "forecast": 71.9,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 99.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q4",
+  "forecast": 72.5,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 100.7,
+  "gap": 0.5,
+  "parOil": 0.8,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q1",
+  "forecast": 73,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 101.4,
+  "gap": 1,
+  "parOil": 1.7,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q2",
+  "forecast": 73.3,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 101.8,
+  "gap": 1.3,
+  "parOil": 2.1,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q3",
+  "forecast": 73.6,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 102.2,
+  "gap": 1.6,
+  "parOil": 2.6,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q4",
+  "forecast": 73.7,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 102.4,
+  "gap": 1.7,
+  "parOil": 2.8,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q1",
+  "forecast": 73.7,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 102.4,
+  "gap": 1.7,
+  "parOil": 2.8,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q2",
+  "forecast": 73.6,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 102.2,
+  "gap": 1.6,
+  "parOil": 2.6,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q3",
+  "forecast": 73.3,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 101.8,
+  "gap": 1.3,
+  "parOil": 2.1,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q4",
+  "forecast": 72.9,
+  "ecMin": 72,
+  "bindingComponentId": "GC-27/COMP",
+  "nextBindingComponentId": "GC-27/FLARE-KO",
+  "nextBindingCapacity": 80,
+  "mitigationCeiling": 8,
+  "utilisationPct": 101.3,
+  "gap": 0.9,
+  "parOil": 1.5,
+  "chain": [
+   {
+    "componentId": "GC-27/COMP",
+    "effective": 72,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/FLARE-KO",
+    "effective": 80,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q1",
+  "forecast": 61.6,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 67,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q2",
+  "forecast": 64.7,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 70.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q3",
+  "forecast": 67.9,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 73.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q4",
+  "forecast": 71,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 77.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q1",
+  "forecast": 74.1,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 80.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q2",
+  "forecast": 77.1,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 83.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q3",
+  "forecast": 80,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 87,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q4",
+  "forecast": 82.8,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 90,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q1",
+  "forecast": 85.5,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 92.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q2",
+  "forecast": 88,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 95.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q3",
+  "forecast": 90.4,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 98.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q4",
+  "forecast": 92.7,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 100.8,
+  "gap": 0.7,
+  "parOil": 0.9,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q1",
+  "forecast": 94.8,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 103,
+  "gap": 2.8,
+  "parOil": 3.5,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q2",
+  "forecast": 96.7,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 105.1,
+  "gap": 4.7,
+  "parOil": 5.8,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q3",
+  "forecast": 98.4,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 107,
+  "gap": 6.4,
+  "parOil": 7.7,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GC-27",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q4",
+  "forecast": 100,
+  "ecMin": 92,
+  "bindingComponentId": "GC-27/WKO",
+  "nextBindingComponentId": "GC-27/EFF-PMP",
+  "nextBindingCapacity": 105,
+  "mitigationCeiling": 13,
+  "utilisationPct": 108.7,
+  "gap": 8,
+  "parOil": 9.4,
+  "chain": [
+   {
+    "componentId": "GC-27/WKO",
+    "effective": 92,
+    "projects": []
+   },
+   {
+    "componentId": "GC-27/EFF-PMP",
+    "effective": 105,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q1",
+  "forecast": 87.9,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 84.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q2",
+  "forecast": 88.5,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 84.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q3",
+  "forecast": 88.6,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 84.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q4",
+  "forecast": 88.8,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q1",
+  "forecast": 88.8,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q2",
+  "forecast": 88.8,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q3",
+  "forecast": 88.9,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q4",
+  "forecast": 88.9,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q1",
+  "forecast": 88.9,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q2",
+  "forecast": 89,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q3",
+  "forecast": 89,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q4",
+  "forecast": 89,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q1",
+  "forecast": 89,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q2",
+  "forecast": 89,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q3",
+  "forecast": 88.9,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85.1,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-141",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q4",
+  "forecast": 88.8,
+  "ecMin": 104.5,
+  "bindingComponentId": "BS-141/COMP",
+  "nextBindingComponentId": "BS-141/FLARE-KO",
+  "nextBindingCapacity": 115,
+  "mitigationCeiling": 10.5,
+  "utilisationPct": 85,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-141/INLET",
+    "effective": 120,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/COMP",
+    "effective": 104.5,
+    "projects": []
+   },
+   {
+    "componentId": "BS-141/FLARE-KO",
+    "effective": 115,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q1",
+  "forecast": 128.1,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 89,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q2",
+  "forecast": 138.5,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 96.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q3",
+  "forecast": 140,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 97.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q4",
+  "forecast": 141.8,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 98.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q1",
+  "forecast": 143.5,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 99.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q2",
+  "forecast": 145.1,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 100.8,
+  "gap": 1.1,
+  "parOil": 2,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q3",
+  "forecast": 146.4,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 101.7,
+  "gap": 2.4,
+  "parOil": 4.4,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q4",
+  "forecast": 147.7,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 102.6,
+  "gap": 3.7,
+  "parOil": 6.7,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q1",
+  "forecast": 140.7,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 97.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q2",
+  "forecast": 140.5,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 97.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q3",
+  "forecast": 140.4,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 97.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q4",
+  "forecast": 139.9,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 97.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q1",
+  "forecast": 139.4,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 96.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q2",
+  "forecast": 138.8,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 96.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q3",
+  "forecast": 138.1,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 95.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "BS-171",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q4",
+  "forecast": 137.3,
+  "ecMin": 144,
+  "bindingComponentId": "BS-171/COMP",
+  "nextBindingComponentId": "BS-171/FLARE-KO",
+  "nextBindingCapacity": 165,
+  "mitigationCeiling": 21,
+  "utilisationPct": 95.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "BS-171/INLET",
+    "effective": 170,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/COMP",
+    "effective": 144,
+    "projects": []
+   },
+   {
+    "componentId": "BS-171/FLARE-KO",
+    "effective": 165,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q1",
+  "forecast": 244.7,
+  "ecMin": 270,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 65,
+  "utilisationPct": 90.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 270,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q2",
+  "forecast": 258.3,
+  "ecMin": 270,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 65,
+  "utilisationPct": 95.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 270,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q3",
+  "forecast": 263.8,
+  "ecMin": 270,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 65,
+  "utilisationPct": 97.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 270,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2027-Q4",
+  "forecast": 269,
+  "ecMin": 270,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 65,
+  "utilisationPct": 99.6,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 270,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q1",
+  "forecast": 274.2,
+  "ecMin": 270,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 65,
+  "utilisationPct": 101.6,
+  "gap": 4.2,
+  "parOil": 6.8,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 270,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q2",
+  "forecast": 279.3,
+  "ecMin": 270,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 65,
+  "utilisationPct": 103.4,
+  "gap": 9.3,
+  "parOil": 14.8,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 270,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q3",
+  "forecast": 284.2,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 92.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2028-Q4",
+  "forecast": 288.9,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 94.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q1",
+  "forecast": 288.2,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 94.2,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q2",
+  "forecast": 293.1,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 95.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q3",
+  "forecast": 297.8,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 97.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2029-Q4",
+  "forecast": 302.3,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 98.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q1",
+  "forecast": 306.4,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 100.1,
+  "gap": 0.4,
+  "parOil": 0.5,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q2",
+  "forecast": 310.4,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 101.4,
+  "gap": 4.4,
+  "parOil": 5.8,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q3",
+  "forecast": 314,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 102.6,
+  "gap": 8,
+  "parOil": 10.3,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "WTP-03",
+  "service": "water",
+  "unit": "MBWPD",
+  "period": "2030-Q4",
+  "forecast": 317.5,
+  "ecMin": 306,
+  "bindingComponentId": "WTP-03/WKO",
+  "nextBindingComponentId": "WTP-03/INLET",
+  "nextBindingCapacity": 335,
+  "mitigationCeiling": 29,
+  "utilisationPct": 103.8,
+  "gap": 11.5,
+  "parOil": 14.6,
+  "chain": [
+   {
+    "componentId": "WTP-03/INLET",
+    "effective": 335,
+    "projects": []
+   },
+   {
+    "componentId": "WTP-03/WKO",
+    "effective": 306,
+    "projects": [
+     "PRJ-113"
+    ]
+   },
+   {
+    "componentId": "WTP-03/INJ-PMP",
+    "effective": 340,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q1",
+  "forecast": 216,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 93.9,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q2",
+  "forecast": 227,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 98.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q3",
+  "forecast": 228.6,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 99.4,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2027-Q4",
+  "forecast": 230.6,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 100.3,
+  "gap": 0.6,
+  "parOil": 1.2,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q1",
+  "forecast": 232.3,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 101,
+  "gap": 2.3,
+  "parOil": 4.4,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q2",
+  "forecast": 233.9,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 101.7,
+  "gap": 3.9,
+  "parOil": 7.4,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q3",
+  "forecast": 235.3,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 102.3,
+  "gap": 5.3,
+  "parOil": 10,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2028-Q4",
+  "forecast": 236.6,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 102.9,
+  "gap": 6.6,
+  "parOil": 12.4,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q1",
+  "forecast": 229.6,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 99.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q2",
+  "forecast": 229.5,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 99.8,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q3",
+  "forecast": 229.4,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 99.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2029-Q4",
+  "forecast": 228.9,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 99.5,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q1",
+  "forecast": 228.4,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 99.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q2",
+  "forecast": 227.8,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 99,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q3",
+  "forecast": 227,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 98.7,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ },
+ {
+  "facilityId": "GBS-02",
+  "service": "gas",
+  "unit": "MMSCFD",
+  "period": "2030-Q4",
+  "forecast": 226.1,
+  "ecMin": 230,
+  "bindingComponentId": "GBS-02/COMP",
+  "nextBindingComponentId": "GBS-02/FLARE-KO",
+  "nextBindingCapacity": 255,
+  "mitigationCeiling": 25,
+  "utilisationPct": 98.3,
+  "gap": 0,
+  "parOil": 0,
+  "chain": [
+   {
+    "componentId": "GBS-02/INLET",
+    "effective": 260,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/COMP",
+    "effective": 230,
+    "projects": []
+   },
+   {
+    "componentId": "GBS-02/FLARE-KO",
+    "effective": 255,
+    "projects": []
+   }
+  ]
+ }
+]

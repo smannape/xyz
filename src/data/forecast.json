@@ -1,0 +1,2226 @@
+[
+ {
+  "facilityId": "GC-18",
+  "period": "2027-Q1",
+  "oil": 98,
+  "gas": 39.2,
+  "water": 93.1,
+  "liquid": 191.1,
+  "gor": 400,
+  "wor": 0.95,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 59.2,
+   "MF-207": 45.9,
+   "MF-211": 51.6,
+   "MF-215": 34.4
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2027-Q2",
+  "oil": 97.2,
+  "gas": 39.5,
+  "water": 95.3,
+  "liquid": 192.5,
+  "gor": 406,
+  "wor": 0.98,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 59.9,
+   "MF-207": 46.1,
+   "MF-211": 51.9,
+   "MF-215": 34.6
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2027-Q3",
+  "oil": 96.4,
+  "gas": 39.7,
+  "water": 97.4,
+  "liquid": 193.8,
+  "gor": 412,
+  "wor": 1.01,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 60.5,
+   "MF-207": 46.3,
+   "MF-211": 52.1,
+   "MF-215": 34.9
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2027-Q4",
+  "oil": 95.6,
+  "gas": 40,
+  "water": 99.4,
+  "liquid": 195,
+  "gor": 418,
+  "wor": 1.04,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 61,
+   "MF-207": 46.5,
+   "MF-211": 52.4,
+   "MF-215": 35.1
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2028-Q1",
+  "oil": 94.8,
+  "gas": 40.2,
+  "water": 101.4,
+  "liquid": 196.2,
+  "gor": 424,
+  "wor": 1.07,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 61.6,
+   "MF-207": 46.7,
+   "MF-211": 52.6,
+   "MF-215": 35.3
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2028-Q2",
+  "oil": 94,
+  "gas": 40.4,
+  "water": 103.4,
+  "liquid": 197.4,
+  "gor": 430,
+  "wor": 1.1,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 62.2,
+   "MF-207": 46.9,
+   "MF-211": 52.8,
+   "MF-215": 35.5
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2028-Q3",
+  "oil": 93.2,
+  "gas": 40.6,
+  "water": 105.3,
+  "liquid": 198.5,
+  "gor": 436,
+  "wor": 1.13,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 62.7,
+   "MF-207": 47,
+   "MF-211": 53,
+   "MF-215": 35.8
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2028-Q4",
+  "oil": 92.4,
+  "gas": 40.8,
+  "water": 107.2,
+  "liquid": 199.6,
+  "gor": 442,
+  "wor": 1.16,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 63.3,
+   "MF-207": 47.2,
+   "MF-211": 53.2,
+   "MF-215": 35.9
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2029-Q1",
+  "oil": 91.6,
+  "gas": 41,
+  "water": 109,
+  "liquid": 200.6,
+  "gor": 448,
+  "wor": 1.19,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 63.8,
+   "MF-207": 47.3,
+   "MF-211": 53.4,
+   "MF-215": 36.1
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2029-Q2",
+  "oil": 90.8,
+  "gas": 41.2,
+  "water": 110.8,
+  "liquid": 201.6,
+  "gor": 454,
+  "wor": 1.22,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 64.3,
+   "MF-207": 47.5,
+   "MF-211": 53.5,
+   "MF-215": 36.3
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2029-Q3",
+  "oil": 90,
+  "gas": 41.4,
+  "water": 112.5,
+  "liquid": 202.5,
+  "gor": 460,
+  "wor": 1.25,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 64.8,
+   "MF-207": 47.6,
+   "MF-211": 53.7,
+   "MF-215": 36.4
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2029-Q4",
+  "oil": 89.2,
+  "gas": 41.6,
+  "water": 114.2,
+  "liquid": 203.4,
+  "gor": 466,
+  "wor": 1.28,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 65.3,
+   "MF-207": 47.7,
+   "MF-211": 53.8,
+   "MF-215": 36.6
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2030-Q1",
+  "oil": 88.4,
+  "gas": 41.7,
+  "water": 115.8,
+  "liquid": 204.2,
+  "gor": 472,
+  "wor": 1.31,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 65.8,
+   "MF-207": 47.8,
+   "MF-211": 53.9,
+   "MF-215": 36.7
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2030-Q2",
+  "oil": 87.6,
+  "gas": 41.9,
+  "water": 117.4,
+  "liquid": 205,
+  "gor": 478,
+  "wor": 1.34,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 66.2,
+   "MF-207": 47.9,
+   "MF-211": 54,
+   "MF-215": 36.9
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2030-Q3",
+  "oil": 86.8,
+  "gas": 42,
+  "water": 118.9,
+  "liquid": 205.7,
+  "gor": 484,
+  "wor": 1.37,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 66.6,
+   "MF-207": 47.9,
+   "MF-211": 54.1,
+   "MF-215": 37.1
+  }
+ },
+ {
+  "facilityId": "GC-18",
+  "period": "2030-Q4",
+  "oil": 86,
+  "gas": 42.1,
+  "water": 120.4,
+  "liquid": 206.4,
+  "gor": 490,
+  "wor": 1.4,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-204": 67.1,
+   "MF-207": 48,
+   "MF-211": 54.2,
+   "MF-215": 37.1
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2027-Q1",
+  "oil": 85.6,
+  "gas": 48.7,
+  "water": 35.5,
+  "liquid": 121.1,
+  "gor": 569,
+  "wor": 0.41,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 33.9,
+   "MF-226": 26.6,
+   "MF-229": 31.5,
+   "MF-233": 29.1
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2027-Q2",
+  "oil": 86,
+  "gas": 49,
+  "water": 36,
+  "liquid": 122,
+  "gor": 570,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 34.1,
+   "MF-226": 27,
+   "MF-229": 31.7,
+   "MF-233": 29.2
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2027-Q3",
+  "oil": 85.6,
+  "gas": 48.9,
+  "water": 36.2,
+  "liquid": 121.8,
+  "gor": 572,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 34,
+   "MF-226": 27,
+   "MF-229": 31.5,
+   "MF-233": 29.3
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2027-Q4",
+  "oil": 85.1,
+  "gas": 48.8,
+  "water": 36.3,
+  "liquid": 121.4,
+  "gor": 573,
+  "wor": 0.43,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 33.8,
+   "MF-226": 27.1,
+   "MF-229": 31.4,
+   "MF-233": 29.1
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2028-Q1",
+  "oil": 84.6,
+  "gas": 48.6,
+  "water": 36.4,
+  "liquid": 121,
+  "gor": 575,
+  "wor": 0.43,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 33.6,
+   "MF-226": 27.1,
+   "MF-229": 31.2,
+   "MF-233": 29.1
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2028-Q2",
+  "oil": 84.1,
+  "gas": 48.4,
+  "water": 36.5,
+  "liquid": 120.6,
+  "gor": 576,
+  "wor": 0.43,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 33.5,
+   "MF-226": 27.1,
+   "MF-229": 31.1,
+   "MF-233": 28.9
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2028-Q3",
+  "oil": 83.6,
+  "gas": 48.3,
+  "water": 36.7,
+  "liquid": 120.3,
+  "gor": 578,
+  "wor": 0.44,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 33.3,
+   "MF-226": 27.2,
+   "MF-229": 30.9,
+   "MF-233": 28.9
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2028-Q4",
+  "oil": 83.1,
+  "gas": 48.1,
+  "water": 36.8,
+  "liquid": 119.9,
+  "gor": 579,
+  "wor": 0.44,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 33.2,
+   "MF-226": 27.2,
+   "MF-229": 30.8,
+   "MF-233": 28.7
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2029-Q1",
+  "oil": 82.6,
+  "gas": 47.9,
+  "water": 36.9,
+  "liquid": 119.5,
+  "gor": 581,
+  "wor": 0.45,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 33,
+   "MF-226": 27.2,
+   "MF-229": 30.6,
+   "MF-233": 28.7
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2029-Q2",
+  "oil": 82.1,
+  "gas": 47.8,
+  "water": 37,
+  "liquid": 119.1,
+  "gor": 582,
+  "wor": 0.45,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 32.8,
+   "MF-226": 27.3,
+   "MF-229": 30.4,
+   "MF-233": 28.6
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2029-Q3",
+  "oil": 81.6,
+  "gas": 47.6,
+  "water": 37.1,
+  "liquid": 118.7,
+  "gor": 584,
+  "wor": 0.45,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 32.6,
+   "MF-226": 27.3,
+   "MF-229": 30.3,
+   "MF-233": 28.5
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2029-Q4",
+  "oil": 81.1,
+  "gas": 47.4,
+  "water": 37.2,
+  "liquid": 118.3,
+  "gor": 585,
+  "wor": 0.46,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 32.5,
+   "MF-226": 27.3,
+   "MF-229": 30.1,
+   "MF-233": 28.4
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2030-Q1",
+  "oil": 80.6,
+  "gas": 47.3,
+  "water": 37.3,
+  "liquid": 117.9,
+  "gor": 587,
+  "wor": 0.46,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 32.3,
+   "MF-226": 27.4,
+   "MF-229": 29.9,
+   "MF-233": 28.3
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2030-Q2",
+  "oil": 80.1,
+  "gas": 47.1,
+  "water": 37.4,
+  "liquid": 117.5,
+  "gor": 588,
+  "wor": 0.47,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 32.1,
+   "MF-226": 27.4,
+   "MF-229": 29.8,
+   "MF-233": 28.2
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2030-Q3",
+  "oil": 79.6,
+  "gas": 46.9,
+  "water": 37.5,
+  "liquid": 117.1,
+  "gor": 590,
+  "wor": 0.47,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 32,
+   "MF-226": 27.4,
+   "MF-229": 29.6,
+   "MF-233": 28.1
+  }
+ },
+ {
+  "facilityId": "GC-21",
+  "period": "2030-Q4",
+  "oil": 79.1,
+  "gas": 46.7,
+  "water": 37.5,
+  "liquid": 116.6,
+  "gor": 591,
+  "wor": 0.47,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-221": 31.8,
+   "MF-226": 27.4,
+   "MF-229": 29.4,
+   "MF-233": 28
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2027-Q1",
+  "oil": 129.7,
+  "gas": 62,
+  "water": 54.5,
+  "liquid": 184.2,
+  "gor": 478,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 46,
+   "MF-244": 38.2,
+   "MF-248": 41.5,
+   "MF-262": 21.2,
+   "MF-253": 37.3
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2027-Q2",
+  "oil": 148.5,
+  "gas": 71.3,
+  "water": 62.3,
+  "liquid": 210.8,
+  "gor": 480,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 45.7,
+   "MF-244": 38,
+   "MF-248": 41.3,
+   "MF-262": 21.3,
+   "MF-253": 64.5
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2027-Q3",
+  "oil": 148.2,
+  "gas": 71.7,
+  "water": 62.3,
+  "liquid": 210.5,
+  "gor": 484,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 45.4,
+   "MF-244": 37.7,
+   "MF-248": 41.1,
+   "MF-262": 21.3,
+   "MF-253": 65
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2027-Q4",
+  "oil": 148.4,
+  "gas": 72.4,
+  "water": 62.3,
+  "liquid": 210.7,
+  "gor": 488,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 45.1,
+   "MF-244": 37.5,
+   "MF-248": 40.9,
+   "MF-262": 21.3,
+   "MF-253": 65.9
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2028-Q1",
+  "oil": 148.5,
+  "gas": 73.2,
+  "water": 62.3,
+  "liquid": 210.8,
+  "gor": 493,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 44.8,
+   "MF-244": 37.2,
+   "MF-248": 40.7,
+   "MF-262": 21.4,
+   "MF-253": 66.7
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2028-Q2",
+  "oil": 148.3,
+  "gas": 73.9,
+  "water": 62.3,
+  "liquid": 210.6,
+  "gor": 498,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 44.5,
+   "MF-244": 37,
+   "MF-248": 40.5,
+   "MF-262": 21.5,
+   "MF-253": 67.1
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2028-Q3",
+  "oil": 148.2,
+  "gas": 74.5,
+  "water": 62.2,
+  "liquid": 210.4,
+  "gor": 503,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 44.2,
+   "MF-244": 36.7,
+   "MF-248": 40.3,
+   "MF-262": 21.5,
+   "MF-253": 67.7
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2028-Q4",
+  "oil": 148,
+  "gas": 75.2,
+  "water": 62.1,
+  "liquid": 210.1,
+  "gor": 508,
+  "wor": 0.42,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 43.9,
+   "MF-244": 36.5,
+   "MF-248": 40.1,
+   "MF-262": 21.6,
+   "MF-253": 68
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2029-Q1",
+  "oil": 132.2,
+  "gas": 67.7,
+  "water": 56.8,
+  "liquid": 189,
+  "gor": 512,
+  "wor": 0.43,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 43.6,
+   "MF-244": 36.2,
+   "MF-248": 39.9,
+   "MF-262": 0,
+   "MF-253": 69.3
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2029-Q2",
+  "oil": 130.2,
+  "gas": 67.2,
+  "water": 57.3,
+  "liquid": 187.5,
+  "gor": 516,
+  "wor": 0.44,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 43.3,
+   "MF-244": 36,
+   "MF-248": 39.7,
+   "MF-262": 0,
+   "MF-253": 68.5
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2029-Q3",
+  "oil": 128.4,
+  "gas": 66.8,
+  "water": 57.8,
+  "liquid": 186.2,
+  "gor": 520,
+  "wor": 0.45,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 43,
+   "MF-244": 35.7,
+   "MF-248": 39.5,
+   "MF-262": 0,
+   "MF-253": 68
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2029-Q4",
+  "oil": 126.4,
+  "gas": 66.2,
+  "water": 58.2,
+  "liquid": 184.6,
+  "gor": 524,
+  "wor": 0.46,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 42.7,
+   "MF-244": 35.5,
+   "MF-248": 39.3,
+   "MF-262": 0,
+   "MF-253": 67.1
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2030-Q1",
+  "oil": 124.5,
+  "gas": 65.7,
+  "water": 58.5,
+  "liquid": 183,
+  "gor": 528,
+  "wor": 0.47,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 42.4,
+   "MF-244": 35.2,
+   "MF-248": 39.1,
+   "MF-262": 0,
+   "MF-253": 66.3
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2030-Q2",
+  "oil": 122.6,
+  "gas": 65.2,
+  "water": 58.9,
+  "liquid": 181.5,
+  "gor": 532,
+  "wor": 0.48,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 42.1,
+   "MF-244": 35,
+   "MF-248": 38.9,
+   "MF-262": 0,
+   "MF-253": 65.5
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2030-Q3",
+  "oil": 120.9,
+  "gas": 64.8,
+  "water": 59.2,
+  "liquid": 180.1,
+  "gor": 536,
+  "wor": 0.49,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 41.8,
+   "MF-244": 34.7,
+   "MF-248": 38.7,
+   "MF-262": 0,
+   "MF-253": 64.9
+  }
+ },
+ {
+  "facilityId": "GC-24",
+  "period": "2030-Q4",
+  "oil": 119.2,
+  "gas": 64.4,
+  "water": 59.6,
+  "liquid": 178.8,
+  "gor": 540,
+  "wor": 0.5,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-241": 41.5,
+   "MF-244": 34.5,
+   "MF-248": 38.5,
+   "MF-262": 0,
+   "MF-253": 64.3
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2027-Q1",
+  "oil": 112,
+  "gas": 66.1,
+  "water": 61.6,
+  "liquid": 173.6,
+  "gor": 590,
+  "wor": 0.55,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 52.1,
+   "MF-259": 36.5,
+   "MF-265": 45.1,
+   "MF-268": 39.9
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2027-Q2",
+  "oil": 113.5,
+  "gas": 67.2,
+  "water": 64.7,
+  "liquid": 178.2,
+  "gor": 592,
+  "wor": 0.57,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 53.6,
+   "MF-259": 37.3,
+   "MF-265": 46.2,
+   "MF-268": 41.1
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2027-Q3",
+  "oil": 115,
+  "gas": 68.3,
+  "water": 67.9,
+  "liquid": 182.9,
+  "gor": 594,
+  "wor": 0.59,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 55.2,
+   "MF-259": 38.2,
+   "MF-265": 47.4,
+   "MF-268": 42.1
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2027-Q4",
+  "oil": 116.4,
+  "gas": 69.4,
+  "water": 71,
+  "liquid": 187.4,
+  "gor": 596,
+  "wor": 0.61,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 56.8,
+   "MF-259": 39.1,
+   "MF-265": 48.4,
+   "MF-268": 43.1
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2028-Q1",
+  "oil": 117.6,
+  "gas": 70.3,
+  "water": 74.1,
+  "liquid": 191.7,
+  "gor": 598,
+  "wor": 0.63,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 58.3,
+   "MF-259": 39.9,
+   "MF-265": 49.5,
+   "MF-268": 44
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2028-Q2",
+  "oil": 118.6,
+  "gas": 71.2,
+  "water": 77.1,
+  "liquid": 195.7,
+  "gor": 600,
+  "wor": 0.65,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 59.7,
+   "MF-259": 40.6,
+   "MF-265": 50.4,
+   "MF-268": 45
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2028-Q3",
+  "oil": 119.4,
+  "gas": 71.9,
+  "water": 80,
+  "liquid": 199.4,
+  "gor": 602,
+  "wor": 0.67,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 61,
+   "MF-259": 41.3,
+   "MF-265": 51.2,
+   "MF-268": 45.9
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2028-Q4",
+  "oil": 120,
+  "gas": 72.5,
+  "water": 82.8,
+  "liquid": 202.8,
+  "gor": 604,
+  "wor": 0.69,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 62.3,
+   "MF-259": 41.9,
+   "MF-265": 52,
+   "MF-268": 46.6
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2029-Q1",
+  "oil": 120.4,
+  "gas": 73,
+  "water": 85.5,
+  "liquid": 205.9,
+  "gor": 606,
+  "wor": 0.71,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 63.4,
+   "MF-259": 42.4,
+   "MF-265": 52.7,
+   "MF-268": 47.4
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2029-Q2",
+  "oil": 120.6,
+  "gas": 73.3,
+  "water": 88,
+  "liquid": 208.6,
+  "gor": 608,
+  "wor": 0.73,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 64.5,
+   "MF-259": 42.9,
+   "MF-265": 53.3,
+   "MF-268": 47.9
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2029-Q3",
+  "oil": 120.6,
+  "gas": 73.6,
+  "water": 90.4,
+  "liquid": 211,
+  "gor": 610,
+  "wor": 0.75,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 65.4,
+   "MF-259": 43.3,
+   "MF-265": 53.8,
+   "MF-268": 48.5
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2029-Q4",
+  "oil": 120.4,
+  "gas": 73.7,
+  "water": 92.7,
+  "liquid": 213.1,
+  "gor": 612,
+  "wor": 0.77,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 66.3,
+   "MF-259": 43.6,
+   "MF-265": 54.2,
+   "MF-268": 49
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2030-Q1",
+  "oil": 120,
+  "gas": 73.7,
+  "water": 94.8,
+  "liquid": 214.8,
+  "gor": 614,
+  "wor": 0.79,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 67,
+   "MF-259": 43.8,
+   "MF-265": 54.6,
+   "MF-268": 49.4
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2030-Q2",
+  "oil": 119.4,
+  "gas": 73.6,
+  "water": 96.7,
+  "liquid": 216.1,
+  "gor": 616,
+  "wor": 0.81,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 67.6,
+   "MF-259": 44,
+   "MF-265": 54.8,
+   "MF-268": 49.7
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2030-Q3",
+  "oil": 118.6,
+  "gas": 73.3,
+  "water": 98.4,
+  "liquid": 217,
+  "gor": 618,
+  "wor": 0.83,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 68.1,
+   "MF-259": 44.1,
+   "MF-265": 54.9,
+   "MF-268": 49.9
+  }
+ },
+ {
+  "facilityId": "GC-27",
+  "period": "2030-Q4",
+  "oil": 117.6,
+  "gas": 72.9,
+  "water": 100,
+  "liquid": 217.6,
+  "gor": 620,
+  "wor": 0.85,
+  "upstreamOil": null,
+  "contributorBasis": "liquid",
+  "contributors": {
+   "MF-256": 68.5,
+   "MF-259": 44.1,
+   "MF-265": 54.9,
+   "MF-268": 50.1
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2027-Q1",
+  "oil": null,
+  "gas": 87.9,
+  "water": null,
+  "liquid": null,
+  "gor": 479,
+  "wor": null,
+  "upstreamOil": 183.6,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 39.2,
+   "GC-21": 48.7
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2027-Q2",
+  "oil": null,
+  "gas": 88.5,
+  "water": null,
+  "liquid": null,
+  "gor": 483,
+  "wor": null,
+  "upstreamOil": 183.2,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 39.5,
+   "GC-21": 49
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2027-Q3",
+  "oil": null,
+  "gas": 88.6,
+  "water": null,
+  "liquid": null,
+  "gor": 487,
+  "wor": null,
+  "upstreamOil": 182,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 39.7,
+   "GC-21": 48.9
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2027-Q4",
+  "oil": null,
+  "gas": 88.8,
+  "water": null,
+  "liquid": null,
+  "gor": 491,
+  "wor": null,
+  "upstreamOil": 180.7,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 40,
+   "GC-21": 48.8
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2028-Q1",
+  "oil": null,
+  "gas": 88.8,
+  "water": null,
+  "liquid": null,
+  "gor": 495,
+  "wor": null,
+  "upstreamOil": 179.4,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 40.2,
+   "GC-21": 48.6
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2028-Q2",
+  "oil": null,
+  "gas": 88.8,
+  "water": null,
+  "liquid": null,
+  "gor": 499,
+  "wor": null,
+  "upstreamOil": 178.1,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 40.4,
+   "GC-21": 48.4
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2028-Q3",
+  "oil": null,
+  "gas": 88.9,
+  "water": null,
+  "liquid": null,
+  "gor": 503,
+  "wor": null,
+  "upstreamOil": 176.8,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 40.6,
+   "GC-21": 48.3
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2028-Q4",
+  "oil": null,
+  "gas": 88.9,
+  "water": null,
+  "liquid": null,
+  "gor": 507,
+  "wor": null,
+  "upstreamOil": 175.5,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 40.8,
+   "GC-21": 48.1
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2029-Q1",
+  "oil": null,
+  "gas": 88.9,
+  "water": null,
+  "liquid": null,
+  "gor": 510,
+  "wor": null,
+  "upstreamOil": 174.2,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 41,
+   "GC-21": 47.9
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2029-Q2",
+  "oil": null,
+  "gas": 89,
+  "water": null,
+  "liquid": null,
+  "gor": 515,
+  "wor": null,
+  "upstreamOil": 172.9,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 41.2,
+   "GC-21": 47.8
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2029-Q3",
+  "oil": null,
+  "gas": 89,
+  "water": null,
+  "liquid": null,
+  "gor": 519,
+  "wor": null,
+  "upstreamOil": 171.6,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 41.4,
+   "GC-21": 47.6
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2029-Q4",
+  "oil": null,
+  "gas": 89,
+  "water": null,
+  "liquid": null,
+  "gor": 523,
+  "wor": null,
+  "upstreamOil": 170.3,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 41.6,
+   "GC-21": 47.4
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2030-Q1",
+  "oil": null,
+  "gas": 89,
+  "water": null,
+  "liquid": null,
+  "gor": 527,
+  "wor": null,
+  "upstreamOil": 169,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 41.7,
+   "GC-21": 47.3
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2030-Q2",
+  "oil": null,
+  "gas": 89,
+  "water": null,
+  "liquid": null,
+  "gor": 531,
+  "wor": null,
+  "upstreamOil": 167.7,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 41.9,
+   "GC-21": 47.1
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2030-Q3",
+  "oil": null,
+  "gas": 88.9,
+  "water": null,
+  "liquid": null,
+  "gor": 534,
+  "wor": null,
+  "upstreamOil": 166.4,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 42,
+   "GC-21": 46.9
+  }
+ },
+ {
+  "facilityId": "BS-141",
+  "period": "2030-Q4",
+  "oil": null,
+  "gas": 88.8,
+  "water": null,
+  "liquid": null,
+  "gor": 538,
+  "wor": null,
+  "upstreamOil": 165.1,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-18": 42.1,
+   "GC-21": 46.7
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2027-Q1",
+  "oil": null,
+  "gas": 128.1,
+  "water": null,
+  "liquid": null,
+  "gor": 530,
+  "wor": null,
+  "upstreamOil": 241.7,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 62,
+   "GC-27": 66.1
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2027-Q2",
+  "oil": null,
+  "gas": 138.5,
+  "water": null,
+  "liquid": null,
+  "gor": 529,
+  "wor": null,
+  "upstreamOil": 262,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 71.3,
+   "GC-27": 67.2
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2027-Q3",
+  "oil": null,
+  "gas": 140,
+  "water": null,
+  "liquid": null,
+  "gor": 532,
+  "wor": null,
+  "upstreamOil": 263.2,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 71.7,
+   "GC-27": 68.3
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2027-Q4",
+  "oil": null,
+  "gas": 141.8,
+  "water": null,
+  "liquid": null,
+  "gor": 535,
+  "wor": null,
+  "upstreamOil": 264.8,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 72.4,
+   "GC-27": 69.4
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2028-Q1",
+  "oil": null,
+  "gas": 143.5,
+  "water": null,
+  "liquid": null,
+  "gor": 539,
+  "wor": null,
+  "upstreamOil": 266.1,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 73.2,
+   "GC-27": 70.3
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2028-Q2",
+  "oil": null,
+  "gas": 145.1,
+  "water": null,
+  "liquid": null,
+  "gor": 544,
+  "wor": null,
+  "upstreamOil": 266.9,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 73.9,
+   "GC-27": 71.2
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2028-Q3",
+  "oil": null,
+  "gas": 146.4,
+  "water": null,
+  "liquid": null,
+  "gor": 547,
+  "wor": null,
+  "upstreamOil": 267.6,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 74.5,
+   "GC-27": 71.9
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2028-Q4",
+  "oil": null,
+  "gas": 147.7,
+  "water": null,
+  "liquid": null,
+  "gor": 551,
+  "wor": null,
+  "upstreamOil": 268,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 75.2,
+   "GC-27": 72.5
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2029-Q1",
+  "oil": null,
+  "gas": 140.7,
+  "water": null,
+  "liquid": null,
+  "gor": 557,
+  "wor": null,
+  "upstreamOil": 252.6,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 67.7,
+   "GC-27": 73
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2029-Q2",
+  "oil": null,
+  "gas": 140.5,
+  "water": null,
+  "liquid": null,
+  "gor": 560,
+  "wor": null,
+  "upstreamOil": 250.8,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 67.2,
+   "GC-27": 73.3
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2029-Q3",
+  "oil": null,
+  "gas": 140.4,
+  "water": null,
+  "liquid": null,
+  "gor": 564,
+  "wor": null,
+  "upstreamOil": 249,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 66.8,
+   "GC-27": 73.6
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2029-Q4",
+  "oil": null,
+  "gas": 139.9,
+  "water": null,
+  "liquid": null,
+  "gor": 567,
+  "wor": null,
+  "upstreamOil": 246.8,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 66.2,
+   "GC-27": 73.7
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2030-Q1",
+  "oil": null,
+  "gas": 139.4,
+  "water": null,
+  "liquid": null,
+  "gor": 570,
+  "wor": null,
+  "upstreamOil": 244.5,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 65.7,
+   "GC-27": 73.7
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2030-Q2",
+  "oil": null,
+  "gas": 138.8,
+  "water": null,
+  "liquid": null,
+  "gor": 574,
+  "wor": null,
+  "upstreamOil": 242,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 65.2,
+   "GC-27": 73.6
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2030-Q3",
+  "oil": null,
+  "gas": 138.1,
+  "water": null,
+  "liquid": null,
+  "gor": 577,
+  "wor": null,
+  "upstreamOil": 239.5,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 64.8,
+   "GC-27": 73.3
+  }
+ },
+ {
+  "facilityId": "BS-171",
+  "period": "2030-Q4",
+  "oil": null,
+  "gas": 137.3,
+  "water": null,
+  "liquid": null,
+  "gor": 580,
+  "wor": null,
+  "upstreamOil": 236.8,
+  "contributorBasis": "gas",
+  "contributors": {
+   "GC-24": 64.4,
+   "GC-27": 72.9
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2027-Q1",
+  "oil": null,
+  "gas": null,
+  "water": 244.7,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.58,
+  "upstreamOil": 425.3,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 93.1,
+   "GC-21": 35.5,
+   "GC-24": 54.5,
+   "GC-27": 61.6
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2027-Q2",
+  "oil": null,
+  "gas": null,
+  "water": 258.3,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.58,
+  "upstreamOil": 445.2,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 95.3,
+   "GC-21": 36,
+   "GC-24": 62.3,
+   "GC-27": 64.7
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2027-Q3",
+  "oil": null,
+  "gas": null,
+  "water": 263.8,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.59,
+  "upstreamOil": 445.2,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 97.4,
+   "GC-21": 36.2,
+   "GC-24": 62.3,
+   "GC-27": 67.9
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2027-Q4",
+  "oil": null,
+  "gas": null,
+  "water": 269,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.6,
+  "upstreamOil": 445.5,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 99.4,
+   "GC-21": 36.3,
+   "GC-24": 62.3,
+   "GC-27": 71
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2028-Q1",
+  "oil": null,
+  "gas": null,
+  "water": 274.2,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.62,
+  "upstreamOil": 445.5,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 101.4,
+   "GC-21": 36.4,
+   "GC-24": 62.3,
+   "GC-27": 74.1
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2028-Q2",
+  "oil": null,
+  "gas": null,
+  "water": 279.3,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.63,
+  "upstreamOil": 445,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 103.4,
+   "GC-21": 36.5,
+   "GC-24": 62.3,
+   "GC-27": 77.1
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2028-Q3",
+  "oil": null,
+  "gas": null,
+  "water": 284.2,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.64,
+  "upstreamOil": 444.4,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 105.3,
+   "GC-21": 36.7,
+   "GC-24": 62.2,
+   "GC-27": 80
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2028-Q4",
+  "oil": null,
+  "gas": null,
+  "water": 288.9,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.65,
+  "upstreamOil": 443.5,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 107.2,
+   "GC-21": 36.8,
+   "GC-24": 62.1,
+   "GC-27": 82.8
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2029-Q1",
+  "oil": null,
+  "gas": null,
+  "water": 288.2,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.68,
+  "upstreamOil": 426.8,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 109,
+   "GC-21": 36.9,
+   "GC-24": 56.8,
+   "GC-27": 85.5
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2029-Q2",
+  "oil": null,
+  "gas": null,
+  "water": 293.1,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.69,
+  "upstreamOil": 423.7,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 110.8,
+   "GC-21": 37,
+   "GC-24": 57.3,
+   "GC-27": 88
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2029-Q3",
+  "oil": null,
+  "gas": null,
+  "water": 297.8,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.71,
+  "upstreamOil": 420.6,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 112.5,
+   "GC-21": 37.1,
+   "GC-24": 57.8,
+   "GC-27": 90.4
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2029-Q4",
+  "oil": null,
+  "gas": null,
+  "water": 302.3,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.72,
+  "upstreamOil": 417.1,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 114.2,
+   "GC-21": 37.2,
+   "GC-24": 58.2,
+   "GC-27": 92.7
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2030-Q1",
+  "oil": null,
+  "gas": null,
+  "water": 306.4,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.74,
+  "upstreamOil": 413.5,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 115.8,
+   "GC-21": 37.3,
+   "GC-24": 58.5,
+   "GC-27": 94.8
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2030-Q2",
+  "oil": null,
+  "gas": null,
+  "water": 310.4,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.76,
+  "upstreamOil": 409.7,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 117.4,
+   "GC-21": 37.4,
+   "GC-24": 58.9,
+   "GC-27": 96.7
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2030-Q3",
+  "oil": null,
+  "gas": null,
+  "water": 314,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.77,
+  "upstreamOil": 405.9,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 118.9,
+   "GC-21": 37.5,
+   "GC-24": 59.2,
+   "GC-27": 98.4
+  }
+ },
+ {
+  "facilityId": "WTP-03",
+  "period": "2030-Q4",
+  "oil": null,
+  "gas": null,
+  "water": 317.5,
+  "liquid": null,
+  "gor": null,
+  "wor": 0.79,
+  "upstreamOil": 401.9,
+  "contributorBasis": "water",
+  "contributors": {
+   "GC-18": 120.4,
+   "GC-21": 37.5,
+   "GC-24": 59.6,
+   "GC-27": 100
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2027-Q1",
+  "oil": null,
+  "gas": 216,
+  "water": null,
+  "liquid": null,
+  "gor": 508,
+  "wor": null,
+  "upstreamOil": 425.3,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 87.9,
+   "BS-171": 128.1
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2027-Q2",
+  "oil": null,
+  "gas": 227,
+  "water": null,
+  "liquid": null,
+  "gor": 510,
+  "wor": null,
+  "upstreamOil": 445.2,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.5,
+   "BS-171": 138.5
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2027-Q3",
+  "oil": null,
+  "gas": 228.6,
+  "water": null,
+  "liquid": null,
+  "gor": 513,
+  "wor": null,
+  "upstreamOil": 445.2,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.6,
+   "BS-171": 140
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2027-Q4",
+  "oil": null,
+  "gas": 230.6,
+  "water": null,
+  "liquid": null,
+  "gor": 518,
+  "wor": null,
+  "upstreamOil": 445.5,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.8,
+   "BS-171": 141.8
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2028-Q1",
+  "oil": null,
+  "gas": 232.3,
+  "water": null,
+  "liquid": null,
+  "gor": 521,
+  "wor": null,
+  "upstreamOil": 445.5,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.8,
+   "BS-171": 143.5
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2028-Q2",
+  "oil": null,
+  "gas": 233.9,
+  "water": null,
+  "liquid": null,
+  "gor": 526,
+  "wor": null,
+  "upstreamOil": 445,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.8,
+   "BS-171": 145.1
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2028-Q3",
+  "oil": null,
+  "gas": 235.3,
+  "water": null,
+  "liquid": null,
+  "gor": 529,
+  "wor": null,
+  "upstreamOil": 444.4,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.9,
+   "BS-171": 146.4
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2028-Q4",
+  "oil": null,
+  "gas": 236.6,
+  "water": null,
+  "liquid": null,
+  "gor": 533,
+  "wor": null,
+  "upstreamOil": 443.5,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.9,
+   "BS-171": 147.7
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2029-Q1",
+  "oil": null,
+  "gas": 229.6,
+  "water": null,
+  "liquid": null,
+  "gor": 538,
+  "wor": null,
+  "upstreamOil": 426.8,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.9,
+   "BS-171": 140.7
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2029-Q2",
+  "oil": null,
+  "gas": 229.5,
+  "water": null,
+  "liquid": null,
+  "gor": 542,
+  "wor": null,
+  "upstreamOil": 423.7,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 89,
+   "BS-171": 140.5
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2029-Q3",
+  "oil": null,
+  "gas": 229.4,
+  "water": null,
+  "liquid": null,
+  "gor": 545,
+  "wor": null,
+  "upstreamOil": 420.6,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 89,
+   "BS-171": 140.4
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2029-Q4",
+  "oil": null,
+  "gas": 228.9,
+  "water": null,
+  "liquid": null,
+  "gor": 549,
+  "wor": null,
+  "upstreamOil": 417.1,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 89,
+   "BS-171": 139.9
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2030-Q1",
+  "oil": null,
+  "gas": 228.4,
+  "water": null,
+  "liquid": null,
+  "gor": 552,
+  "wor": null,
+  "upstreamOil": 413.5,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 89,
+   "BS-171": 139.4
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2030-Q2",
+  "oil": null,
+  "gas": 227.8,
+  "water": null,
+  "liquid": null,
+  "gor": 556,
+  "wor": null,
+  "upstreamOil": 409.7,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 89,
+   "BS-171": 138.8
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2030-Q3",
+  "oil": null,
+  "gas": 227,
+  "water": null,
+  "liquid": null,
+  "gor": 559,
+  "wor": null,
+  "upstreamOil": 405.9,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.9,
+   "BS-171": 138.1
+  }
+ },
+ {
+  "facilityId": "GBS-02",
+  "period": "2030-Q4",
+  "oil": null,
+  "gas": 226.1,
+  "water": null,
+  "liquid": null,
+  "gor": 563,
+  "wor": null,
+  "upstreamOil": 401.9,
+  "contributorBasis": "gas",
+  "contributors": {
+   "BS-141": 88.8,
+   "BS-171": 137.3
+  }
+ }
+]

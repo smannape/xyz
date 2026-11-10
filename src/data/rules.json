@@ -1,0 +1,146 @@
+[
+ {
+  "id": "RULE-R01",
+  "name": "effective-capacity-is-min-of-chain",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": null,
+  "when": "a facility has an ordered component chain for a service",
+  "and": [
+   "each component carries a nameplate capacity and an approved de-rating factor in DE-RATING REGISTER"
+  ],
+  "then": "set effective capacity to the minimum de-rated capacity in the chain and name that component as binding"
+ },
+ {
+  "id": "RULE-R02",
+  "name": "gap-detection",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": null,
+  "when": "forecast load at a facility exceeds effective capacity in a period",
+  "and": [
+   "the forecast and capacity vintages are both locked to the analysis"
+  ],
+  "then": "open a gap for the consecutive breach periods, recording peak gap, duration and production at risk"
+ },
+ {
+  "id": "RULE-R03",
+  "name": "severity-scoring",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": null,
+  "when": "a gap is open",
+  "and": [
+   "magnitude is the peak gap as a share of effective capacity, capped at 20%",
+   "duration is breach quarters, capped at 8",
+   "proximity falls linearly from the first to the last period of the horizon"
+  ],
+  "then": "score severity as 35% magnitude, 30% duration, 35% proximity and band it Low, Medium, High or Critical"
+ },
+ {
+  "id": "RULE-R04",
+  "name": "committed-projects-first",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": 1,
+  "when": "a gap is open",
+  "and": [
+   "a committed project in PROJECT REGISTER adds capacity at the binding component within the horizon"
+  ],
+  "then": "credit the committed capacity before proposing any new mitigation, and report the periods in which the breach persists"
+ },
+ {
+  "id": "RULE-R05",
+  "name": "governing-stream-on-transfer",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": 2,
+  "when": "a re-routing transfer is being sized",
+  "and": [
+   "the receiving facility has headroom on liquid, gas and water"
+  ],
+  "then": "convert each stream headroom to an oil-equivalent transfer using the source GOR and WOR, and let the smallest govern the stream check"
+ },
+ {
+  "id": "RULE-R06",
+  "name": "no-shared-capacity-double-count",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": 2,
+  "when": "two or more routes draw on the same receiving facility in the same period",
+  "and": [],
+  "then": "allocate receiving headroom to the earliest-breaching gap first and offer only the remainder to the others"
+ },
+ {
+  "id": "RULE-R07",
+  "name": "envelope-release-requires-approval",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": 3,
+  "when": "a gap has residual > 0 after re-routing",
+  "and": [
+   "an approved entry exists in ENVELOPE REGISTER for the binding component",
+   "the releasable margin is not reserved for another service"
+  ],
+  "then": "propose the unreserved margin as an operating-envelope release, before any capital option"
+ },
+ {
+  "id": "RULE-R08",
+  "name": "size-to-live-residual",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": 4,
+  "when": "a gap has residual > 0 after operating-envelope release",
+  "and": [
+   "a debottleneck module for the binding component exists in COST REGISTER"
+  ],
+  "then": "select the smallest standard module that covers the live residual and carry its Class 5 cost and schedule"
+ },
+ {
+  "id": "RULE-R09",
+  "name": "next-binding-ceiling",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": 4,
+  "when": "a mitigation adds capacity at the binding component",
+  "and": [
+   "another component in the chain has lower effective capacity than the new total"
+  ],
+  "then": "limit the realised gain to the next-binding component and report the ceiling"
+ },
+ {
+  "id": "RULE-R10",
+  "name": "class-5-flag",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": null,
+  "when": "a cost from COST REGISTER is shown or used in economics",
+  "and": [],
+  "then": "label it Class 5 indicative and carry the screening accuracy range with it"
+ },
+ {
+  "id": "RULE-R11",
+  "name": "new-facility-last",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": 5,
+  "when": "a gap has residual > 0 after debottlenecking",
+  "and": [
+   "no further module can be added within plot or next-binding limits"
+  ],
+  "then": "propose a new facility or train as the last resort"
+ },
+ {
+  "id": "RULE-R12",
+  "name": "route-before-capital",
+  "version": "v1.14",
+  "status": "Approved",
+  "tier": 2,
+  "when": "a gap has residual > 0 after committed projects",
+  "and": [
+   "a feasible route exists in ROUTING REGISTER with transferable capacity > 0",
+   "the receiving facility remains within effective capacity after transfer"
+  ],
+  "then": "propose re-routing before any capital option"
+ }
+]

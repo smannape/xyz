@@ -1,0 +1,850 @@
+[
+ {
+  "id": "GC-18",
+  "name": "Gathering Centre 18",
+  "type": "Gathering centre",
+  "map": {
+   "x": 0.2,
+   "y": 0.3
+  },
+  "services": [
+   "liquid",
+   "gas",
+   "water"
+  ],
+  "components": [
+   {
+    "id": "GC-18/INLET",
+    "name": "Inlet Manifold",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 1,
+    "nameplate": 240,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 240,
+    "effective": 240,
+    "config": null
+   },
+   {
+    "id": "GC-18/HP-SEP",
+    "name": "HP Separator Train",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 2,
+    "nameplate": 225,
+    "derating": 0.96,
+    "deratingRef": "DR-0030",
+    "derated": 216,
+    "effective": 216,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 112.5,
+     "spare": 1,
+     "text": "3 × 112.5 MBFPD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-18/LP-SEP",
+    "name": "LP Separator Train",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 3,
+    "nameplate": 220,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 220,
+    "effective": 220,
+    "config": null
+   },
+   {
+    "id": "GC-18/DEGAS",
+    "name": "Degasser",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 4,
+    "nameplate": 215,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 215,
+    "effective": 215,
+    "config": null
+   },
+   {
+    "id": "GC-18/DESALT",
+    "name": "Desalter",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 5,
+    "nameplate": 210,
+    "derating": 0.98,
+    "deratingRef": "DR-0031",
+    "derated": 205.8,
+    "effective": 206,
+    "config": null
+   },
+   {
+    "id": "GC-18/EXP-PMP",
+    "name": "Export Pumps",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 6,
+    "nameplate": 220,
+    "derating": 0.9,
+    "deratingRef": "DR-0032",
+    "derated": 198,
+    "effective": 198,
+    "config": {
+     "installed": 5,
+     "unitCapacity": 55,
+     "spare": 1,
+     "text": "5 × 55.0 MBFPD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-18/COMP",
+    "name": "Booster Compressor",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 1,
+    "nameplate": 45,
+    "derating": 0.92,
+    "deratingRef": "DR-0033",
+    "derated": 41.4,
+    "effective": 41.5,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 22.5,
+     "spare": 1,
+     "text": "3 × 22.5 MMSCFD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-18/FLARE-KO",
+    "name": "Flare KO",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 2,
+    "nameplate": 50,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 50,
+    "effective": 50,
+    "config": null
+   },
+   {
+    "id": "GC-18/WKO",
+    "name": "Water KO Drum",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 1,
+    "nameplate": 110,
+    "derating": 0.936,
+    "deratingRef": "DR-0034",
+    "derated": 103,
+    "effective": 103,
+    "config": null
+   },
+   {
+    "id": "GC-18/EFF-PMP",
+    "name": "Effluent Export Pumps",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 2,
+    "nameplate": 125,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 125,
+    "effective": 125,
+    "config": null
+   }
+  ]
+ },
+ {
+  "id": "GC-21",
+  "name": "Gathering Centre 21",
+  "type": "Gathering centre",
+  "map": {
+   "x": 0.38,
+   "y": 0.22
+  },
+  "services": [
+   "liquid",
+   "gas",
+   "water"
+  ],
+  "components": [
+   {
+    "id": "GC-21/INLET",
+    "name": "Inlet Manifold",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 1,
+    "nameplate": 200,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 200,
+    "effective": 200,
+    "config": null
+   },
+   {
+    "id": "GC-21/HP-SEP",
+    "name": "HP Separator Train",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 2,
+    "nameplate": 190,
+    "derating": 0.95,
+    "deratingRef": "DR-0035",
+    "derated": 180.5,
+    "effective": 180.5,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 95,
+     "spare": 1,
+     "text": "3 × 95.0 MBFPD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-21/LP-SEP",
+    "name": "LP Separator Train",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 3,
+    "nameplate": 185,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 185,
+    "effective": 185,
+    "config": null
+   },
+   {
+    "id": "GC-21/DEGAS",
+    "name": "Degasser",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 4,
+    "nameplate": 180,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 180,
+    "effective": 180,
+    "config": null
+   },
+   {
+    "id": "GC-21/DESALT",
+    "name": "Desalter",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 5,
+    "nameplate": 172,
+    "derating": 0.96,
+    "deratingRef": "DR-0036",
+    "derated": 165.1,
+    "effective": 165,
+    "config": null
+   },
+   {
+    "id": "GC-21/EXP-PMP",
+    "name": "Export Pumps",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 6,
+    "nameplate": 175,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 175,
+    "effective": 175,
+    "config": null
+   },
+   {
+    "id": "GC-21/COMP",
+    "name": "Booster Compressor",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 1,
+    "nameplate": 56,
+    "derating": 0.946,
+    "deratingRef": "DR-0037",
+    "derated": 53,
+    "effective": 53,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 28,
+     "spare": 1,
+     "text": "3 × 28.0 MMSCFD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-21/FLARE-KO",
+    "name": "Flare KO",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 2,
+    "nameplate": 60,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 60,
+    "effective": 60,
+    "config": null
+   },
+   {
+    "id": "GC-21/WKO",
+    "name": "Water KO Drum",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 1,
+    "nameplate": 60,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 60,
+    "effective": 60,
+    "config": null
+   },
+   {
+    "id": "GC-21/EFF-PMP",
+    "name": "Effluent Export Pumps",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 2,
+    "nameplate": 70,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 70,
+    "effective": 70,
+    "config": null
+   }
+  ]
+ },
+ {
+  "id": "GC-24",
+  "name": "Gathering Centre 24",
+  "type": "Gathering centre",
+  "map": {
+   "x": 0.52,
+   "y": 0.4
+  },
+  "services": [
+   "liquid",
+   "gas",
+   "water"
+  ],
+  "components": [
+   {
+    "id": "GC-24/INLET",
+    "name": "Inlet Manifold",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 1,
+    "nameplate": 260,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 260,
+    "effective": 260,
+    "config": null
+   },
+   {
+    "id": "GC-24/HP-SEP",
+    "name": "HP Separator Train",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 2,
+    "nameplate": 220,
+    "derating": 0.845,
+    "deratingRef": "DR-0042",
+    "derated": 185.9,
+    "effective": 186,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 110,
+     "spare": 1,
+     "text": "3 × 110 MBFPD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-24/DEGAS",
+    "name": "Degasser",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 3,
+    "nameplate": 240,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 240,
+    "effective": 240,
+    "config": null
+   },
+   {
+    "id": "GC-24/DESALT",
+    "name": "Desalter",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 4,
+    "nameplate": 265,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 265,
+    "effective": 265,
+    "config": null
+   },
+   {
+    "id": "GC-24/EXP-PMP",
+    "name": "Export Pumps",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 5,
+    "nameplate": 230,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 230,
+    "effective": 230,
+    "config": null
+   },
+   {
+    "id": "GC-24/COMP",
+    "name": "Booster Compressor",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 1,
+    "nameplate": 80,
+    "derating": 0.925,
+    "deratingRef": "DR-0038",
+    "derated": 74,
+    "effective": 74,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 40,
+     "spare": 1,
+     "text": "3 × 40.0 MMSCFD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-24/FLARE-KO",
+    "name": "Flare KO",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 2,
+    "nameplate": 85,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 85,
+    "effective": 85,
+    "config": null
+   },
+   {
+    "id": "GC-24/WKO",
+    "name": "Water KO Drum",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 1,
+    "nameplate": 80,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 80,
+    "effective": 80,
+    "config": null
+   },
+   {
+    "id": "GC-24/EFF-PMP",
+    "name": "Effluent Export Pumps",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 2,
+    "nameplate": 85,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 85,
+    "effective": 85,
+    "config": null
+   }
+  ]
+ },
+ {
+  "id": "GC-27",
+  "name": "Gathering Centre 27",
+  "type": "Gathering centre",
+  "map": {
+   "x": 0.66,
+   "y": 0.58
+  },
+  "services": [
+   "liquid",
+   "gas",
+   "water"
+  ],
+  "components": [
+   {
+    "id": "GC-27/INLET",
+    "name": "Inlet Manifold",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 1,
+    "nameplate": 250,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 250,
+    "effective": 250,
+    "config": null
+   },
+   {
+    "id": "GC-27/HP-SEP",
+    "name": "HP Separator Train",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 2,
+    "nameplate": 230,
+    "derating": 0.95,
+    "deratingRef": "DR-0039",
+    "derated": 218.5,
+    "effective": 218.5,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 115,
+     "spare": 1,
+     "text": "3 × 115.0 MBFPD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-27/LP-SEP",
+    "name": "LP Separator Train",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 3,
+    "nameplate": 225,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 225,
+    "effective": 225,
+    "config": null
+   },
+   {
+    "id": "GC-27/DEGAS",
+    "name": "Degasser",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 4,
+    "nameplate": 222,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 222,
+    "effective": 222,
+    "config": null
+   },
+   {
+    "id": "GC-27/DESALT",
+    "name": "Desalter",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 5,
+    "nameplate": 200,
+    "derating": 0.975,
+    "deratingRef": "DR-0040",
+    "derated": 195,
+    "effective": 195,
+    "config": null
+   },
+   {
+    "id": "GC-27/EXP-PMP",
+    "name": "Export Pumps",
+    "service": "liquid",
+    "unit": "MBFPD",
+    "order": 6,
+    "nameplate": 226,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 226,
+    "effective": 226,
+    "config": null
+   },
+   {
+    "id": "GC-27/COMP",
+    "name": "Booster Compressor",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 1,
+    "nameplate": 78,
+    "derating": 0.923,
+    "deratingRef": "DR-0041",
+    "derated": 72,
+    "effective": 72,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 39,
+     "spare": 1,
+     "text": "3 × 39.0 MMSCFD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GC-27/FLARE-KO",
+    "name": "Flare KO",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 2,
+    "nameplate": 80,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 80,
+    "effective": 80,
+    "config": null
+   },
+   {
+    "id": "GC-27/WKO",
+    "name": "Water KO Drum",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 1,
+    "nameplate": 96,
+    "derating": 0.958,
+    "deratingRef": "DR-0043",
+    "derated": 92,
+    "effective": 92,
+    "config": null
+   },
+   {
+    "id": "GC-27/EFF-PMP",
+    "name": "Effluent Export Pumps",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 2,
+    "nameplate": 105,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 105,
+    "effective": 105,
+    "config": null
+   }
+  ]
+ },
+ {
+  "id": "BS-141",
+  "name": "Booster Station 141",
+  "type": "Booster station",
+  "map": {
+   "x": 0.3,
+   "y": 0.55
+  },
+  "services": [
+   "gas"
+  ],
+  "components": [
+   {
+    "id": "BS-141/INLET",
+    "name": "Inlet Manifold",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 1,
+    "nameplate": 120,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 120,
+    "effective": 120,
+    "config": null
+   },
+   {
+    "id": "BS-141/COMP",
+    "name": "Booster Compressor",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 2,
+    "nameplate": 110,
+    "derating": 0.95,
+    "deratingRef": "DR-0044",
+    "derated": 104.5,
+    "effective": 104.5,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 55,
+     "spare": 1,
+     "text": "3 × 55.0 MMSCFD installed, 1 spare"
+    }
+   },
+   {
+    "id": "BS-141/FLARE-KO",
+    "name": "Flare KO",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 3,
+    "nameplate": 115,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 115,
+    "effective": 115,
+    "config": null
+   }
+  ]
+ },
+ {
+  "id": "BS-171",
+  "name": "Booster Station 171",
+  "type": "Booster station",
+  "map": {
+   "x": 0.62,
+   "y": 0.78
+  },
+  "services": [
+   "gas"
+  ],
+  "components": [
+   {
+    "id": "BS-171/INLET",
+    "name": "Inlet Manifold",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 1,
+    "nameplate": 170,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 170,
+    "effective": 170,
+    "config": null
+   },
+   {
+    "id": "BS-171/COMP",
+    "name": "Booster Compressor",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 2,
+    "nameplate": 160,
+    "derating": 0.9,
+    "deratingRef": "DR-0045",
+    "derated": 144,
+    "effective": 144,
+    "config": {
+     "installed": 3,
+     "unitCapacity": 80,
+     "spare": 1,
+     "text": "3 × 80.0 MMSCFD installed, 1 spare"
+    }
+   },
+   {
+    "id": "BS-171/FLARE-KO",
+    "name": "Flare KO",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 3,
+    "nameplate": 165,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 165,
+    "effective": 165,
+    "config": null
+   }
+  ]
+ },
+ {
+  "id": "WTP-03",
+  "name": "Water Treatment Plant 03",
+  "type": "Water treatment plant",
+  "map": {
+   "x": 0.82,
+   "y": 0.35
+  },
+  "services": [
+   "water"
+  ],
+  "components": [
+   {
+    "id": "WTP-03/INLET",
+    "name": "Inlet Manifold",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 1,
+    "nameplate": 335,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 335,
+    "effective": 335,
+    "config": null
+   },
+   {
+    "id": "WTP-03/WKO",
+    "name": "Water KO Drum",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 2,
+    "nameplate": 300,
+    "derating": 0.9,
+    "deratingRef": "DR-0046",
+    "derated": 270,
+    "effective": 270,
+    "config": null
+   },
+   {
+    "id": "WTP-03/INJ-PMP",
+    "name": "Injection Pumps",
+    "service": "water",
+    "unit": "MBWPD",
+    "order": 3,
+    "nameplate": 340,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 340,
+    "effective": 340,
+    "config": {
+     "installed": 5,
+     "unitCapacity": 85,
+     "spare": 1,
+     "text": "5 × 85.0 MBWPD installed, 1 spare"
+    }
+   }
+  ]
+ },
+ {
+  "id": "GBS-02",
+  "name": "Gas Booster Station 02",
+  "type": "Gas booster station",
+  "map": {
+   "x": 0.46,
+   "y": 0.82
+  },
+  "services": [
+   "gas"
+  ],
+  "components": [
+   {
+    "id": "GBS-02/INLET",
+    "name": "Inlet Manifold",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 1,
+    "nameplate": 260,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 260,
+    "effective": 260,
+    "config": null
+   },
+   {
+    "id": "GBS-02/COMP",
+    "name": "Booster Compressor",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 2,
+    "nameplate": 250,
+    "derating": 0.92,
+    "deratingRef": "DR-0047",
+    "derated": 230,
+    "effective": 230,
+    "config": {
+     "installed": 4,
+     "unitCapacity": 83.5,
+     "spare": 1,
+     "text": "4 × 83.5 MMSCFD installed, 1 spare"
+    }
+   },
+   {
+    "id": "GBS-02/FLARE-KO",
+    "name": "Flare KO",
+    "service": "gas",
+    "unit": "MMSCFD",
+    "order": 3,
+    "nameplate": 255,
+    "derating": 1,
+    "deratingRef": null,
+    "derated": 255,
+    "effective": 255,
+    "config": null
+   }
+  ]
+ }
+]
