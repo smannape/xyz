@@ -12,6 +12,20 @@
    "gas",
    "water"
   ],
+  "outbound": [
+   {
+    "stream": "oil",
+    "to": "Crude export pipeline"
+   },
+   {
+    "stream": "gas",
+    "to": "BS-141"
+   },
+   {
+    "stream": "water",
+    "to": "WTP-03"
+   }
+  ],
   "components": [
    {
     "id": "GC-18/INLET",
@@ -173,6 +187,20 @@
    "gas",
    "water"
   ],
+  "outbound": [
+   {
+    "stream": "oil",
+    "to": "Crude export pipeline"
+   },
+   {
+    "stream": "gas",
+    "to": "BS-141"
+   },
+   {
+    "stream": "water",
+    "to": "WTP-03"
+   }
+  ],
   "components": [
    {
     "id": "GC-21/INLET",
@@ -329,6 +357,20 @@
    "gas",
    "water"
   ],
+  "outbound": [
+   {
+    "stream": "oil",
+    "to": "Crude export pipeline"
+   },
+   {
+    "stream": "gas",
+    "to": "BS-171"
+   },
+   {
+    "stream": "water",
+    "to": "WTP-03"
+   }
+  ],
   "components": [
    {
     "id": "GC-24/INLET",
@@ -471,6 +513,20 @@
    "liquid",
    "gas",
    "water"
+  ],
+  "outbound": [
+   {
+    "stream": "oil",
+    "to": "Crude export pipeline"
+   },
+   {
+    "stream": "gas",
+    "to": "BS-171"
+   },
+   {
+    "stream": "water",
+    "to": "WTP-03"
+   }
   ],
   "components": [
    {
@@ -626,6 +682,12 @@
   "services": [
    "gas"
   ],
+  "outbound": [
+   {
+    "stream": "gas",
+    "to": "GBS-02"
+   }
+  ],
   "components": [
    {
     "id": "BS-141/INLET",
@@ -683,6 +745,12 @@
   },
   "services": [
    "gas"
+  ],
+  "outbound": [
+   {
+    "stream": "gas",
+    "to": "GBS-02"
+   }
   ],
   "components": [
    {
@@ -742,6 +810,12 @@
   "services": [
    "water"
   ],
+  "outbound": [
+   {
+    "stream": "water",
+    "to": "Injection network"
+   }
+  ],
   "components": [
    {
     "id": "WTP-03/INLET",
@@ -799,6 +873,12 @@
   },
   "services": [
    "gas"
+  ],
+  "outbound": [
+   {
+    "stream": "gas",
+    "to": "Gas export pipeline"
+   }
   ],
   "components": [
    {

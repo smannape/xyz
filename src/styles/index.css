@@ -1,0 +1,77 @@
+@import './tokens.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url('/fonts/geist-latin-wght-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Geist Mono';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url('/fonts/geist-mono-latin-wght-normal.woff2') format('woff2');
+}
+
+@layer base {
+  html { color-scheme: dark; background: var(--bg-base); }
+  body {
+    @apply bg-base text-ink font-sans text-body antialiased;
+    min-width: 1024px;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  h1, h2, h3 { letter-spacing: -0.02em; }
+  :focus-visible { outline: 1.5px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  ::selection { background: color-mix(in srgb, var(--accent) 35%, transparent); }
+  * { scrollbar-width: thin; scrollbar-color: var(--border-strong) transparent; }
+  button { cursor: pointer; }
+  button:disabled { cursor: default; }
+}
+
+@layer components {
+  /* every number in the application */
+  .num { @apply font-mono; font-variant-numeric: tabular-nums; font-feature-settings: 'zero' 0; }
+  .unit { @apply font-mono text-micro text-ink-3; }
+  .eyebrow { @apply font-mono uppercase text-ink-3; font-size: 10.5px; line-height: 14px; letter-spacing: 0.08em; }
+
+  /* instrument corner ticks on primary panels */
+  .ticks { position: relative; }
+  .ticks::before, .ticks::after {
+    content: ''; position: absolute; width: 6px; height: 6px; pointer-events: none;
+    border-color: var(--border-strong); border-style: solid;
+  }
+  .ticks::before { top: -1px; left: -1px; border-width: 1px 0 0 1px; }
+  .ticks::after { bottom: -1px; right: -1px; border-width: 0 1px 1px 0; }
+
+  .hatch-critical {
+    background-image: repeating-linear-gradient(135deg, var(--signal-critical) 0 1.5px, color-mix(in srgb, var(--signal-critical) 16%, transparent) 1.5px 5px);
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-1.5 h-7 px-2.5 rounded-sm border whitespace-nowrap shrink-0 border-line text-dense text-ink-2 bg-raised transition-colors;
+  }
+  .btn:hover:not(:disabled) { @apply text-ink bg-hover border-line-strong; }
+  .btn:disabled { @apply opacity-40; }
+  .btn-primary { @apply border-transparent font-medium; background: var(--accent); color: #06100f; }
+  :root[data-brand='hal'] .btn-primary { color: #fff; }
+  .btn-primary:hover:not(:disabled) { background: color-mix(in srgb, var(--accent) 86%, white); color: #06100f; border-color: transparent; }
+  :root[data-brand='hal'] .btn-primary:hover:not(:disabled) { color: #fff; }
+
+  .chip {
+    @apply inline-flex items-center gap-1 h-[18px] px-1.5 rounded-sm border border-line font-mono text-ink-2 bg-raised align-baseline whitespace-nowrap transition-colors;
+    font-size: 10.5px; line-height: 16px;
+  }
+  button.chip:hover, a.chip:hover { @apply text-ink border-line-strong bg-hover; }
+
+  .prov { text-decoration: underline dotted var(--text-tertiary); text-decoration-thickness: 1px; text-underline-offset: 3px; cursor: help; }
+  .prov:hover, .prov[data-open='true'] { text-decoration-color: var(--accent); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

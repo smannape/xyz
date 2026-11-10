@@ -1,0 +1,46 @@
+:root {
+  /* surfaces — near-black with a cool cast, never pure black */
+  --bg-base: #0a0c10;
+  --bg-raised: #11141a;
+  --bg-panel: #161a22;
+  --bg-hover: #1c212b;
+
+  /* hairlines */
+  --border-subtle: #1e242e;
+  --border-default: #2a313d;
+  --border-strong: #3a434f;
+
+  /* text */
+  --text-primary: #e8ebf0;
+  --text-secondary: #9ba4b4;
+  --text-tertiary: #626b7b;
+
+  /* signal — meaning-bearing only */
+  --signal-critical: #ff4d4d; /* breaching now or imminently */
+  --signal-warning: #ffa629; /* approaching the limit */
+  --signal-ok: #2ed47a; /* within capacity */
+  --signal-info: #3d8bff;
+  --signal-planned: #8b93a3; /* committed project, future state */
+
+  /* interface accent — primary action and focus, used sparingly */
+  --accent: #00d4c8;
+  --accent-dim: #0a5f5b;
+
+  /* stream identity — identical in every chart and table in the app */
+  --stream-oil: #e8b931;
+  --stream-gas: #e8663f;
+  --stream-water: #3d8bff;
+  /* total fluid (oil + water) on a liquid basis; neutral so it never reads as one of the three streams */
+  --stream-liquid: #b8c2d1;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+}
+
+/* Halliburton presentation mode: accent only. Signal colours never change —
+   red must keep meaning breach, so brand red stays on accent surfaces. */
+:root[data-brand='hal'] {
+  --accent: #c00000;
+  --accent-dim: #4a0000;
+}

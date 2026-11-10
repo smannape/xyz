@@ -123,7 +123,11 @@ const facilities = FAC_SPEC.map((f) => {
       components.push(comp);
     }
   }
-  return { id: f.id, name: f.name, type: f.type, map: { x: f.x, y: f.y }, services: Object.keys(f.chains), components };
+  const OUT_GAS = { 'GC-18': 'BS-141', 'GC-21': 'BS-141', 'GC-24': 'BS-171', 'GC-27': 'BS-171', 'BS-141': 'GBS-02', 'BS-171': 'GBS-02', 'GBS-02': 'Gas export pipeline' };
+  const outbound = f.type === 'Gathering centre'
+    ? [{ stream: 'oil', to: 'Crude export pipeline' }, { stream: 'gas', to: OUT_GAS[f.id] }, { stream: 'water', to: 'WTP-03' }]
+    : f.id === 'WTP-03' ? [{ stream: 'water', to: 'Injection network' }] : [{ stream: 'gas', to: OUT_GAS[f.id] }];
+  return { id: f.id, name: f.name, type: f.type, map: { x: f.x, y: f.y }, services: Object.keys(f.chains), outbound, components };
 });
 const fac = (id) => facilities.find((f) => f.id === id);
 const comp = (facilityId, name, service) => fac(facilityId).components.find((c) => c.name === name && (!service || c.service === service));
